@@ -11,7 +11,7 @@
     <description>Openbravo POS is a point of sale designed for touch screens</description>
     <enableRollback>1</enableRollback>
     <enableTimestamp>1</enableTimestamp>
-    <outputDirectory>C:/Users/oscar.marin/Pernix-Solutions/Openbravo/POS/Stable/build/installer</outputDirectory>
+    <outputDirectory>../build/installer</outputDirectory>
     <release>3</release>
     <requireInstallationByRootUser>1</requireInstallationByRootUser>
     <summary>POS</summary>
