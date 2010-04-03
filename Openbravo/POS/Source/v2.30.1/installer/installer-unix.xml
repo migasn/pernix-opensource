@@ -2,11 +2,11 @@
     <shortName>PernixOBPOS</shortName>
     <fullName>Pernix OB POS</fullName>
     <version>2.30.1</version>
-    <readmeFile>C:\Users\oscar.marin\Pernix-Solutions\Code\Openbravo\POS\Source\v2.30.1\README</readmeFile>
-    <licenseFile>C:\Users\oscar.marin\Pernix-Solutions\Code\Openbravo\POS\Source\v2.30.1/licensing/gpl-2.0.txt</licenseFile>
-    <leftImage>C:\Users\oscar.marin\Pernix-Solutions\Code\Openbravo\POS\Source\v2.30.1\installer/images/leftbar.png</leftImage>
-    <logoImage>C:\Users\oscar.marin\Pernix-Solutions\Code\Openbravo\POS\Source\v2.30.1\installer/images/pernix.png</logoImage>
-    <splashImage>C:\Users\oscar.marin\Pernix-Solutions\Code\Openbravo\POS\Source\v2.30.1\installer/images/POS_Splash.png</splashImage>
+    <readmeFile>C:/Users/oscar.marin/Pernix-Solutions/Code/Openbravo/POS/Source/v2.30.1/README</readmeFile>
+    <licenseFile>C:/Users/oscar.marin/Pernix-Solutions/Code/Openbravo/POS/Source/v2.30.1/licensing/gpl-2.0.txt</licenseFile>
+    <leftImage>C:/Users/oscar.marin/Pernix-Solutions/Code/Openbravo/POS/Source/v2.30.1/installer/images/leftbar.png</leftImage>
+    <logoImage>C:/Users/oscar.marin/Pernix-Solutions/Code/Openbravo/POS/Source/v2.30.1/installer/images/pernix.png</logoImage>
+    <splashImage>C:/Users/oscar.marin/Pernix-Solutions/Code/Openbravo/POS/Source/v2.30.1/installer/images/POS_Splash.png</splashImage>
     <defaultLanguage>es</defaultLanguage>
     <description>Openbravo POS is a point of sale designed for touch screens</description>
     <enableRollback>1</enableRollback>
@@ -202,7 +202,7 @@
             <customErrorMessage>No se ha podido ejecutar el programa de configuración del sistema
 
 </customErrorMessage>
-            <program>${installdir}/configure.bat</program>
+            <program>${installdir}/configure.sh</program>
             <programArguments></programArguments>
             <progressText>Ejecutar programa de configuración del sistema
 
