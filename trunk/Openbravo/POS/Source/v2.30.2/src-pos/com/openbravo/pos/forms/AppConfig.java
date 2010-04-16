@@ -60,7 +60,10 @@ public class AppConfig implements AppProperties {
     }
     
     private File getDefaultConfig() {
-        return new File(new File(System.getProperty("user.home")), AppLocal.APP_ID + ".properties");
+        String location = System.getProperty("user.home");
+        if(System.getProperty("os.name").toLowerCase().contains("Windows".toLowerCase()))
+            location = System.getProperty("user.dir");
+        return new File(new File(location), AppLocal.APP_ID + ".properties");
     }
     
     public String getProperty(String sKey) {
@@ -147,9 +150,9 @@ public class AppConfig implements AppProperties {
         
         m_propsconfig.setProperty("db.driver", "org.postgresql.Driver");
         m_propsconfig.setProperty("db.driverlib", new File(new File(dirname), "lib/postgresql-8.4-701.jdbc3.jar").getAbsolutePath());
-        m_propsconfig.setProperty("db.URL", "jdbc:postgresql://localhost:5432/openbravopos");
+        m_propsconfig.setProperty("db.URL", "jdbc:postgresql://localhost:5432/PernixPOS");
         m_propsconfig.setProperty("db.user", "postgres");
-        m_propsconfig.setProperty("db.password", "");
+        m_propsconfig.setProperty("db.password", "Pernix123.");
 
         m_propsconfig.setProperty("machine.hostname", getLocalHostName());
         
