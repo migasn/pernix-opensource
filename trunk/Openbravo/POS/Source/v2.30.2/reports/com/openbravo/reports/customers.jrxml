@@ -106,7 +106,7 @@ WHERE VISIBLE = TRUE AND CARD IS NOT NULL AND CARD <> '']]>
 				<textElement textAlignment="Center">
 					<font fontName="Arial" size="14" isBold="true" pdfFontName="Helvetica-Bold"/>
 				</textElement>
-				<text><![CDATA[Openbravo POS]]></text>
+				<text><![CDATA[Pernix OB POS]]></text>
 			</staticText>
 			<staticText>
 				<reportElement key="staticText-4" x="21" y="29" width="195" height="16"/>
@@ -119,7 +119,7 @@ WHERE VISIBLE = TRUE AND CARD IS NOT NULL AND CARD <> '']]>
 				<textElement textAlignment="Center">
 					<font fontName="Arial" size="8"/>
 				</textElement>
-				<text><![CDATA[opening ERP's future!]]></text>
+				<text><![CDATA[Software para PYMES]]></text>
 			</staticText>
 			<textField isBlankWhenNull="false">
 				<reportElement key="textField-6" x="270" y="13" width="103" height="18"/>
