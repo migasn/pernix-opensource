@@ -2,18 +2,19 @@
     <shortName>PernixOBPOS</shortName>
     <fullName>Pernix OB POS</fullName>
     <version>2.30.2</version>
-    <readmeFile>C:/Users/oscar.marin/Pernix-Solutions/Code/Openbravo/POS/Source/v2.30.2/README</readmeFile>
-    <licenseFile>C:/Users/oscar.marin/Pernix-Solutions/Code/Openbravo/POS/Source/v2.30.2/licensing/gpl-2.0.txt</licenseFile>
-    <leftImage>C:/Users/oscar.marin/Pernix-Solutions/Code/Openbravo/POS/Source/v2.30.2/installer/images/leftbar.png</leftImage>
-    <logoImage>C:/Users/oscar.marin/Pernix-Solutions/Code/Openbravo/POS/Source/v2.30.2/installer/images/pernix.png</logoImage>
-    <splashImage>C:/Users/oscar.marin/Pernix-Solutions/Code/Openbravo/POS/Source/v2.30.2/installer/images/POS_Splash.png</splashImage>
+    <readmeFile>../README</readmeFile>
+    <licenseFile>../licensing/gpl-2.0.txt</licenseFile>
+    <leftImage>images/leftbar.png</leftImage>
+    <logoImage>images/pernix.png</logoImage>
+    <splashImage>images/POS_Splash.png</splashImage>
     <defaultLanguage>es</defaultLanguage>
     <description>Openbravo POS is a point of sale designed for touch screens</description>
     <enableRollback>1</enableRollback>
     <enableTimestamp>1</enableTimestamp>
-    <outputDirectory>C:/Users/oscar.marin/Pernix-Solutions/Code/Openbravo/POS/Source/v2.30.2/build/installer</outputDirectory>
+    <outputDirectory>../build/installer</outputDirectory>
     <release>3</release>
     <requireInstallationByRootUser>1</requireInstallationByRootUser>
+    <saveRelativePaths>1</saveRelativePaths>
     <summary>POS</summary>
     <vendor>Pernix</vendor>
     <componentList>
@@ -46,40 +47,40 @@
                     <platforms>all</platforms>
                     <distributionFileList>
                         <distributionFile>
-                            <origin>C:/Users/oscar.marin/Pernix-Solutions/Code/Openbravo/POS/Source/v2.30.2/configure.bat</origin>
+                            <origin>../configure.bat</origin>
                         </distributionFile>
                         <distributionFile>
-                            <origin>C:/Users/oscar.marin/Pernix-Solutions/Code/Openbravo/POS/Source/v2.30.2/configure.sh</origin>
+                            <origin>../configure.sh</origin>
                         </distributionFile>
                         <distributionFile>
-                            <origin>C:/Users/oscar.marin/Pernix-Solutions/Code/Openbravo/POS/Source/v2.30.2/README</origin>
+                            <origin>../README</origin>
                         </distributionFile>
                         <distributionFile>
-                            <origin>C:/Users/oscar.marin/Pernix-Solutions/Code/Openbravo/POS/Source/v2.30.2/start.bat</origin>
+                            <origin>../start.bat</origin>
                         </distributionFile>
                         <distributionFile>
-                            <origin>C:/Users/oscar.marin/Pernix-Solutions/Code/Openbravo/POS/Source/v2.30.2/start.sh</origin>
+                            <origin>../start.sh</origin>
                         </distributionFile>
                         <distributionFile>
-                            <origin>C:/Users/oscar.marin/Pernix-Solutions/Code/Openbravo/POS/Source/v2.30.2/dist/openbravopos.jar</origin>
+                            <origin>../dist/openbravopos.jar</origin>
                         </distributionFile>
                         <distributionDirectory>
-                            <origin>C:/Users/oscar.marin/Pernix-Solutions/Code/Openbravo/POS/Source/v2.30.2/lib</origin>
+                            <origin>../lib</origin>
                         </distributionDirectory>
                         <distributionDirectory>
-                            <origin>C:/Users/oscar.marin/Pernix-Solutions/Code/Openbravo/POS/Source/v2.30.2/licensing</origin>
+                            <origin>../licensing</origin>
                         </distributionDirectory>
                         <distributionDirectory>
-                            <origin>C:/Users/oscar.marin/Pernix-Solutions/Code/Openbravo/POS/Source/v2.30.2/locales</origin>
+                            <origin>../locales</origin>
                         </distributionDirectory>
                         <distributionDirectory>
-                            <origin>C:/Users/oscar.marin/Pernix-Solutions/Code/Openbravo/POS/Source/v2.30.2/reports</origin>
+                            <origin>../reports</origin>
                         </distributionDirectory>
                         <distributionFile>
-                            <origin>C:/Users/oscar.marin/Pernix-Solutions/Code/Openbravo/POS/Source/v2.30.2/installer/images/pernix.ico</origin>
+                            <origin>images/pernix.png</origin>
                         </distributionFile>
                         <distributionFile>
-                            <origin>C:/Users/oscar.marin/Pernix-Solutions/Code/Openbravo/POS/Source/v2.30.2/installer/images/pernix.png</origin>
+                            <origin>images/pernix.ico</origin>
                         </distributionFile>
                     </distributionFileList>
                     <shortcutList>
@@ -116,6 +117,14 @@
                     <destination>${installdir}</destination>
                     <name>programfileswindows</name>
                     <platforms>windows</platforms>
+                    <distributionFileList>
+                        <distributionFile>
+                            <origin>images/pernix.ico</origin>
+                        </distributionFile>
+                        <distributionFile>
+                            <origin>images/pernix.png</origin>
+                        </distributionFile>
+                    </distributionFileList>
                 </folder>
                 <folder>
                     <description>DEB</description>

@@ -25,9 +25,9 @@ import java.io.FileOutputStream;
 import java.io.IOException;
 import java.io.InputStream;
 import java.io.OutputStream;
-import java.util.Locale;
 import java.util.Properties;
 import java.util.logging.Logger;
+import javax.swing.JOptionPane;
 
 /**
  *
@@ -41,11 +41,23 @@ public class AppConfig implements AppProperties {
     private File configfile;
       
     public AppConfig(String[] args) {
-        if (args.length == 0) {
-            init(getDefaultConfig());
-        } else {
-            init(new File(args[0]));
-        }
+        init(getDefaultConfig());
+        /*
+Oscar Marin
+Jun, 21st. 2010
+Commented these lines because when the app was being accessed using a
+shortcut in windows for some reason the argument was being passed as
+C:\Program causing a lot of problems in the OS due to permission restriction
+to write in the C:\ drive and then when the app could write the file using
+admin rights it was causing problems because the PostgreSQL service was not
+being started due to this problem.
+http://support.microsoft.com/default.aspx?scid=kb;en-us;Q325680
+         */
+//        if (args.length == 0) {
+//            init(getDefaultConfig());
+//        } else {
+//            init(new File(args[0]));
+//        }
     }
     
     public AppConfig(File configfile) {
@@ -61,8 +73,8 @@ public class AppConfig implements AppProperties {
     
     private File getDefaultConfig() {
         String location = System.getProperty("user.home");
-        if(System.getProperty("os.name").toLowerCase().contains("Windows".toLowerCase()))
-            location = System.getProperty("user.dir");
+//        if(System.getProperty("os.name").toLowerCase().contains("Windows".toLowerCase()))
+//             location = System.getProperty("user.dir");
         return new File(new File(location), AppLocal.APP_ID + ".properties");
     }
     
@@ -116,7 +128,6 @@ public class AppConfig implements AppProperties {
     }
     
     public void save() throws IOException {
-        
         OutputStream out = new FileOutputStream(configfile);
         if (out != null) {
             m_propsconfig.store(out, AppLocal.APP_NAME + ". Configuration file.");
