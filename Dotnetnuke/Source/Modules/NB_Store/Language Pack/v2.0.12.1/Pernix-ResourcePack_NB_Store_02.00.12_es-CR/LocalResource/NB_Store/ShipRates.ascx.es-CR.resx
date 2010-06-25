@@ -1,0 +1,217 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="cmdQTY.Text">
+    <value>Editar el rango de can para el flete.</value>
+  </data>
+  <data name="cmdPRC.Text">
+    <value>Editar rango precio para el flete.</value>
+  </data>
+  <data name="cmdWEI.Text">
+    <value>Editar rango de peso para el flete.</value>
+  </data>
+  <data name="cmdCOU.Text">
+    <value>Editar la extra de flete por pais.</value>
+  </data>
+  <data name="cmdPRD.Text">
+    <value>Editar el flete prodcuto.</value>
+  </data>
+  <data name="cmdFRE.Text">
+    <value>Editar nivel de flete gratis.</value>
+  </data>
+  <data name="lblTitle.Text">
+    <value>Administracion del Flete</value>
+  </data>
+  <data name="dgFrom.Text">
+    <value>De</value>
+  </data>
+  <data name="dgTo.Text">
+    <value>Para</value>
+  </data>
+  <data name="dgCost.Text">
+    <value>Costo Flete</value>
+  </data>
+  <data name="dgDisable.Text">
+    <value>Deshabilitar</value>
+  </data>
+  <data name="TitleQTY.Text">
+    <value>Costo Flete Por Can</value>
+  </data>
+  <data name="TitlePRC.Text">
+    <value>Costo Flete Por Precio</value>
+  </data>
+  <data name="TitleWEI.Text">
+    <value>Costo Flete Por Peso </value>
+  </data>
+  <data name="TitlePRD.Text">
+    <value>Maintain Extra Shipping Cost and Weight for Product</value>
+	<value>Mantener costo extra por flete y peso por producto</value>
+  </data>
+  <data name="TitleCOU.Text">
+    <value>Costo extra shipping a paises</value>
+  </data>
+  <data name="TitleFRE.Text">
+    <value>Nivel Flete Gratis</value>
+  </data>
+  <data name="plCDefault.Text">
+    <value>Costo pais por defecto</value>
+  </data>
+  <data name="plCDefault.Help">
+    <value>Costo extra por envio a pais no listado.</value>
+  </data>
+  <data name="cmdAddCounty.Text">
+    <value>Agregar Pais</value>
+  </data>
+  <data name="plPDefault.Text">
+    <value>Peso por defecto del producto</value>
+  </data>
+  <data name="plPDefault.Help">
+    <value>Peso a utilizar para productos que no tengan pesos asociados.</value>
+  </data>
+  <data name="plRangeHelp.Text">
+    <value>Rango de paises</value>
+  </data>
+  <data name="plRangeHelp.Help">
+    <value></value>
+  </data>
+  <data name="cmdNew.Text">
+    <value>Agregar</value>
+  </data>
+  <data name="plFreeShip.Text">
+    <value>Nivel Flete Gratis</value>
+  </data>
+  <data name="plFreeShip.Help">
+    <value>Cuando una orden sobrepase este nivel en el total se le ofrece el envio de los productos de gratis</value>
+  </data>
+  <data name="cmdSearch.Text" xml:space="preserve">
+    <value>Buscar</value>
+  </data>
+  <data name="dgWeight.Text">
+    <value>Preso</value>
+  </data>
+  <data name="lblShipMethod.Text">
+    <value>Metodo Flete : </value>
+  </data>
+  <data name="plFreeShipList.Text">
+    <value>Paises Permitidos</value>
+  </data>
+  <data name="plFreeShipList.Help">
+    <value>Lista separada por comas de los paises a los que se pueden enviar los productos, Si se deja en blanco flete sera gratis para todos los paises. (e.g.  "FR,UK,IT")</value>
+  </data>
+</root>
