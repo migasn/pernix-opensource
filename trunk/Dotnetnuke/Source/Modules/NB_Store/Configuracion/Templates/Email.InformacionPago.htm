@@ -1,0 +1,167 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <style type="text/css">
+        .indent
+        {
+            margin-left: 40px;
+        }
+    </style>
+    <title></title>
+</head>
+<body>
+<p>
+    <span class="style3">Muchas Gracias por Comprar en [[Template:StoreName.template]]</span><p>
+        <span class="style3">La siguiente información es un resumen de la orden 
+        realizada en nuestra tienda. Para proceder con la entrega de los productos es 
+        necesario</span><p>
+        <span class="style3">&nbsp;[Store:PaymentInformation]</span><p>
+        <span class="style3">La información será validada y nos pondremos en contacto 
+        para coordinar la entrega</span><p>
+        &nbsp;<p>
+        <span class="style4">Detalle de su orden</span>
+    <p>
+        <style type="text/css">
+            body table td
+            {
+                font-family: Trebuchet MS;
+                font-size: 13px;
+                color: #444444;
+            }
+            .emailheader
+            {
+                font-family: Arial, Helvetica;
+                font-size: 22px;
+                font-weight: bold;
+                color: #656565;
+            }
+            .cartheader
+            {
+                color: white;
+                font-size: 11px;
+                font-family: Arial;
+                font-weight: bold;
+                background-color: #656565;
+            }
+            .style1
+            {
+                background-color: #656565;
+            }
+            .style2
+            {
+                font-weight: bold;
+            }
+            .style3
+            {
+                font-family: "Trebuchet MS";
+                font-size: small;
+            }
+            .style4
+            {
+                font-family: "Trebuchet MS";
+                font-size: small;
+                font-weight: bold;
+            }
+        </style>
+        <table border="0" cellpadding="0" cellspacing="0" width="100%">
+            <tr>
+                <td>
+                    <span lang="en-us">
+                    <font class="emailheader">ORDEN</font></span></td>
+                <td valign="top">
+                    <strong><span lang="en-us">Numero de Orden</span>: </strong>[Order:OrderNumber]
+                    <br />
+                    <strong><span lang="en-us">Fecha de Orden</span>:</strong> [Order:OrderDate]
+                </td>
+            </tr>
+        </table>
+    </p>
+    <p>
+        <table border="0" cellpadding="0" cellspacing="0" width="100%">
+            <tr>
+                <td valign="top">
+                    <span class="style2" lang="en-us">Enviar Factura A:</span><br />
+                    [BAddress:AddressName]
+                    <br />
+                    [BAddress:Address1]
+                    <br />
+                    [BAddress:Address2]
+                    <br />
+                    [BAddress:PostalCode] [BAddress:City]
+                    <br />
+                    [BAddress:RegionCode]
+                    <br />
+                    [BAddress:Country]
+                    <br />
+                    [BAddress:Phone1]
+                    <br />
+                    [BAddress:Phone2]<br />
+                    [Order:Email]
+                </td>
+                <td align="right" valign="top">
+                    <strong><span lang="en-us">Enviar Producto A</span>:</strong>
+                    <br />
+                    [SAddress:AddressName]
+                    <br />
+                    [SAddress:Address1]
+                    <br />
+                    [SAddress:Address2]
+                    <br />
+                    [SAddress:PostalCode] [SAddress:City]
+                    <br />
+                    [SAddress:RegionCode]
+                    <br />
+                    [SAddress:Country]
+                    <br />
+                    [SAddress:Phone1]
+                    <br />
+                    [SAddress:Phone2]
+                </td>
+            </tr>
+        </table>
+    </p>
+    <p>
+        <table border="0" cellpadding="5" cellspacing="0" width="100%">
+            <tr valign="top">
+                <td align="center" class="cartheader">
+                    Items
+                </td>
+                <td align="center" class="cartheader">
+                    <span lang="en-us">P<span class="style1">recio</span></span>
+                </td>
+                <td align="center" class="cartheader">
+                    <span lang="en-us">C<span class="style1">an</span></span>
+                </td>
+                <td align="center" class="cartheader">
+                                        Total
+                </td>
+           [Order:DetailRows]<tr>
+                <td align="right" colspan="3">
+                    <span lang="en-us">Envio</span></td>
+                <td align="right">
+                    [Order:ShippingCost]
+                </td>
+            </tr>
+            <tr>
+                <td align="right" colspan="3">
+                    <b>Total
+                </b>
+                </td>
+                <td align="right">
+                    <strong>[Order:Total]</strong>
+                </td>
+            </tr>
+        </table>
+    </p>
+    <p>
+        <span class="style4">Información Adicional</span><span class="style3" 
+            lang="en-us">:</span>
+        <br class="style3" />
+        <span class="style3">[Order:NoteMsg]
+    </span>
+    </p>
+</p>
+
+</body>
+</html>
