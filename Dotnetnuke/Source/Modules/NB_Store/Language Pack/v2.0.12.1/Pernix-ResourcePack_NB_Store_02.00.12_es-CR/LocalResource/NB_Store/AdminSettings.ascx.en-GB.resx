@@ -1,0 +1,247 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="nohelp.Text" xml:space="preserve">
+    <value>Ayuda no disponible</value>
+  </data>
+  <data name="labelTemplName.Text" xml:space="preserve">
+    <value>Nombre</value>
+  </data>
+  <data name="labelTemplName.Help" xml:space="preserve">
+    <value>Nombre unico para identificar la configuracion.</value>
+  </data>
+  <data name="labelMessage.Text" xml:space="preserve">
+    <value>Valor configuracion</value>
+  </data>
+  <data name="labelMessage.Help" xml:space="preserve">
+    <value>Ingresar el valor para la configuracion</value>
+  </data>
+  <data name="None.Text" xml:space="preserve">
+    <value>Default</value>
+  </data>
+  <data name="valReqCategoryName.Text" xml:space="preserve">
+    <value>* Nombre de configuracion requerido.</value>
+  </data>
+  <data name="cmdCopyLang.Text" xml:space="preserve">
+    <value>Aplicar todos lenguajes</value>
+  </data>
+  <data name="cmdCopyLangMsg.Text" xml:space="preserve">
+    <value>Precausion!! Esta accion va a ser que se actualice a todos los lenguajes. Desea continuar?</value>
+  </data>
+  <data name="DeleteItem.Text" xml:space="preserve">
+    <value>Borrar configuracion?</value>
+  </data>
+  <data name="Language.Header" xml:space="preserve">
+    <value>Lenguaje</value>
+  </data>
+  <data name="Name.Header" xml:space="preserve">
+    <value>Nombre</value>
+  </data>
+  <data name="cmdAdd.Text" xml:space="preserve">
+    <value>Agregar</value>
+  </data>
+  <data name="chkHostOnly.Text" xml:space="preserve">
+    <value>Solo admin</value>
+  </data>
+  <data name="administrator.email" xml:space="preserve">
+    <value>Cuentas de correo del administrador de la tienda, los errores seran enviados a esta cuenta.</value>
+  </data>
+  <data name="cheque.provider" xml:space="preserve">
+    <value>assembly name of the cheque provider for the store checkout.  Usually this will only be updated from the checkout settings.</value>
+  </data>
+  <data name="chqpayment.emailsubject" xml:space="preserve">
+    <value>Asunto del correo cuando un usuario paga por transferencia electronia o deposito.</value>
+  </data>
+  <data name="gateway.loadimage" xml:space="preserve">
+    <value>File path of the GIF image that is displayed when proccessing is passed to the bank gateway.</value>
+	<value>Archivo GIF con animacion a utilizar cuando una orden esta siendo procesada por el gateway del banco.</value>
+  </data>
+  <data name="gateway.provider" xml:space="preserve">
+    <value>assembly name of the bank gateway provider for the store checkout.  Usually this will only be updated from the checkout settings.</value>
+  </data>
+  <data name="manager.role" xml:space="preserve">
+    <value>Nombre del rol del adminstrador de la tienda.</value>
+  </data>
+  <data name="managerlite.role" xml:space="preserve">
+    <value>Nombre del rol del adminstrador de la tienda.</value>
+  </data>
+  <data name="merchant.culture" xml:space="preserve">
+	<value>Cultura de la tienda puede ser es-CR.</value>
+  </data>
+  <data name="merchant.email" xml:space="preserve">
+    <value>Cuenta de correo del vendedor de la tienda</value>
+  </data>
+  <data name="ordershipped.emailsubject" xml:space="preserve">
+    <value>Asunto en el correo cuando una orden es despachada.</value>
+  </data>
+  <data name="ordersreport.subject" xml:space="preserve">
+    <value>Asunto del correo con el reporte de una orden.</value>
+  </data>
+  <data name="ordersreport.xsl" xml:space="preserve">
+    <value>Ruta de archivo para el reporte de Excel.</value>
+  </data>
+  <data name="ordervalidated.emailsubject" xml:space="preserve">
+    <value>Asunto con el correo cuando una orden es validada.</value>
+  </data>
+  <data name="paymentOK.emailsubject" xml:space="preserve">
+    <value>Asunto del correo cuando el pago de una orden fue confirmada.</value>
+  </data>
+  <data name="paymentunverified.emailsubject" xml:space="preserve">
+    <value>Asunto del correo electronico cuando una orden no ha podido ser validada.</value>
+  </data>
+  <data name="PayPal.gateway" xml:space="preserve">
+    <value>Paypal configuration settings</value>
+  </data>
+  <data name="product.limit" xml:space="preserve">
+    <value>Cantidad maxima de productos para la tienda.</value>
+  </data>
+  <data name="productlite.limit" xml:space="preserve">
+    <value>Establece el monto maximo de productos para la tienda.</value>
+  </data>
+  <data name="SIPS.exepath" xml:space="preserve">
+    <value>Directory path of the SIPS response.exe &amp; request.exe</value>
+  </data>
+  <data name="SIPS.gateway" xml:space="preserve">
+    <value>SIPS configuration settings</value>
+  </data>
+  <data name="store.email" xml:space="preserve">
+	<value>Correo electronico de la tienda, todos los correos se enviaran a esta cuenta.</value>
+  </data>
+  <data name="country.list" xml:space="preserve">
+    <value>Lista de paises a los que se pueden enviar productos. (e.g. "Costa Rica,USA").</value>
+  </data>
+  <data name="ordershipdate.days" xml:space="preserve">
+	<value>Cantidad de dias estimado par cuando la orden pueda ser despachada.  La cantidad de dias ingresada va a ser sumada a la fecha en la que la orden se realizo en el campo [Order:ShipDate].</value>
+  </data>
+  <data name="buybutton.text" xml:space="preserve">
+    <value>Texto a desplegar en el boton de compras.  Si se deja en blanco se usa el archivo de recursos.</value>
+  </data>
+  <data name="image.resize" xml:space="preserve">
+	<value>Indica el tamano al cual se ajustara el tamano del imagen (450px default), Si se usa "0" la imagen mantiene su tamano original.</value>
+  </data>
+  <data name="image.quality" xml:space="preserve">
+    <value>Estable la calidad de la imagen a ajustar, 85% es el valor por defecto.</value>
+  </data>
+  <data name="settings.overwrite" xml:space="preserve">
+	<value>Sobre escribe los valores de la configuracion y los templates si se da el valor de true</value>
+  </data>
+  <data name="orderreport.lastday" xml:space="preserve">
+	<value>Ultimo dia en el que el reporte fue ejecutado.  Esto asegura que solo un reporte se ejecute al dia.</value>
+  </data>
+</root>

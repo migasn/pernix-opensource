@@ -1,0 +1,39 @@
+<?xml version="1.0"?>
+<LanguagePack xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Version="3.0">
+<Culture Code="es-CR" DisplayName="Espanol (Costa Rica)" />
+<Files>
+<File FileName="AdminBackup.ascx.es-CR.resx" FileType="LocalResource" ModuleName="NB_Store" />
+<File FileName="AdminCategories.ascx.es-CR.resx" FileType="LocalResource" ModuleName="NB_Store" />
+<File FileName="AdminClients.ascx.es-CR.resx" FileType="LocalResource" ModuleName="NB_Store" />
+<File FileName="AdminHost.ascx.es-CR.resx" FileType="LocalResource" ModuleName="NB_Store" />
+<File FileName="AdminOrders.ascx.es-CR.resx" FileType="LocalResource" ModuleName="NB_Store" />
+<File FileName="AdminProduct.ascx.es-CR.resx" FileType="LocalResource" ModuleName="NB_Store" />
+<File FileName="AdminProductDetail.ascx.es-CR.resx" FileType="LocalResource" ModuleName="NB_Store" />
+<File FileName="AdminProductDoc.ascx.es-CR.resx" FileType="LocalResource" ModuleName="NB_Store" />
+<File FileName="AdminProductImage.ascx.es-CR.resx" FileType="LocalResource" ModuleName="NB_Store" />
+<File FileName="AdminProductList.ascx.es-CR.resx" FileType="LocalResource" ModuleName="NB_Store" />
+<File FileName="AdminProductLite.ascx.es-CR.resx" FileType="LocalResource" ModuleName="NB_Store" />
+<File FileName="AdminPromo.ascx.es-CR.resx" FileType="LocalResource" ModuleName="NB_Store" />
+<File FileName="AdminReport.ascx.es-CR.resx" FileType="LocalResource" ModuleName="NB_Store" />
+<File FileName="AdminReportEdit.ascx.es-CR.resx" FileType="LocalResource" ModuleName="NB_Store" />
+<File FileName="AdminReportList.ascx.es-CR.resx" FileType="LocalResource" ModuleName="NB_Store" />
+<File FileName="AdminReportPopup.ascx.es-CR.resx" FileType="LocalResource" ModuleName="NB_Store" />
+<File FileName="AdminSettings.ascx.es-CR.resx" FileType="LocalResource" ModuleName="NB_Store" />
+<File FileName="AdminShipMethod.ascx.es-CR.resx" FileType="LocalResource" ModuleName="NB_Store" />
+<File FileName="AdminStock.ascx.es-CR.resx" FileType="LocalResource" ModuleName="NB_Store" />
+<File FileName="AdminTemplates.ascx.es-CR.resx" FileType="LocalResource" ModuleName="NB_Store" />
+<File FileName="CategoryMenu.ascx.es-CR.resx" FileType="LocalResource" ModuleName="NB_Store" />
+<File FileName="CategoryMenuSettings.ascx.es-CR.resx" FileType="LocalResource" ModuleName="NB_Store" />
+<File FileName="CheckOut.ascx.es-CR.resx" FileType="LocalResource" ModuleName="NB_Store" />
+<File FileName="CheckOutSettings.ascx.es-CR.resx" FileType="LocalResource" ModuleName="NB_Store" />
+<File FileName="MenuManager.ascx.es-CR.resx" FileType="LocalResource" ModuleName="NB_Store" />
+<File FileName="ProductList.ascx.es-CR.resx" FileType="LocalResource" ModuleName="NB_Store" />
+<File FileName="ProductListOptions.ascx.es-CR.resx" FileType="LocalResource" ModuleName="NB_Store" />
+<File FileName="ProductListSettings.ascx.es-CR.resx" FileType="LocalResource" ModuleName="NB_Store" />
+<File FileName="ProductSearch.ascx.es-CR.resx" FileType="LocalResource" ModuleName="NB_Store" />
+<File FileName="ProductSearchSettings.ascx.es-CR.resx" FileType="LocalResource" ModuleName="NB_Store" />
+<File FileName="Settings.ascx.es-CR.resx" FileType="LocalResource" ModuleName="NB_Store" />
+<File FileName="ShipRates.ascx.es-CR.resx" FileType="LocalResource" ModuleName="NB_Store" />
+<File FileName="TaxRates.ascx.es-CR.resx" FileType="LocalResource" ModuleName="NB_Store" />
+</Files>
+</LanguagePack>
