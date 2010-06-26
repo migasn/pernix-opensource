@@ -11,16 +11,17 @@
     <title></title>
 </head>
 <body>
-<p>
-    <span class="style3">Muchas Gracias por Comprar en [[Template:StoreName.template]]</span><p>
-        <span class="style3">La siguiente información es un resumen de la orden 
+<p class="style3">
+    <span lang="en-us">Hola [OrderUser:FirstName].</span><p class="style3">
+    &nbsp;<span lang="en-us">G</span>racias por 
+    <span lang="en-us">c</span>omprar en [<span lang="en-us">Template:NombreTienda</span>]<p 
+        class="style3">
+        La siguiente información es un resumen de la orden 
         realizada en nuestra tienda. Para proceder con la entrega de los productos es 
-        necesario</span><p>
-        <span class="style3">&nbsp;[Store:PaymentInformation]</span><p>
-        <span class="style3">La información será validada y nos pondremos en contacto 
-        para coordinar la entrega</span><p>
-        &nbsp;<p>
-        <span class="style4">Detalle de su orden</span>
+        necesariotrega<p 
+        class="style3">
+        <span lang="en-us">[Template:FormaPago]</span><p>
+        <span class="style4">Detalle de su orden</span><span class="style5"> </span>
     <p>
         <style type="text/css">
             body table td
@@ -47,6 +48,7 @@
             .style1
             {
                 background-color: #656565;
+                font-family: Tahoma;
             }
             .style2
             {
@@ -54,25 +56,52 @@
             }
             .style3
             {
-                font-family: "Trebuchet MS";
+                font-family: Tahoma;
                 font-size: small;
             }
             .style4
             {
-                font-family: "Trebuchet MS";
+                font-family: Tahoma;
                 font-size: small;
                 font-weight: bold;
+            }
+            .style5
+            {
+                font-family: Tahoma;
+            }
+            .style6
+            {
+                font-family: Tahoma;
+                font-weight: bold;
+            }
+            .style7
+            {
+                color: white;
+                font-size: 11px;
+                font-family: Tahoma;
+                font-weight: bold;
+                background-color: #656565;
+            }
+            .style8
+            {
+                font-family: Tahoma;
+                font-size: 22px;
+                font-weight: bold;
+                color: #656565;
             }
         </style>
         <table border="0" cellpadding="0" cellspacing="0" width="100%">
             <tr>
                 <td>
                     <span lang="en-us">
-                    <font class="emailheader">ORDEN</font></span></td>
+                    <font class="style8">ORDEN</font></span></td>
                 <td valign="top">
-                    <strong><span lang="en-us">Numero de Orden</span>: </strong>[Order:OrderNumber]
+                    <strong><span lang="en-us" class="style5">Numero de Orden</span><span 
+                        class="style5">: </span> </strong><span class="style5">[Order:Order<span 
+                        lang="en-us">ID</span>]
                     <br />
                     <strong><span lang="en-us">Fecha de Orden</span>:</strong> [Order:OrderDate]
+                    </span>
                 </td>
             </tr>
         </table>
@@ -80,7 +109,7 @@
     <p>
         <table border="0" cellpadding="0" cellspacing="0" width="100%">
             <tr>
-                <td valign="top">
+                <td valign="top" class="style5">
                     <span class="style2" lang="en-us">Enviar Factura A:</span><br />
                     [BAddress:AddressName]
                     <br />
@@ -100,7 +129,8 @@
                     [Order:Email]
                 </td>
                 <td align="right" valign="top">
-                    <strong><span lang="en-us">Enviar Producto A</span>:</strong>
+                    <strong><span lang="en-us" class="style5">Enviar Producto A</span><span 
+                        class="style5">:</span></strong><span class="style5">
                     <br />
                     [SAddress:AddressName]
                     <br />
@@ -117,6 +147,7 @@
                     [SAddress:Phone1]
                     <br />
                     [SAddress:Phone2]
+                </span>
                 </td>
             </tr>
         </table>
@@ -124,31 +155,33 @@
     <p>
         <table border="0" cellpadding="5" cellspacing="0" width="100%">
             <tr valign="top">
-                <td align="center" class="cartheader">
+                <td align="center" class="style7">
                     Items
                 </td>
                 <td align="center" class="cartheader">
-                    <span lang="en-us">P<span class="style1">recio</span></span>
+                    <span lang="en-us">P<span class="style1">recio</span></span><span 
+                        class="style5"> </span>
                 </td>
                 <td align="center" class="cartheader">
-                    <span lang="en-us">C<span class="style1">an</span></span>
+                    <span lang="en-us">C<span class="style1">an</span></span><span class="style5">
+                    </span>
                 </td>
-                <td align="center" class="cartheader">
+                <td align="center" class="style7">
                                         Total
                 </td>
+                <caption class="style5">
            [Order:DetailRows]<tr>
                 <td align="right" colspan="3">
-                    <span lang="en-us">Envio</span></td>
-                <td align="right">
+                    <span lang="en-us" class="style5">Envio</span></td>
+                <td align="right" class="style5">
                     [Order:ShippingCost]
                 </td>
             </tr>
             <tr>
-                <td align="right" colspan="3">
-                    <b>Total
-                </b>
+                <td align="right" colspan="3" class="style6">
+                    Total
                 </td>
-                <td align="right">
+                <td align="right" class="style5">
                     <strong>[Order:Total]</strong>
                 </td>
             </tr>

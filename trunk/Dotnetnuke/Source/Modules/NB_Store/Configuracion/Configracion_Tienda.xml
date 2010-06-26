@@ -1,4 +1,4 @@
-<content type="NB_Store_BackOffice" version="02.00.12"><storecontent><settings><administrator.email Lang="None " HostOnly="False"><![CDATA[oscar@omsys.co.cr]]></administrator.email><categorymenucss.includes Lang="None " HostOnly="False"><![CDATA[jquery.treeview.css,jquery.accordion.css]]></categorymenucss.includes><categorymenujs.includes Lang="None " HostOnly="False"><![CDATA[jquery.treeview.min.js,jquery.accordion.js,jquery.dimensions.js]]></categorymenujs.includes><categorymenustartupjs.includes Lang="None " HostOnly="False"><![CDATA[jqtreeview.code,jqueryaccordion.code]]></categorymenustartupjs.includes><cheque.provider Lang="None " HostOnly="False"><![CDATA[NEvoweb.DNN.Modules.NB_Store.GatewayCheque,NEvoWeb.Modules.NB_Store.Gateway.GatewayCheque]]></cheque.provider><chqpayment.emailsubject Lang="None " HostOnly="False"><![CDATA[[Template:NombreTiendaTexto] - Confirmación de Orden - [Order:OrderNumber]]]></chqpayment.emailsubject><country.list Lang="None " HostOnly="False"><![CDATA[France,United Kingdom]]></country.list><gateway.loadimage Lang="None " HostOnly="False"><![CDATA[/images/progressbar.gif]]></gateway.loadimage><gateway.provider Lang="None " HostOnly="True"><![CDATA[]]></gateway.provider><image.quality Lang="None " HostOnly="False"><![CDATA[85]]></image.quality><image.resize Lang="None " HostOnly="False"><![CDATA[450]]></image.resize><lightboxgallerytemplate.name Lang="None " HostOnly="False"><![CDATA[jquerylightboxgallery.template]]></lightboxgallerytemplate.name><lightboxtemplate.name Lang="None " HostOnly="False"><![CDATA[jquerylightbox.template]]></lightboxtemplate.name><lockstockoncart Lang="None " HostOnly="False"><![CDATA[0]]></lockstockoncart><manager.role Lang="None " HostOnly="True"><![CDATA[Manager]]></manager.role><managerlite.role Lang="None " HostOnly="True"><![CDATA[ManagerLite]]></managerlite.role><merchant.culture Lang="None " HostOnly="False"><![CDATA[es-CR]]></merchant.culture><merchant.email Lang="None " HostOnly="False"><![CDATA[oscar@omsys.co.cr]]></merchant.email><ordershipdate.days Lang="None " HostOnly="False"><![CDATA[0]]></ordershipdate.days><ordershipped.emailsubject Lang="None " HostOnly="False"><![CDATA[[Template:NombreTiendaTexto] - Orden Despachada y en ruta - [Order:OrderNumber]]]></ordershipped.emailsubject><ordersreport.subject Lang="None " HostOnly="False"><![CDATA[Reporte de Ordenes]]></ordersreport.subject><ordersreport.xsl Lang="None " HostOnly="False"><![CDATA[/Desktopmodules/NB_Store/ordersreport_fr.xsl]]></ordersreport.xsl><ordervalidated.emailsubject Lang="None " HostOnly="False"><![CDATA[[Template:NombreTiendaTexto] - Orden Validada - [Order:OrderNumber]]]></ordervalidated.emailsubject><paymentOK.emailsubject Lang="None " HostOnly="False"><![CDATA[[Template:NombreTiendaTexto] - Pago de Orden Validado - [Order:OrderNumber]]]></paymentOK.emailsubject><paymentunverified.emailsubject Lang="None " HostOnly="False"><![CDATA[[Template:NombreTiendaTexto] - NO SE PUDO VALIDAR EL PAGO DE LA ORDEN - [Order:OrderNumber]]]></paymentunverified.emailsubject><product.limit Lang="None " HostOnly="True"><![CDATA[1000]]></product.limit><productlistcss.includes Lang="None " HostOnly="False"><![CDATA[jquery.lightbox-0.5.css]]></productlistcss.includes><productlistjs.includes Lang="None " HostOnly="False"><![CDATA[jquery.lightbox-0.5.min.js]]></productlistjs.includes><productliststartupjs.includes Lang="None " HostOnly="False"><![CDATA[jquerylightbox.code]]></productliststartupjs.includes><productlite.limit Lang="None " HostOnly="True"><![CDATA[30]]></productlite.limit><productqty.limit Lang="None " HostOnly="False"><![CDATA[999999]]></productqty.limit><purgecartmins Lang="None " HostOnly="False"><![CDATA[10080]]></purgecartmins><purgeordermins Lang="None " HostOnly="False"><![CDATA[2880]]></purgeordermins><settings.overwrite Lang="None " HostOnly="True"><![CDATA[0]]></settings.overwrite><store.email Lang="None " HostOnly="False"><![CDATA[oscar@omsys.co.cr]]></store.email><version Lang="None " HostOnly="True"><![CDATA[02.00.12]]></version></settings><settingstext><admindiscount.text Lang="None "><![CDATA[&lt;span style=&quot;font-family: tahoma, arial, helvetica; color: #666644; font-size: 20px; -webkit-border-horizontal-spacing: 2px; -webkit-border-vertical-spacing: 2px;&quot;&gt;&lt;span style=&quot;color: #000000;&quot;&gt;Descuentos y c&amp;oacute;digos promocionales disponibles pronto!&lt;/span&gt;&lt;br /&gt;
+<content type="NB_Store_BackOffice" version="02.00.12"><storecontent><settings><administrator.email Lang="None " HostOnly="False"><![CDATA[oscar@omsys.co.cr]]></administrator.email><categorymenucss.includes Lang="None " HostOnly="False"><![CDATA[jquery.treeview.css,jquery.accordion.css]]></categorymenucss.includes><categorymenujs.includes Lang="None " HostOnly="False"><![CDATA[jquery.treeview.min.js,jquery.accordion.js,jquery.dimensions.js]]></categorymenujs.includes><categorymenustartupjs.includes Lang="None " HostOnly="False"><![CDATA[jqtreeview.code,jqueryaccordion.code]]></categorymenustartupjs.includes><cheque.provider Lang="None " HostOnly="True"><![CDATA[NEvoweb.DNN.Modules.NB_Store.GatewayCheque,NEvoWeb.Modules.NB_Store.Gateway.GatewayCheque]]></cheque.provider><chqpayment.emailsubject Lang="None " HostOnly="False"><![CDATA[[Template:NombreTiendaTexto] - Confirmación de Orden - [Order:OrderID]]]></chqpayment.emailsubject><country.list Lang="None " HostOnly="False"><![CDATA[Costa Rica]]></country.list><gateway.loadimage Lang="None " HostOnly="False"><![CDATA[/images/progressbar.gif]]></gateway.loadimage><gateway.provider Lang="None " HostOnly="True"><![CDATA[]]></gateway.provider><image.quality Lang="None " HostOnly="False"><![CDATA[85]]></image.quality><image.resize Lang="None " HostOnly="False"><![CDATA[450]]></image.resize><lightboxgallerytemplate.name Lang="None " HostOnly="False"><![CDATA[jquerylightboxgallery.template]]></lightboxgallerytemplate.name><lightboxtemplate.name Lang="None " HostOnly="False"><![CDATA[jquerylightbox.template]]></lightboxtemplate.name><lockstockoncart Lang="None " HostOnly="False"><![CDATA[0]]></lockstockoncart><manager.role Lang="None " HostOnly="True"><![CDATA[Manager]]></manager.role><managerlite.role Lang="None " HostOnly="True"><![CDATA[ManagerLite]]></managerlite.role><merchant.culture Lang="None " HostOnly="False"><![CDATA[es-CR]]></merchant.culture><merchant.email Lang="None " HostOnly="False"><![CDATA[oscar@omsys.co.cr]]></merchant.email><ordershipdate.days Lang="None " HostOnly="False"><![CDATA[0]]></ordershipdate.days><ordershipped.emailsubject Lang="None " HostOnly="False"><![CDATA[[Template:NombreTiendaTexto] - Orden Despachada y en ruta - [Order:OrderNumber]]]></ordershipped.emailsubject><ordersreport.subject Lang="None " HostOnly="False"><![CDATA[Reporte de Ordenes]]></ordersreport.subject><ordersreport.xsl Lang="None " HostOnly="False"><![CDATA[/Desktopmodules/NB_Store/ordersreport_fr.xsl]]></ordersreport.xsl><ordervalidated.emailsubject Lang="None " HostOnly="False"><![CDATA[[Template:NombreTiendaTexto] - Orden Validada - [Order:OrderNumber]]]></ordervalidated.emailsubject><paymentOK.emailsubject Lang="None " HostOnly="False"><![CDATA[[Template:NombreTiendaTexto] - Pago de Orden Validado - [Order:OrderNumber]]]></paymentOK.emailsubject><paymentunverified.emailsubject Lang="None " HostOnly="False"><![CDATA[[Template:NombreTiendaTexto] - NO SE PUDO VALIDAR EL PAGO DE LA ORDEN - [Order:OrderNumber]]]></paymentunverified.emailsubject><product.limit Lang="None " HostOnly="True"><![CDATA[1000]]></product.limit><productlistcss.includes Lang="None " HostOnly="False"><![CDATA[jquery.lightbox-0.5.css]]></productlistcss.includes><productlistjs.includes Lang="None " HostOnly="False"><![CDATA[jquery.lightbox-0.5.min.js]]></productlistjs.includes><productliststartupjs.includes Lang="None " HostOnly="False"><![CDATA[jquerylightbox.code]]></productliststartupjs.includes><productlite.limit Lang="None " HostOnly="True"><![CDATA[30]]></productlite.limit><productqty.limit Lang="None " HostOnly="False"><![CDATA[999999]]></productqty.limit><purgecartmins Lang="None " HostOnly="False"><![CDATA[10080]]></purgecartmins><purgeordermins Lang="None " HostOnly="False"><![CDATA[2880]]></purgeordermins><settings.overwrite Lang="None " HostOnly="True"><![CDATA[0]]></settings.overwrite><store.email Lang="None " HostOnly="False"><![CDATA[oscar@omsys.co.cr]]></store.email><version Lang="None " HostOnly="True"><![CDATA[02.00.12]]></version></settings><settingstext><admindiscount.text Lang="None "><![CDATA[&lt;span style=&quot;font-family: tahoma, arial, helvetica; color: #666644; font-size: 20px; -webkit-border-horizontal-spacing: 2px; -webkit-border-vertical-spacing: 2px;&quot;&gt;&lt;span style=&quot;color: #000000;&quot;&gt;Descuentos y c&amp;oacute;digos promocionales disponibles pronto!&lt;/span&gt;&lt;br /&gt;
 &lt;/span&gt;]]></admindiscount.text><backoffice.text Lang="None "><![CDATA[&lt;table width=&quot;750&quot;&gt;
     &lt;tbody&gt;
         &lt;tr&gt;
@@ -18,18 +18,70 @@ Se ha seleccionado como m&amp;eacute;todo de pago transferencia electr&amp;oacut
 &lt;p style=&quot;background-image: initial; background-attachment: initial; background-origin: initial; background-clip: initial; background-color: white;&quot;&gt;&lt;strong&gt;&lt;span style=&quot;font-size: 11pt; font-family: tahoma, sans-serif; color: black;&quot;&gt;Detalle de la orden&lt;br /&gt;
 &lt;/span&gt;&lt;/strong&gt;&lt;span style=&quot;font-family: tahoma, sans-serif; font-size: 15px;&quot;&gt;&lt;strong&gt;&lt;br /&gt;
 &lt;/strong&gt;[Template:order.email.template]&lt;/span&gt;&lt;/p&gt;
-&lt;p&gt; &lt;/p&gt;]]></chqpayment.email><chqpayment.text Lang="None "><![CDATA[&lt;p style=&quot;background-image: initial; background-attachment: initial; background-origin: initial; background-clip: initial; background-color: white;&quot;&gt; &lt;/p&gt;
-&lt;p style=&quot;background-image: initial; background-attachment: initial; background-origin: initial; background-clip: initial; background-color: white;&quot;&gt;&lt;strong&gt;&lt;span style=&quot;font-size: 11pt; font-family: tahoma, sans-serif; color: black;&quot;&gt;[Template:NombreTienda]&lt;/span&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p style=&quot;background-image: initial; background-attachment: initial; background-origin: initial; background-clip: initial; background-color: white;&quot;&gt;&lt;span style=&quot;font-size: 11pt; font-family: tahoma, sans-serif; color: black;&quot;&gt;Muy buenas [OrderUser:FirstName]&lt;/span&gt;&lt;/p&gt;
-&lt;p style=&quot;background-image: initial; background-attachment: initial; background-origin: initial; background-clip: initial; background-color: white;&quot;&gt;&lt;span style=&quot;font-size: 11pt; font-family: tahoma, sans-serif; color: black;&quot;&gt;&lt;br /&gt;
-Se ha seleccionado como m&amp;eacute;todo de pago transferencia electr&amp;oacute;nica. Para esto se deben de seguir las siguientes instrucciones.&lt;/span&gt;&lt;/p&gt;
-&lt;p style=&quot;background-image: initial; background-attachment: initial; background-origin: initial; background-clip: initial; background-color: white;&quot;&gt;&lt;span style=&quot;font-size: 11pt; font-family: tahoma, sans-serif; color: black;&quot;&gt;[Template:FormaPago]&lt;/span&gt;&lt;/p&gt;
-&lt;p style=&quot;background-image: initial; background-attachment: initial; background-origin: initial; background-clip: initial; background-color: white;&quot;&gt;&lt;span style=&quot;font-size: 11pt; font-family: tahoma, sans-serif; color: black;&quot;&gt;La orden ser&amp;aacute; validada que se reciba el pago de la orden [Order:OrderNumber] y un correo de confirmaci&amp;oacute;n ser&amp;aacute; enviado&lt;/span&gt;&lt;/p&gt;
-&lt;p style=&quot;background-image: initial; background-attachment: initial; background-origin: initial; background-clip: initial; background-color: white;&quot;&gt;&lt;span style=&quot;font-size: 11pt; font-family: tahoma, sans-serif; color: black;&quot;&gt;Muchas gracias por su compra&lt;/span&gt;&lt;/p&gt;
-&lt;p style=&quot;background-image: initial; background-attachment: initial; background-origin: initial; background-clip: initial; background-color: white;&quot;&gt;&lt;strong&gt;&lt;span style=&quot;font-size: 11pt; font-family: tahoma, sans-serif; color: black;&quot;&gt;Detalle de la compra&lt;/span&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p style=&quot;background-image: initial; background-attachment: initial; background-origin: initial; background-clip: initial; background-color: white;&quot;&gt;&lt;span style=&quot;font-size: 11pt; font-family: tahoma, sans-serif; color: black;&quot;&gt;[Template:order.text.template]&lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;&lt;span style=&quot;font-family: tahoma, sans-serif;&quot;&gt;&lt;br /&gt;
-&lt;/span&gt;&lt;/p&gt;]]></chqpayment.text><dashboard.text Lang="None "><![CDATA[&lt;table width=&quot;100%&quot;&gt;
+&lt;p&gt; &lt;/p&gt;]]></chqpayment.email><chqpayment.text Lang="None "><![CDATA[&lt;!DOCTYPE html PUBLIC &quot;-//W3C//DTD XHTML 1.0 Transitional//EN&quot; &quot;http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd&quot;&gt;
+&lt;html xmlns=&quot;http://www.w3.org/1999/xhtml&quot;&gt;
+&lt;head&gt;
+    &lt;title&gt;&lt;/title&gt;
+    &lt;style type=&quot;text/css&quot;&gt;
+        .style1
+        {
+            font-family: Tahoma;
+        }
+        .style2
+        {
+            font-family: Tahoma;
+            font-weight: bold;
+        }
+        .style3
+        {
+            font-size: small;
+        }
+    &lt;/style&gt;
+&lt;/head&gt;
+&lt;body&gt;
+    &lt;span class=&quot;Apple-style-span&quot; style=&quot;border-collapse: separate; color: rgb(0, 0, 0);
+        font-family: 'Times New Roman'; font-style: normal; font-variant: normal; font-weight: normal;
+        letter-spacing: normal; line-height: normal; orphans: 2; text-align: auto; text-indent: 0px;
+        text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-border-horizontal-spacing: 0px;
+        -webkit-border-vertical-spacing: 0px; -webkit-text-decorations-in-effect: none;
+        -webkit-text-size-adjust: auto; -webkit-text-stroke-width: 0px; font-size: medium;&quot;&gt;
+        &lt;div style=&quot;padding-top: 3px; padding-right: 3px; padding-bottom: 3px; padding-left: 3px;
+            background-image: none; margin-top: 0px; margin-right: 0px; margin-bottom: 0px;
+            margin-left: 0px; text-align: left; word-wrap: break-word; background-color: white;&quot;&gt;
+            &lt;p style=&quot;background-image: initial; background-attachment: initial; background-origin: initial;
+                background-clip: initial; background-color: white;&quot;&gt;
+                &lt;b&gt;&lt;font color=&quot;black&quot; face=&quot;tahoma, sans-serif&quot; style=&quot;font-size: 11pt;&quot;&gt;[Template:NombreTienda]&lt;/font&gt;&lt;/b&gt;&lt;/p&gt;
+            &lt;p class=&quot;style1&quot; style=&quot;background-image: initial; background-attachment: initial;
+                background-origin: initial; background-clip: initial; background-color: white;&quot;&gt;
+                &lt;font class=&quot;style3&quot; color=&quot;black&quot;&gt;Muy buenas [OrderUser:FirstName]&lt;/font&gt;&lt;/p&gt;
+            &lt;p style=&quot;background-image: initial; background-attachment: initial; background-origin: initial;
+                background-clip: initial; background-color: white;&quot;&gt;
+                &lt;font class=&quot;style3&quot; color=&quot;black&quot; face=&quot;tahoma, sans-serif&quot;&gt;&lt;span class=&quot;style1&quot;&gt;Se
+                    ha seleccionado como m&#233;todo de pago transferencia electr&#243;nica. Para esto se deben
+                    de seguir las siguientes instrucciones.&lt;/span&gt;&lt;/font&gt;&lt;/p&gt;
+            &lt;p class=&quot;style1&quot; style=&quot;background-image: initial; background-attachment: initial;
+                background-origin: initial; background-clip: initial; background-color: white;&quot;&gt;
+                &lt;font class=&quot;style3&quot; color=&quot;black&quot;&gt;[Template:FormaPago]&lt;/font&gt;&lt;/p&gt;
+            &lt;p class=&quot;style1&quot; style=&quot;background-image: initial; background-attachment: initial;
+                background-origin: initial; background-clip: initial; background-color: white;&quot;&gt;
+                &lt;font class=&quot;style3&quot; color=&quot;black&quot;&gt;La orden ser&#225; validada que se reciba el pago de la
+                    orden [Order:Order&lt;span lang=&quot;en-us&quot;&gt;Number&lt;/span&gt;] y un correo de confirmaci&#243;n ser&#225;
+                    enviado&lt;/font&gt;&lt;/p&gt;
+            &lt;p class=&quot;style1&quot; style=&quot;background-image: initial; background-attachment: initial;
+                background-origin: initial; background-clip: initial; background-color: white;&quot;&gt;
+                &lt;font class=&quot;style3&quot; color=&quot;black&quot;&gt;Muchas gracias por su compra&lt;/font&gt;&lt;/p&gt;
+            &lt;p class=&quot;style2&quot; style=&quot;background-image: initial; background-attachment: initial;
+                background-origin: initial; background-clip: initial; background-color: white;&quot;&gt;
+                &lt;font class=&quot;style3&quot; color=&quot;black&quot;&gt;Detalle de la compra&lt;/font&gt;&lt;/p&gt;
+            &lt;p class=&quot;style1&quot; style=&quot;background-image: initial; background-attachment: initial;
+                background-origin: initial; background-clip: initial; background-color: white;&quot;&gt;
+                &lt;font class=&quot;style3&quot; color=&quot;black&quot;&gt;[Template:order.text.template]&lt;/font&gt;&lt;/p&gt;
+        &lt;/div&gt;
+    &lt;/span&gt;
+    &lt;br class=&quot;Apple-interchange-newline&quot; /&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+]]></chqpayment.text><dashboard.text Lang="None "><![CDATA[&lt;table width=&quot;100%&quot;&gt;
     &lt;tbody&gt;
         &lt;tr&gt;
             &lt;td colspan=&quot;3&quot;&gt;
@@ -46,13 +98,31 @@ Se ha seleccionado como m&amp;eacute;todo de pago transferencia electr&amp;oacut
             [Report:dash_LatestOrders]       &lt;/span&gt;&lt;/td&gt;
         &lt;/tr&gt;
     &lt;/tbody&gt;
-&lt;/table&gt;]]></dashboard.text><emptycart.text Lang="None "><![CDATA[&lt;span style=&quot;font-family: tahoma; font-size: 13px;&quot;&gt;Carrito vacio&lt;/span&gt;]]></emptycart.text><extradetail.text Lang="None "><![CDATA[&lt;p style=&quot;margin-bottom: 0.0001pt; line-height: normal; background-image: initial; background-attachment: initial; background-origin: initial; background-clip: initial; background-color: white;&quot;&gt;&lt;span style=&quot;color: black; font-size: 14px; font-family: tahoma;&quot;&gt;Informaci&amp;oacute;n adicional&lt;/span&gt; &lt;/p&gt;]]></extradetail.text><FormaPago Lang="None "><![CDATA[&lt;p style=&quot;margin-bottom: 0.0001pt; line-height: normal;&quot;&gt;&lt;span style=&quot;font-family: verdana; font-size: 11px;&quot;&gt;Por favor depositar el monto total de la orden a las siguientes cuentas&lt;/span&gt;&lt;/p&gt;
-&lt;ul style=&quot;list-style-type: square;&quot;&gt;
-    &lt;li style=&quot;line-height: normal;&quot;&gt;&lt;span style=&quot;font-family: verdana; font-size: 11px;&quot;&gt;BNCR - &lt;/span&gt;&lt;strong&gt;&lt;span style=&quot;font-family: verdana; font-size: 11px;&quot;&gt;#Cuenta&lt;/span&gt;&lt;/strong&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p style=&quot;margin-bottom: 0.0001pt; line-height: normal;&quot;&gt;&lt;span style=&quot;font-family: verdana; font-size: 11px;&quot;&gt;En la descripci&amp;oacute;n del dep&amp;oacute;sito poner el numero de orden&amp;nbsp;&lt;/span&gt;&lt;strong&gt;&lt;span style=&quot;font-family: verdana; font-size: 11px;&quot;&gt;[Order:OrderNumber]&amp;nbsp;&lt;/span&gt;&lt;/strong&gt;&lt;span style=&quot;font-family: verdana; font-size: 11px;&quot;&gt;para identificar su pago en caso contrario &lt;/span&gt;&lt;strong&gt;&lt;span style=&quot;font-family: verdana; font-size: 11px;&quot;&gt;NO&lt;/span&gt;&lt;/strong&gt;&lt;span style=&quot;font-family: verdana; font-size: 11px;&quot;&gt; se podr&amp;aacute; verificar el mismo&lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;&lt;br /&gt;
-&lt;/p&gt;]]></FormaPago><gatewaymsg.text Lang="None "><![CDATA[&lt;p&gt;&lt;strong&gt;&lt;span style=&quot;font-family: tahoma; font-size: 13px;&quot;&gt;Pago por transferencia&amp;nbsp;&lt;/span&gt;&lt;/strong&gt;&lt;span style=&quot;font-family: tahoma; font-size: 13px; font-weight: bold;&quot;&gt;electr&amp;oacute;nica&lt;/span&gt;&lt;/p&gt;]]></gatewaymsg.text><jqtreeview.code Lang="None "><![CDATA[&lt;script language='javascript' type='text/javascript'&gt; jQuery(document).ready(function(){jQuery('#NBStoreTreeMenu').treeview({animated:'fast', collapsed: true, persist: 'location'});}); &lt;/script&gt;]]></jqtreeview.code><jqueryaccordion.code Lang="None "><![CDATA[&lt;script language='javascript' type='text/javascript'&gt; jQuery('#NBStoreAccordion').accordion({ active: false, header: '.nbstoremenuhead', autoheight: false, navigation: true, event: 'mouseover' }); &lt;/script&gt;]]></jqueryaccordion.code><jquerylightbox.code Lang="None "><![CDATA[jQuery(function() { 	jQuery('.jquerylightbox').lightBox(); }); ]]></jquerylightbox.code><jquerylightbox.template Lang="None "><![CDATA[&lt;table height=&quot;302&quot; width=&quot;302&quot; cellspacing=&quot;0&quot; cellpadding=&quot;0&quot; border=&quot;0&quot; bgcolor=&quot;#ffffff&quot;&gt;     &lt;tbody&gt;         &lt;tr&gt;             &lt;td valign=&quot;middle&quot; align=&quot;center&quot; style=&quot;border: 1px solid rgb(216, 208, 187);&quot;&gt;&lt;a href=&quot;[Product:ImageURL]&quot; class=&quot;jquerylightbox&quot; rel=&quot;GRP1&quot; title=&quot;[Product:ImageDesc]&quot;&gt;&lt;img border=&quot;0&quot; src=&quot;[Product:ImageThumb]&quot; alt=&quot;[Product:ImageDesc]&quot; /&gt;&lt;/a&gt;&lt;/td&gt;         &lt;/tr&gt;     &lt;/tbody&gt; &lt;/table&gt;]]></jquerylightbox.template><jquerylightboxgallery.template Lang="None "><![CDATA[&lt;table height=&quot;122&quot; width=&quot;122&quot; cellspacing=&quot;0&quot; cellpadding=&quot;0&quot; border=&quot;0&quot; bgcolor=&quot;#ffffff&quot;&gt;     &lt;tbody&gt;         &lt;tr&gt;             &lt;td valign=&quot;middle&quot; align=&quot;center&quot; style=&quot;border: 1px solid rgb(216, 208, 187);&quot;&gt;&lt;a href=&quot;[Product:ImageURL]&quot; rel=&quot;GRP1&quot; class=&quot;jquerylightbox&quot; title=&quot;[Product:ImageDesc]&quot;&gt;&lt;img border=&quot;0&quot; src=&quot;[Product:ImageThumb]&quot; alt=&quot;[Product:ImageDesc]&quot; /&gt;&lt;/a&gt;&lt;/td&gt;         &lt;/tr&gt;     &lt;/tbody&gt; &lt;/table&gt;]]></jquerylightboxgallery.template><logintext.text Lang="None "><![CDATA[&lt;p&gt;&lt;span style=&quot;font-family: tahoma; font-size: 14px;&quot;&gt;Debe de ingresar al sistema para poder realizar su orden&lt;/span&gt;&lt;/p&gt;
+&lt;/table&gt;]]></dashboard.text><emptycart.text Lang="None "><![CDATA[&lt;span style=&quot;font-family: tahoma; font-size: 13px;&quot;&gt;Carrito vacio&lt;/span&gt;]]></emptycart.text><extradetail.text Lang="None "><![CDATA[&lt;p style=&quot;margin-bottom: 0.0001pt; line-height: normal; background-image: initial; background-attachment: initial; background-origin: initial; background-clip: initial; background-color: white;&quot;&gt;&lt;span style=&quot;color: black; font-size: 14px; font-family: tahoma;&quot;&gt;Informaci&amp;oacute;n adicional&lt;/span&gt; &lt;/p&gt;]]></extradetail.text><FormaPago Lang="None "><![CDATA[&lt;!DOCTYPE html PUBLIC &quot;-//W3C//DTD XHTML 1.0 Transitional//EN&quot; &quot;http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd&quot;&gt;
+
+&lt;html xmlns=&quot;http://www.w3.org/1999/xhtml&quot;&gt;
+&lt;head&gt;
+    &lt;title&gt;&lt;/title&gt;
+    &lt;style type=&quot;text/css&quot;&gt;
+        .style1
+        {
+            font-family: Tahoma;
+            font-size: small;
+        }
+    &lt;/style&gt;
+&lt;/head&gt;
+&lt;body class=&quot;style1&quot;&gt;
+Por favor depositar el monto total de la orden a las siguiente cuenta del Banco Nacional de Costa Rica
+    &lt;ul&gt;
+        &lt;li&gt;# Cuenta&lt;/li&gt;
+    &lt;/ul&gt;
+    
+        En la descripci&#243;n del dep&#243;sito poner el numero de orden [Order:Order&lt;span 
+        lang=&quot;en-us&quot;&gt;ID&lt;/span&gt;] para identificar su pago en caso contrario NO se podr&#225; verificar el mismo
+
+&lt;/body&gt;
+&lt;/html&gt;
+]]></FormaPago><gatewaymsg.text Lang="None "><![CDATA[&lt;!DOCTYPE html PUBLIC &quot;-//W3C//DTD XHTML 1.0 Transitional//EN&quot; &quot;http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd&quot;&gt; &lt;html xmlns=&quot;http://www.w3.org/1999/xhtml&quot;&gt; &lt;head&gt; &lt;style type=&quot;text/css&quot;&gt; .style1 { font-family: Tahoma; font-size: small; } &lt;/style&gt; &lt;/head&gt; &lt;body&gt; &lt;p class=&quot;style1&quot;&gt; El pago por transferencia requiere que se deposite&lt;span lang=&quot;en-us&quot;&gt; &lt;/span&gt;el total de la orden&lt;br /&gt; en las cuentas de [Template:NombreTienda]. Informaci&#243;n detallada de&lt;br /&gt; c&#243;mo hacer el pago se enviara por correo electr&#243;nico cuando se termine&lt;br /&gt; el proceso de compra &lt;/p&gt; &lt;/body&gt; &lt;/html&gt; ]]></gatewaymsg.text><jqtreeview.code Lang="None "><![CDATA[&lt;script language='javascript' type='text/javascript'&gt; jQuery(document).ready(function(){jQuery('#NBStoreTreeMenu').treeview({animated:'fast', collapsed: true, persist: 'location'});}); &lt;/script&gt;]]></jqtreeview.code><jqueryaccordion.code Lang="None "><![CDATA[&lt;script language='javascript' type='text/javascript'&gt; jQuery('#NBStoreAccordion').accordion({ active: false, header: '.nbstoremenuhead', autoheight: false, navigation: true, event: 'mouseover' }); &lt;/script&gt;]]></jqueryaccordion.code><jquerylightbox.code Lang="None "><![CDATA[jQuery(function() { 	jQuery('.jquerylightbox').lightBox(); }); ]]></jquerylightbox.code><jquerylightbox.template Lang="None "><![CDATA[&lt;table height=&quot;302&quot; width=&quot;302&quot; cellspacing=&quot;0&quot; cellpadding=&quot;0&quot; border=&quot;0&quot; bgcolor=&quot;#ffffff&quot;&gt;     &lt;tbody&gt;         &lt;tr&gt;             &lt;td valign=&quot;middle&quot; align=&quot;center&quot; style=&quot;border: 1px solid rgb(216, 208, 187);&quot;&gt;&lt;a href=&quot;[Product:ImageURL]&quot; class=&quot;jquerylightbox&quot; rel=&quot;GRP1&quot; title=&quot;[Product:ImageDesc]&quot;&gt;&lt;img border=&quot;0&quot; src=&quot;[Product:ImageThumb]&quot; alt=&quot;[Product:ImageDesc]&quot; /&gt;&lt;/a&gt;&lt;/td&gt;         &lt;/tr&gt;     &lt;/tbody&gt; &lt;/table&gt;]]></jquerylightbox.template><jquerylightboxgallery.template Lang="None "><![CDATA[&lt;table height=&quot;122&quot; width=&quot;122&quot; cellspacing=&quot;0&quot; cellpadding=&quot;0&quot; border=&quot;0&quot; bgcolor=&quot;#ffffff&quot;&gt;     &lt;tbody&gt;         &lt;tr&gt;             &lt;td valign=&quot;middle&quot; align=&quot;center&quot; style=&quot;border: 1px solid rgb(216, 208, 187);&quot;&gt;&lt;a href=&quot;[Product:ImageURL]&quot; rel=&quot;GRP1&quot; class=&quot;jquerylightbox&quot; title=&quot;[Product:ImageDesc]&quot;&gt;&lt;img border=&quot;0&quot; src=&quot;[Product:ImageThumb]&quot; alt=&quot;[Product:ImageDesc]&quot; /&gt;&lt;/a&gt;&lt;/td&gt;         &lt;/tr&gt;     &lt;/tbody&gt; &lt;/table&gt;]]></jquerylightboxgallery.template><logintext.text Lang="None "><![CDATA[&lt;p&gt;&lt;span style=&quot;font-family: tahoma; font-size: 14px;&quot;&gt;Debe de ingresar al sistema para poder realizar su orden&lt;/span&gt;&lt;/p&gt;
 &lt;p&gt;   &lt;/p&gt;
 &lt;table width=&quot;100%&quot; border=&quot;0&quot;&gt;
     &lt;tbody&gt;
@@ -65,153 +135,192 @@ Se ha seleccionado como m&amp;eacute;todo de pago transferencia electr&amp;oacut
     &lt;/tbody&gt;
 &lt;/table&gt;
 &lt;p&gt;&lt;br /&gt;
-&lt;/p&gt;]]></logintext.text><minicart.template Lang="None "><![CDATA[&lt;img alt=&quot;&quot; src=&quot;/DesktopModules/NB_Store/img/cart.png&quot; style=&quot;border-width: 0px;border-style: solid;&quot; /&gt;&lt;br /&gt;
-&lt;span style=&quot;font-family: tahoma; font-size: 13px;&quot;&gt;Carrito [Cart:Qty] articulo(s) : [Cart:OrderTotal] &lt;/span&gt;]]></minicart.template><minicartempty.template Lang="None "><![CDATA[&lt;div style=&quot;padding-top: 3px; padding-right: 3px; padding-bottom: 3px; padding-left: 3px; background-image: none; margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; text-align: left; word-wrap: break-word; background-color: white;&quot;&gt;&lt;img alt=&quot;&quot; src=&quot;http://calzadokessler.cr/DesktopModules/NB_Store/img/cart.png&quot; style=&quot;border-width: initial; border-color: initial;border-width: 0px;border-style: solid;&quot; /&gt;&lt;br /&gt;
-&lt;span style=&quot;font-family: tahoma; font-size: 13px;&quot;&gt;Carrito [Cart:Qty] articulo(s) : [Cart:OrderTotal]&lt;/span&gt;&lt;/div&gt;]]></minicartempty.template><nextday.shiptemplate Lang="None "><![CDATA[ Next Day Delivery. (Before 4pm) ([TAG:SHIPPINGCOST]) ]]></nextday.shiptemplate><noimage.template Lang="None "><![CDATA[&lt;table height=&quot;302&quot; width=&quot;302&quot; cellspacing=&quot;0&quot; cellpadding=&quot;0&quot; border=&quot;0&quot; bgcolor=&quot;#ffffff&quot;&gt;     &lt;tbody&gt;         &lt;tr&gt;             &lt;td valign=&quot;middle&quot; align=&quot;center&quot; style=&quot;border: 1px solid rgb(216, 208, 187);&quot;&gt;&lt;img border=&quot;0&quot; src=&quot;[Product:ImageThumb]&quot; alt=&quot;[Product:ImageDesc]&quot; /&gt;&lt;/td&gt;         &lt;/tr&gt;     &lt;/tbody&gt; &lt;/table&gt;]]></noimage.template><noimagegallery.template Lang="None "><![CDATA[&lt;table height=&quot;122&quot; width=&quot;122&quot; cellspacing=&quot;0&quot; cellpadding=&quot;0&quot; border=&quot;0&quot; bgcolor=&quot;#ffffff&quot;&gt;     &lt;tbody&gt;         &lt;tr&gt;             &lt;td valign=&quot;middle&quot; align=&quot;center&quot; style=&quot;border: 1px solid rgb(216, 208, 187);&quot;&gt;&lt;img border=&quot;0&quot; src=&quot;[Product:ImageThumb]&quot; alt=&quot;[Product:ImageDesc]&quot; /&gt;&lt;/td&gt;         &lt;/tr&gt;     &lt;/tbody&gt; &lt;/table&gt;]]></noimagegallery.template><NombreTienda Lang="None "><![CDATA[&lt;a href=&quot;http://www.calzadokessler.com&quot;&gt;Calzado Kessler&lt;/a&gt;]]></NombreTienda><NombreTiendaTexto Lang="None "><![CDATA[Calzado Kessler]]></NombreTiendaTexto><nosearchresult.template Lang="None "><![CDATA[&lt;h1&gt;&lt;strong&gt;&lt;span style=&quot;color: #000000;&quot;&gt;No se encontraron productos.&lt;/span&gt;&lt;/strong&gt;&lt;/h1&gt;]]></nosearchresult.template><NyroModal.template Lang="None "><![CDATA[&lt;table height=&quot;302&quot; width=&quot;302&quot; cellspacing=&quot;0&quot; cellpadding=&quot;0&quot; border=&quot;0&quot; bgcolor=&quot;#ffffff&quot;&gt;     &lt;tbody&gt;         &lt;tr&gt;             &lt;td valign=&quot;middle&quot; align=&quot;center&quot; style=&quot;border: 1px solid rgb(216, 208, 187);&quot;&gt;&lt;a href=&quot;[Product:ImageURL]&quot; class=&quot;nyroModal&quot; rel=&quot;GRP1&quot; title=&quot;[Product:ImageDesc]&quot;&gt;&lt;img border=&quot;0&quot; src=&quot;[Product:ImageThumb]&quot; alt=&quot;[Product:ImageDesc]&quot; /&gt;&lt;/a&gt;&lt;/td&gt;         &lt;/tr&gt;     &lt;/tbody&gt; &lt;/table&gt;]]></NyroModal.template><NyroModalGallery.template Lang="None "><![CDATA[&lt;table height=&quot;122&quot; width=&quot;122&quot; cellspacing=&quot;0&quot; cellpadding=&quot;0&quot; border=&quot;0&quot; bgcolor=&quot;#ffffff&quot;&gt;     &lt;tbody&gt;         &lt;tr&gt;             &lt;td valign=&quot;middle&quot; align=&quot;center&quot; style=&quot;border: 1px solid rgb(216, 208, 187);&quot;&gt;&lt;a href=&quot;[Product:ImageURL]&quot; rel=&quot;GRP1&quot; class=&quot;nyroModal&quot; title=&quot;[Product:ImageDesc]&quot;&gt;&lt;img border=&quot;0&quot; src=&quot;[Product:ImageThumb]&quot; alt=&quot;[Product:ImageDesc]&quot; /&gt;&lt;/a&gt;&lt;/td&gt;         &lt;/tr&gt;     &lt;/tbody&gt; &lt;/table&gt;]]></NyroModalGallery.template><order.email.template Lang="None "><![CDATA[&lt;p&gt;&lt;br /&gt;
-&lt;/p&gt;
-&lt;style type=&quot;text/css&quot;&gt;
-    body table td { font-family: Trebuchet MS; font-size: 13px; color: black; } .emailheader { font-family: Arial, Helvetica; font-size: 22px; font-weight: bold; color: #656565; } .cartheader { color: white; font-size: 11px; font-family: Arial; font-weight: bold; background-color: #656565; } A:link, A:visited, A:active { text-decoration: underline; color: black; } A:hover { text-decoration: underline; color: #ff3300; }
-&lt;/style&gt;
-&lt;p&gt;&lt;br /&gt;
-&lt;/p&gt;
-&lt;p&gt;&lt;br /&gt;
-&lt;/p&gt;
-&lt;table width=&quot;512&quot; cellspacing=&quot;0&quot; cellpadding=&quot;0&quot; border=&quot;0&quot; id=&quot;Table1&quot;&gt;
-    &lt;tbody&gt;
-        &lt;tr&gt;
-            &lt;td valign=&quot;top&quot; style=&quot;width: 50%;&quot;&gt;&lt;strong&gt;&lt;span style=&quot;font-family: tahoma;&quot;&gt;Numero Orden :&lt;/span&gt;&lt;/strong&gt;&lt;span style=&quot;font-family: tahoma;&quot;&gt;           &lt;br /&gt;
-            [Order:OrderNumber]           &lt;br /&gt;
-            &lt;/span&gt;           &lt;strong&gt;&lt;span style=&quot;font-family: tahoma;&quot;&gt;Fecha Orden :&lt;/span&gt;&lt;/strong&gt;&lt;span style=&quot;font-family: tahoma;&quot;&gt;           [Order:OrderDate]&lt;/span&gt;&lt;/td&gt;
-            &lt;td align=&quot;right&quot; style=&quot;width: 50%;&quot;&gt;&lt;span style=&quot;font-family: tahoma;&quot;&gt;&lt;strong&gt;&lt;span style=&quot;font-size: 20px;&quot;&gt;             ORDEN&lt;/span&gt;&lt;/strong&gt;&lt;/span&gt;&lt;/td&gt;
-        &lt;/tr&gt;
-    &lt;/tbody&gt;
-&lt;/table&gt;
-&lt;p&gt;&lt;br /&gt;
-&lt;/p&gt;
-&lt;table width=&quot;512&quot; cellspacing=&quot;0&quot; cellpadding=&quot;0&quot; border=&quot;0&quot; id=&quot;Table2&quot;&gt;
-    &lt;tbody&gt;
-        &lt;tr&gt;
-            &lt;td valign=&quot;top&quot;&gt;
-            &lt;p&gt;&lt;strong&gt;&lt;span style=&quot;font-family: tahoma;&quot;&gt;Facturado a :&lt;/span&gt;&lt;/strong&gt;&lt;span style=&quot;font-family: tahoma;&quot;&gt;           &lt;br /&gt;
-            [BAddress:AddressName]           &lt;br /&gt;
-            [BAddress:Address1]           &lt;br /&gt;
-            [BAddress:Address2]           &lt;br /&gt;
-            [BAddress:PostalCode] [BAddress:City]           &lt;br /&gt;
-            [BAddress:RegionCode]           &lt;br /&gt;
-            [BAddress:Country]           &lt;br /&gt;
-            [BAddress:Phone1]           &lt;br /&gt;
-            [BAddress:Phone2]&lt;br /&gt;
-            [Order:Email]&lt;/span&gt;&lt;/p&gt;
-            &lt;/td&gt;
-            &lt;td valign=&quot;top&quot; align=&quot;right&quot;&gt;&lt;strong&gt;&lt;span style=&quot;font-family: tahoma;&quot;&gt;Enviado a :&lt;/span&gt;&lt;/strong&gt;&lt;span style=&quot;font-family: tahoma;&quot;&gt;           &lt;br /&gt;
-            [SAddress:AddressName]           &lt;br /&gt;
-            [SAddress:Address1]           &lt;br /&gt;
-            [SAddress:Address2]           &lt;br /&gt;
-            [SAddress:PostalCode] [SAddress:City]           &lt;br /&gt;
-            [SAddress:RegionCode]           &lt;br /&gt;
-            [SAddress:Country]           &lt;br /&gt;
-            [SAddress:Phone1]           &lt;br /&gt;
-            [SAddress:Phone2]&lt;/span&gt;&lt;/td&gt;
-        &lt;/tr&gt;
-    &lt;/tbody&gt;
-&lt;/table&gt;
-&lt;p&gt;&lt;br /&gt;
-&lt;/p&gt;
-&lt;span style=&quot;font-family: tahoma; font-size: 11px;&quot;&gt;       [Order:DetailRows]        &lt;/span&gt;
-&lt;table width=&quot;512&quot; cellspacing=&quot;0&quot; cellpadding=&quot;5&quot; border=&quot;0&quot; id=&quot;Table3&quot;&gt;
-    &lt;tbody&gt;
-        &lt;tr valign=&quot;top&quot;&gt;
-            &lt;td align=&quot;center&quot; class=&quot;cartheader&quot;&gt;&lt;span style=&quot;font-family: tahoma;&quot;&gt;Descripcion&lt;/span&gt;&lt;/td&gt;
-            &lt;td align=&quot;center&quot; class=&quot;cartheader&quot;&gt;&lt;span style=&quot;font-family: tahoma;&quot;&gt;Precio&lt;/span&gt;&lt;/td&gt;
-            &lt;td align=&quot;center&quot; class=&quot;cartheader&quot;&gt;&lt;span style=&quot;font-family: tahoma;&quot;&gt;Can&lt;/span&gt;&lt;/td&gt;
-            &lt;td align=&quot;center&quot; class=&quot;cartheader&quot;&gt;&lt;span style=&quot;font-family: tahoma;&quot;&gt;Total&lt;/span&gt;&lt;/td&gt;
-        &lt;/tr&gt;
-        &lt;tr&gt;
-            &lt;td align=&quot;right&quot; colspan=&quot;3&quot;&gt;&lt;span style=&quot;font-family: tahoma;&quot;&gt;Flete&lt;/span&gt;&lt;/td&gt;
-            &lt;td align=&quot;right&quot;&gt;&lt;span style=&quot;font-family: tahoma;&quot;&gt;[Order:ShippingCost]&lt;/span&gt;&lt;/td&gt;
-        &lt;/tr&gt;
-        &lt;tr&gt;
-            &lt;td align=&quot;right&quot; colspan=&quot;3&quot;&gt;&lt;span style=&quot;font-family: tahoma;&quot;&gt;Total&lt;/span&gt;&lt;/td&gt;
-            &lt;td align=&quot;right&quot;&gt;&lt;strong&gt;&lt;span style=&quot;font-family: tahoma;&quot;&gt;[Order:Total]&lt;/span&gt;&lt;/strong&gt;&lt;/td&gt;
-        &lt;/tr&gt;
-    &lt;/tbody&gt;
-&lt;/table&gt;
-&lt;p&gt;&lt;br /&gt;
-&lt;/p&gt;
-&lt;p&gt;&lt;span style=&quot;font-family: tahoma; font-size: 12px;&quot;&gt;Informaci&amp;oacute;n&amp;nbsp;Adicional:&lt;br /&gt;
-[Order:NoteMsg]&lt;/span&gt;&lt;/p&gt;]]></order.email.template><order.text.template Lang="None "><![CDATA[&lt;p&gt;&lt;br /&gt;
-&lt;/p&gt;
-&lt;style type=&quot;text/css&quot;&gt;
-    body table td { font-family: Trebuchet MS; font-size: 13px; color: black; } .emailheader { font-family: Arial, Helvetica; font-size: 22px; font-weight: bold; color: #656565; } .cartheader { color: white; font-size: 11px; font-family: Arial; font-weight: bold; background-color: #656565; } A:link, A:visited, A:active { text-decoration: underline; color: black; } A:hover { text-decoration: underline; color: #ff3300; }
-&lt;/style&gt;
-&lt;p&gt;&lt;br /&gt;
-&lt;/p&gt;
-&lt;p&gt;&lt;br /&gt;
-&lt;/p&gt;
-&lt;table width=&quot;512&quot; cellspacing=&quot;0&quot; cellpadding=&quot;0&quot; border=&quot;0&quot; id=&quot;Table1&quot;&gt;
-    &lt;tbody&gt;
-        &lt;tr&gt;
-            &lt;td valign=&quot;top&quot; style=&quot;width: 50%;&quot;&gt;&lt;strong&gt;&lt;span style=&quot;font-family: tahoma;&quot;&gt;Numero Orden :&lt;/span&gt;&lt;/strong&gt;&lt;span style=&quot;font-family: tahoma;&quot;&gt;&lt;br /&gt;
-            [Order:OrderNumber]&lt;br /&gt;
-            &lt;/span&gt; &lt;strong&gt;&lt;span style=&quot;font-family: tahoma;&quot;&gt;Fecha Orden :&lt;/span&gt;&lt;/strong&gt;&lt;span style=&quot;font-family: tahoma;&quot;&gt; [Order:OrderDate]&lt;/span&gt;&lt;/td&gt;
-            &lt;td align=&quot;right&quot; style=&quot;width: 50%;&quot;&gt;&lt;span style=&quot;font-family: tahoma;&quot;&gt;&lt;strong&gt;&lt;span style=&quot;font-size: 20px;&quot;&gt; ORDEN&lt;/span&gt;&lt;/strong&gt;&lt;/span&gt;&lt;/td&gt;
-        &lt;/tr&gt;
-    &lt;/tbody&gt;
-&lt;/table&gt;
-&lt;p&gt;&lt;br /&gt;
-&lt;/p&gt;
-&lt;table width=&quot;512&quot; cellspacing=&quot;0&quot; cellpadding=&quot;0&quot; border=&quot;0&quot; id=&quot;Table2&quot;&gt;
-    &lt;tbody&gt;
-        &lt;tr&gt;
-            &lt;td valign=&quot;top&quot;&gt;
-            &lt;p&gt;&lt;strong&gt;&lt;span style=&quot;font-family: tahoma;&quot;&gt;Facturado a :&lt;/span&gt;&lt;/strong&gt;&lt;span style=&quot;font-family: tahoma;&quot;&gt;&lt;br /&gt;
-            [BAddress:AddressName]&lt;br /&gt;
-            [BAddress:Address1]&lt;br /&gt;
-            [BAddress:Address2]&lt;br /&gt;
-            [BAddress:PostalCode] [BAddress:City]&lt;br /&gt;
-            [BAddress:RegionCode]&lt;br /&gt;
-            [BAddress:Country]&lt;br /&gt;
-            [BAddress:Phone1]&lt;br /&gt;
-            [BAddress:Phone2]&lt;br /&gt;
-            [Order:Email]&lt;/span&gt;&lt;/p&gt;
-            &lt;/td&gt;
-            &lt;td valign=&quot;top&quot; align=&quot;right&quot;&gt;&lt;strong&gt;&lt;span style=&quot;font-family: tahoma;&quot;&gt;Enviado a :&lt;/span&gt;&lt;/strong&gt;&lt;span style=&quot;font-family: tahoma;&quot;&gt;&lt;br /&gt;
-            [SAddress:AddressName]&lt;br /&gt;
-            [SAddress:Address1]&lt;br /&gt;
-            [SAddress:Address2]&lt;br /&gt;
-            [SAddress:PostalCode] [SAddress:City]&lt;br /&gt;
-            [SAddress:RegionCode]&lt;br /&gt;
-            [SAddress:Country]&lt;br /&gt;
-            [SAddress:Phone1]&lt;br /&gt;
-            [SAddress:Phone2]&lt;/span&gt;&lt;/td&gt;
-        &lt;/tr&gt;
-    &lt;/tbody&gt;
-&lt;/table&gt;
-&lt;p&gt;&lt;br /&gt;
-&lt;/p&gt;
-&lt;span style=&quot;font-family: tahoma; font-size: 11px;&quot;&gt; [Order:DetailRows] &lt;/span&gt;
-&lt;table width=&quot;512&quot; cellspacing=&quot;0&quot; cellpadding=&quot;5&quot; border=&quot;0&quot; id=&quot;Table3&quot;&gt;
-    &lt;tbody&gt;
-        &lt;tr valign=&quot;top&quot;&gt;
-            &lt;td align=&quot;center&quot; class=&quot;cartheader&quot;&gt;&lt;span style=&quot;font-family: tahoma;&quot;&gt;Descripcion&lt;/span&gt;&lt;/td&gt;
-            &lt;td align=&quot;center&quot; class=&quot;cartheader&quot;&gt;&lt;span style=&quot;font-family: tahoma;&quot;&gt;Precio&lt;/span&gt;&lt;/td&gt;
-            &lt;td align=&quot;center&quot; class=&quot;cartheader&quot;&gt;&lt;span style=&quot;font-family: tahoma;&quot;&gt;Can&lt;/span&gt;&lt;/td&gt;
-            &lt;td align=&quot;center&quot; class=&quot;cartheader&quot;&gt;&lt;span style=&quot;font-family: tahoma;&quot;&gt;Total&lt;/span&gt;&lt;/td&gt;
-        &lt;/tr&gt;
-        &lt;tr&gt;
-            &lt;td align=&quot;right&quot; colspan=&quot;3&quot;&gt;&lt;span style=&quot;font-family: tahoma;&quot;&gt;Flete&lt;/span&gt;&lt;/td&gt;
-            &lt;td align=&quot;right&quot;&gt;&lt;span style=&quot;font-family: tahoma;&quot;&gt;[Order:ShippingCost]&lt;/span&gt;&lt;/td&gt;
-        &lt;/tr&gt;
-        &lt;tr&gt;
-            &lt;td align=&quot;right&quot; colspan=&quot;3&quot;&gt;&lt;span style=&quot;font-family: tahoma;&quot;&gt;Total&lt;/span&gt;&lt;/td&gt;
-            &lt;td align=&quot;right&quot;&gt;&lt;strong&gt;&lt;span style=&quot;font-family: tahoma;&quot;&gt;[Order:Total]&lt;/span&gt;&lt;/strong&gt;&lt;/td&gt;
-        &lt;/tr&gt;
-    &lt;/tbody&gt;
-&lt;/table&gt;
-&lt;p&gt;&lt;br /&gt;
-&lt;/p&gt;
-&lt;p&gt;&lt;span style=&quot;font-family: tahoma; font-size: 12px;&quot;&gt;Informaci&amp;oacute;n&amp;nbsp;Adicional:&lt;br /&gt;
-[Order:NoteMsg]&lt;/span&gt;&lt;/p&gt;]]></order.text.template><orderprint.text Lang="None "><![CDATA[&lt;p&gt;&lt;span style=&quot;font-family: tahoma; font-size: 14px;&quot;&gt;[Template:order.text.template]&lt;/span&gt;&lt;/p&gt;]]></orderprint.text><ordershipped.email Lang="None "><![CDATA[&lt;p&gt;&lt;span style=&quot;font-family: tahoma; font-size: 14px;&quot;&gt;Su orden ha sido validada&lt;/span&gt;&lt;/p&gt;
+&lt;/p&gt;]]></logintext.text><minicart.template Lang="None "><![CDATA[&lt;a href=&quot;http://calzadokessler.cr/Carrito/tabid/64/language/en-US/Default.aspx&quot;&gt;&lt;img alt=&quot;&quot; style=&quot;border: 0px solid;&quot; src=&quot;/DesktopModules/NB_Store/img/cart.png&quot; /&gt;&lt;/a&gt;&lt;br /&gt;
+&lt;span style=&quot;font-family: tahoma; font-size: 13px;&quot;&gt;&lt;a href=&quot;http://calzadokessler.cr/Carrito/tabid/64/language/en-US/Default.aspx&quot;&gt;&lt;span style=&quot;font-family: tahoma; font-size: 12px;&quot;&gt;Carrito&lt;/span&gt;&lt;/a&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;&amp;nbsp;[Cart:Qty] articulo(s) : [Cart:OrderTotal] &lt;/span&gt;&lt;/span&gt;]]></minicart.template><minicartempty.template Lang="None "><![CDATA[&lt;div style=&quot;background-image: none; text-align: left; padding-bottom: 3px; background-color: white; margin: 0px; padding-left: 3px; padding-right: 3px; word-wrap: break-word; padding-top: 3px;&quot;&gt;&lt;span style=&quot;font-family: tahoma; font-size: 13px;&quot;&gt;&lt;a href=&quot;http://calzadokessler.cr/Carrito/tabid/64/language/en-US/Default.aspx&quot;&gt;&lt;img alt=&quot;&quot; style=&quot;border: 0px solid;&quot; src=&quot;http://calzadokessler.cr/DesktopModules/NB_Store/img/cart.png&quot; /&gt;&lt;/a&gt;&lt;br /&gt;
+&lt;a href=&quot;http://calzadokessler.cr/Carrito/tabid/64/language/en-US/Default.aspx&quot;&gt;&lt;span style=&quot;font-size: 11px;&quot;&gt;Carrito&lt;/span&gt;&lt;/a&gt;&lt;span style=&quot;font-size: 11px;&quot;&gt;&amp;nbsp;[Cart:Qty] articulo(s) : [Cart:OrderTotal]&lt;/span&gt;&lt;/span&gt;&lt;/div&gt;]]></minicartempty.template><nextday.shiptemplate Lang="None "><![CDATA[ Next Day Delivery. (Before 4pm) ([TAG:SHIPPINGCOST]) ]]></nextday.shiptemplate><noimage.template Lang="None "><![CDATA[&lt;table height=&quot;302&quot; width=&quot;302&quot; cellspacing=&quot;0&quot; cellpadding=&quot;0&quot; border=&quot;0&quot; bgcolor=&quot;#ffffff&quot;&gt;     &lt;tbody&gt;         &lt;tr&gt;             &lt;td valign=&quot;middle&quot; align=&quot;center&quot; style=&quot;border: 1px solid rgb(216, 208, 187);&quot;&gt;&lt;img border=&quot;0&quot; src=&quot;[Product:ImageThumb]&quot; alt=&quot;[Product:ImageDesc]&quot; /&gt;&lt;/td&gt;         &lt;/tr&gt;     &lt;/tbody&gt; &lt;/table&gt;]]></noimage.template><noimagegallery.template Lang="None "><![CDATA[&lt;table height=&quot;122&quot; width=&quot;122&quot; cellspacing=&quot;0&quot; cellpadding=&quot;0&quot; border=&quot;0&quot; bgcolor=&quot;#ffffff&quot;&gt;     &lt;tbody&gt;         &lt;tr&gt;             &lt;td valign=&quot;middle&quot; align=&quot;center&quot; style=&quot;border: 1px solid rgb(216, 208, 187);&quot;&gt;&lt;img border=&quot;0&quot; src=&quot;[Product:ImageThumb]&quot; alt=&quot;[Product:ImageDesc]&quot; /&gt;&lt;/td&gt;         &lt;/tr&gt;     &lt;/tbody&gt; &lt;/table&gt;]]></noimagegallery.template><NombreTienda Lang="None "><![CDATA[&lt;a href=&quot;http://www.calzadokessler.com&quot;&gt;Calzado Kessler&lt;/a&gt;]]></NombreTienda><NombreTiendaTexto Lang="None "><![CDATA[Calzado Kessler]]></NombreTiendaTexto><nosearchresult.template Lang="None "><![CDATA[&lt;h1&gt;&lt;strong&gt;&lt;span style=&quot;color: #000000;&quot;&gt;No se encontraron productos.&lt;/span&gt;&lt;/strong&gt;&lt;/h1&gt;]]></nosearchresult.template><NyroModal.template Lang="None "><![CDATA[&lt;table height=&quot;302&quot; width=&quot;302&quot; cellspacing=&quot;0&quot; cellpadding=&quot;0&quot; border=&quot;0&quot; bgcolor=&quot;#ffffff&quot;&gt;     &lt;tbody&gt;         &lt;tr&gt;             &lt;td valign=&quot;middle&quot; align=&quot;center&quot; style=&quot;border: 1px solid rgb(216, 208, 187);&quot;&gt;&lt;a href=&quot;[Product:ImageURL]&quot; class=&quot;nyroModal&quot; rel=&quot;GRP1&quot; title=&quot;[Product:ImageDesc]&quot;&gt;&lt;img border=&quot;0&quot; src=&quot;[Product:ImageThumb]&quot; alt=&quot;[Product:ImageDesc]&quot; /&gt;&lt;/a&gt;&lt;/td&gt;         &lt;/tr&gt;     &lt;/tbody&gt; &lt;/table&gt;]]></NyroModal.template><NyroModalGallery.template Lang="None "><![CDATA[&lt;table height=&quot;122&quot; width=&quot;122&quot; cellspacing=&quot;0&quot; cellpadding=&quot;0&quot; border=&quot;0&quot; bgcolor=&quot;#ffffff&quot;&gt;     &lt;tbody&gt;         &lt;tr&gt;             &lt;td valign=&quot;middle&quot; align=&quot;center&quot; style=&quot;border: 1px solid rgb(216, 208, 187);&quot;&gt;&lt;a href=&quot;[Product:ImageURL]&quot; rel=&quot;GRP1&quot; class=&quot;nyroModal&quot; title=&quot;[Product:ImageDesc]&quot;&gt;&lt;img border=&quot;0&quot; src=&quot;[Product:ImageThumb]&quot; alt=&quot;[Product:ImageDesc]&quot; /&gt;&lt;/a&gt;&lt;/td&gt;         &lt;/tr&gt;     &lt;/tbody&gt; &lt;/table&gt;]]></NyroModalGallery.template><order.email.template Lang="None "><![CDATA[&lt;!DOCTYPE html PUBLIC &quot;-//W3C//DTD XHTML 1.0 Transitional//EN&quot; &quot;http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd&quot;&gt;
+&lt;html xmlns=&quot;http://www.w3.org/1999/xhtml&quot;&gt;
+&lt;head&gt;
+    &lt;style type=&quot;text/css&quot;&gt;
+        .indent
+        {
+            margin-left: 40px;
+        }
+    &lt;/style&gt;
+    &lt;title&gt;&lt;/title&gt;
+&lt;/head&gt;
+&lt;body&gt;
+                        &lt;p&gt;
+                            &lt;style type=&quot;text/css&quot;&gt;
+                                body table td
+                                {
+                                    font-family: Trebuchet MS;
+                                    font-size: 13px;
+                                    color: #444444;
+                                }
+                                .emailheader
+                                {
+                                    font-family: Arial, Helvetica;
+                                    font-size: 22px;
+                                    font-weight: bold;
+                                    color: #656565;
+                                }
+                                .cartheader
+                                {
+                                    color: white;
+                                    font-size: 11px;
+                                    font-family: Arial;
+                                    font-weight: bold;
+                                    background-color: #656565;
+                                }
+                                .style1
+                                {
+                                    background-color: #656565;
+                                    font-family: Tahoma;
+                                }
+                                .style2
+                                {
+                                    font-weight: bold;
+                                }
+                                .style3
+                                {
+                                    font-family: Tahoma;
+                                    font-size: small;
+                                }
+                                .style4
+                                {
+                                    font-family: Tahoma;
+                                    font-size: small;
+                                    font-weight: bold;
+                                }
+                                .style5
+                                {
+                                    font-family: Tahoma;
+                                }
+                                .style6
+                                {
+                                    font-family: Tahoma;
+                                    font-weight: bold;
+                                }
+                                .style7
+                                {
+                                    color: white;
+                                    font-size: 11px;
+                                    font-family: Tahoma;
+                                    font-weight: bold;
+                                    background-color: #656565;
+                                }
+                                .style8
+                                {
+                                    font-family: Tahoma;
+                                    font-size: 22px;
+                                    font-weight: bold;
+                                    color: #656565;
+                                }
+                            &lt;/style&gt;
+                            &lt;table border=&quot;0&quot; cellpadding=&quot;0&quot; cellspacing=&quot;0&quot; width=&quot;100%&quot;&gt;
+                                &lt;tr&gt;
+                                    &lt;td&gt;
+                                        &lt;span lang=&quot;en-us&quot;&gt;&lt;font class=&quot;style8&quot;&gt;ORDEN&lt;/font&gt;&lt;/span&gt;
+                                    &lt;/td&gt;
+                                    &lt;td valign=&quot;top&quot;&gt;
+                                        &lt;strong&gt;&lt;span lang=&quot;en-us&quot; class=&quot;style5&quot;&gt;Numero de Orden&lt;/span&gt;&lt;span class=&quot;style5&quot;&gt;:
+                                        &lt;/span&gt;&lt;/strong&gt;&lt;span class=&quot;style5&quot;&gt;[Order:Order&lt;span lang=&quot;en-us&quot;&gt;Number&lt;/span&gt;]
+                                            &lt;br /&gt;
+                                            &lt;strong&gt;&lt;span lang=&quot;en-us&quot;&gt;Fecha de Orden&lt;/span&gt;:&lt;/strong&gt; [Order:OrderDate]
+                                        &lt;/span&gt;
+                                    &lt;/td&gt;
+                                &lt;/tr&gt;
+                            &lt;/table&gt;
+                        &lt;/p&gt;
+                        &lt;p&gt;
+                            &lt;table border=&quot;0&quot; cellpadding=&quot;0&quot; cellspacing=&quot;0&quot; width=&quot;100%&quot;&gt;
+                                &lt;tr&gt;
+                                    &lt;td valign=&quot;top&quot; class=&quot;style5&quot;&gt;
+                                        &lt;span class=&quot;style2&quot; lang=&quot;en-us&quot;&gt;Enviar Factura A:&lt;/span&gt;&lt;br /&gt;
+                                        [BAddress:AddressName]
+                                        &lt;br /&gt;
+                                        [BAddress:Address1]
+                                        &lt;br /&gt;
+                                        [BAddress:Address2]
+                                        &lt;br /&gt;
+                                        [BAddress:PostalCode] [BAddress:City]
+                                        &lt;br /&gt;
+                                        [BAddress:RegionCode]
+                                        &lt;br /&gt;
+                                        [BAddress:Country]
+                                        &lt;br /&gt;
+                                        [BAddress:Phone1]
+                                        &lt;br /&gt;
+                                        [BAddress:Phone2]&lt;br /&gt;
+                                        [Order:Email]
+                                    &lt;/td&gt;
+                                    &lt;td align=&quot;right&quot; valign=&quot;top&quot;&gt;
+                                        &lt;strong&gt;&lt;span lang=&quot;en-us&quot; class=&quot;style5&quot;&gt;Enviar Producto A&lt;/span&gt;&lt;span class=&quot;style5&quot;&gt;:&lt;/span&gt;&lt;/strong&gt;&lt;span
+                                            class=&quot;style5&quot;&gt;
+                                            &lt;br /&gt;
+                                            [SAddress:AddressName]
+                                            &lt;br /&gt;
+                                            [SAddress:Address1]
+                                            &lt;br /&gt;
+                                            [SAddress:Address2]
+                                            &lt;br /&gt;
+                                            [SAddress:PostalCode] [SAddress:City]
+                                            &lt;br /&gt;
+                                            [SAddress:RegionCode]
+                                            &lt;br /&gt;
+                                            [SAddress:Country]
+                                            &lt;br /&gt;
+                                            [SAddress:Phone1]
+                                            &lt;br /&gt;
+                                            [SAddress:Phone2] &lt;/span&gt;
+                                    &lt;/td&gt;
+                                &lt;/tr&gt;
+                            &lt;/table&gt;
+                        &lt;/p&gt;
+                        &lt;p&gt;
+                            &lt;table border=&quot;0&quot; cellpadding=&quot;5&quot; cellspacing=&quot;0&quot; width=&quot;100%&quot;&gt;
+                                &lt;tr valign=&quot;top&quot;&gt;
+                                    &lt;td align=&quot;center&quot; class=&quot;style7&quot;&gt;
+                                        Items
+                                    &lt;/td&gt;
+                                    &lt;td align=&quot;center&quot; class=&quot;cartheader&quot;&gt;
+                                        &lt;span lang=&quot;en-us&quot;&gt;P&lt;span class=&quot;style1&quot;&gt;recio&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;style5&quot;&gt;
+                                        &lt;/span&gt;
+                                    &lt;/td&gt;
+                                    &lt;td align=&quot;center&quot; class=&quot;cartheader&quot;&gt;
+                                        &lt;span lang=&quot;en-us&quot;&gt;C&lt;span class=&quot;style1&quot;&gt;an&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;style5&quot;&gt; &lt;/span&gt;
+                                    &lt;/td&gt;
+                                    &lt;td align=&quot;center&quot; class=&quot;style7&quot;&gt;
+                                        Total
+                                    &lt;/td&gt;
+                                    &lt;caption class=&quot;style5&quot;&gt;
+                                        [Order:DetailRows]&lt;tr&gt;
+                                            &lt;td align=&quot;right&quot; colspan=&quot;3&quot;&gt;
+                                                &lt;span lang=&quot;en-us&quot; class=&quot;style5&quot;&gt;Envio&lt;/span&gt;
+                                            &lt;/td&gt;
+                                            &lt;td align=&quot;right&quot; class=&quot;style5&quot;&gt;
+                                                [Order:ShippingCost]
+                                            &lt;/td&gt;
+                                        &lt;/tr&gt;
+                                        &lt;tr&gt;
+                                            &lt;td align=&quot;right&quot; colspan=&quot;3&quot; class=&quot;style6&quot;&gt;
+                                                Total
+                                            &lt;/td&gt;
+                                            &lt;td align=&quot;right&quot; class=&quot;style5&quot;&gt;
+                                                &lt;strong&gt;[Order:Total]&lt;/strong&gt;
+                                            &lt;/td&gt;
+                                        &lt;/tr&gt;
+                            &lt;/table&gt;
+                        &lt;/p&gt;
+                        &lt;p&gt;
+                            &lt;span class=&quot;style4&quot;&gt;Informaci&#243;n Adicional&lt;/span&gt;&lt;span class=&quot;style3&quot; lang=&quot;en-us&quot;&gt;:&lt;/span&gt;
+                            &lt;br class=&quot;style3&quot; /&gt;
+                            &lt;span class=&quot;style3&quot;&gt;[Order:NoteMsg] &lt;/span&gt;
+                        &lt;/p&gt;
+                    &lt;/p&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+]]></order.email.template><order.text.template Lang="None "><![CDATA[&lt;!DOCTYPE html PUBLIC &quot;-//W3C//DTD XHTML 1.0 Transitional//EN&quot; &quot;http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd&quot;&gt; &lt;html xmlns=&quot;http://www.w3.org/1999/xhtml&quot;&gt; &lt;head&gt; &lt;style type=&quot;text/css&quot;&gt; .indent { margin-left: 40px; } &lt;/style&gt; &lt;title&gt;&lt;/title&gt; &lt;/head&gt; &lt;body&gt; &lt;p&gt; &lt;style type=&quot;text/css&quot;&gt; body table td { font-family: Trebuchet MS; font-size: 13px; color: #444444; } .emailheader { font-family: Arial, Helvetica; font-size: 22px; font-weight: bold; color: #656565; } .cartheader { color: white; font-size: 11px; font-family: Arial; font-weight: bold; background-color: #656565; } .style1 { background-color: #656565; font-family: Tahoma; } .style2 { font-weight: bold; } .style3 { font-family: Tahoma; font-size: small; } .style4 { font-family: Tahoma; font-size: small; font-weight: bold; } .style5 { font-family: Tahoma; } .style6 { font-family: Tahoma; font-weight: bold; } .style7 { color: white; font-size: 11px; font-family: Tahoma; font-weight: bold; background-color: #656565; } .style8 { font-family: Tahoma; font-size: 22px; font-weight: bold; color: #656565; } &lt;/style&gt; &lt;table border=&quot;0&quot; cellpadding=&quot;0&quot; cellspacing=&quot;0&quot; width=&quot;100%&quot;&gt; &lt;tr&gt; &lt;td&gt; &lt;span lang=&quot;en-us&quot;&gt;&lt;font class=&quot;style8&quot;&gt;ORDEN&lt;/font&gt;&lt;/span&gt; &lt;/td&gt; &lt;td valign=&quot;top&quot;&gt; &lt;strong&gt;&lt;span lang=&quot;en-us&quot; class=&quot;style5&quot;&gt;Numero de Orden&lt;/span&gt;&lt;span class=&quot;style5&quot;&gt;: &lt;/span&gt;&lt;/strong&gt;&lt;span class=&quot;style5&quot;&gt;[Order:Order&lt;span lang=&quot;en-us&quot;&gt;Number&lt;/span&gt;] &lt;br /&gt; &lt;strong&gt;&lt;span lang=&quot;en-us&quot;&gt;Fecha de Orden&lt;/span&gt;:&lt;/strong&gt; [Order:OrderDate] &lt;/span&gt; &lt;/td&gt; &lt;/tr&gt; &lt;/table&gt; &lt;/p&gt; &lt;p&gt; &lt;table border=&quot;0&quot; cellpadding=&quot;0&quot; cellspacing=&quot;0&quot; width=&quot;100%&quot;&gt; &lt;tr&gt; &lt;td valign=&quot;top&quot; class=&quot;style5&quot;&gt; &lt;span class=&quot;style2&quot; lang=&quot;en-us&quot;&gt;Enviar Factura A:&lt;/span&gt;&lt;br /&gt; [BAddress:AddressName] &lt;br /&gt; [BAddress:Address1] &lt;br /&gt; [BAddress:Address2] &lt;br /&gt; [BAddress:PostalCode] [BAddress:City] &lt;br /&gt; [BAddress:RegionCode] &lt;br /&gt; [BAddress:Country] &lt;br /&gt; [BAddress:Phone1] &lt;br /&gt; [BAddress:Phone2]&lt;br /&gt; [Order:Email] &lt;/td&gt; &lt;td align=&quot;right&quot; valign=&quot;top&quot;&gt; &lt;strong&gt;&lt;span lang=&quot;en-us&quot; class=&quot;style5&quot;&gt;Enviar Producto A&lt;/span&gt;&lt;span class=&quot;style5&quot;&gt;:&lt;/span&gt;&lt;/strong&gt;&lt;span class=&quot;style5&quot;&gt; &lt;br /&gt; [SAddress:AddressName] &lt;br /&gt; [SAddress:Address1] &lt;br /&gt; [SAddress:Address2] &lt;br /&gt; [SAddress:PostalCode] [SAddress:City] &lt;br /&gt; [SAddress:RegionCode] &lt;br /&gt; [SAddress:Country] &lt;br /&gt; [SAddress:Phone1] &lt;br /&gt; [SAddress:Phone2] &lt;/span&gt; &lt;/td&gt; &lt;/tr&gt; &lt;/table&gt; &lt;/p&gt; &lt;p&gt; &lt;table border=&quot;0&quot; cellpadding=&quot;5&quot; cellspacing=&quot;0&quot; width=&quot;100%&quot;&gt; &lt;tr valign=&quot;top&quot;&gt; &lt;td align=&quot;center&quot; class=&quot;style7&quot;&gt; Items &lt;/td&gt; &lt;td align=&quot;center&quot; class=&quot;cartheader&quot;&gt; &lt;span lang=&quot;en-us&quot;&gt;P&lt;span class=&quot;style1&quot;&gt;recio&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;style5&quot;&gt; &lt;/span&gt; &lt;/td&gt; &lt;td align=&quot;center&quot; class=&quot;cartheader&quot;&gt; &lt;span lang=&quot;en-us&quot;&gt;C&lt;span class=&quot;style1&quot;&gt;an&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;style5&quot;&gt; &lt;/span&gt; &lt;/td&gt; &lt;td align=&quot;center&quot; class=&quot;style7&quot;&gt; Total &lt;/td&gt; &lt;caption class=&quot;style5&quot;&gt; [Order:DetailRows]&lt;tr&gt; &lt;td align=&quot;right&quot; colspan=&quot;3&quot;&gt; &lt;span lang=&quot;en-us&quot; class=&quot;style5&quot;&gt;Envio&lt;/span&gt; &lt;/td&gt; &lt;td align=&quot;right&quot; class=&quot;style5&quot;&gt; [Order:ShippingCost] &lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td align=&quot;right&quot; colspan=&quot;3&quot; class=&quot;style6&quot;&gt; Total &lt;/td&gt; &lt;td align=&quot;right&quot; class=&quot;style5&quot;&gt; &lt;strong&gt;[Order:Total]&lt;/strong&gt; &lt;/td&gt; &lt;/tr&gt; &lt;/table&gt; &lt;/p&gt; &lt;p&gt; &lt;span class=&quot;style4&quot;&gt;Informaci&#243;n Adicional&lt;/span&gt;&lt;span class=&quot;style3&quot; lang=&quot;en-us&quot;&gt;:&lt;/span&gt; &lt;br class=&quot;style3&quot; /&gt; &lt;span class=&quot;style3&quot;&gt;[Order:NoteMsg] &lt;/span&gt; &lt;/p&gt; &lt;/p&gt; &lt;/body&gt; &lt;/html&gt; ]]></order.text.template><orderprint.text Lang="None "><![CDATA[&lt;p&gt;&lt;span style=&quot;font-family: tahoma; font-size: 14px;&quot;&gt;[Template:order.text.template]&lt;/span&gt;&lt;/p&gt;]]></orderprint.text><ordershipped.email Lang="None "><![CDATA[&lt;p&gt;&lt;span style=&quot;font-family: tahoma; font-size: 14px;&quot;&gt;Su orden ha sido validada&lt;/span&gt;&lt;/p&gt;
 &lt;p&gt;&lt;span style=&quot;font-family: tahoma; font-size: 14px;&quot;&gt;[Template:order.email.template]&lt;/span&gt;&lt;/p&gt;]]></ordershipped.email><ordervalidated.email Lang="None "><![CDATA[&lt;p&gt;&lt;span style=&quot;font-family: tahoma; font-size: 14px;&quot;&gt;Su orden ha sido validada&lt;/span&gt;&lt;/p&gt;
 &lt;p&gt;&lt;span style=&quot;font-family: tahoma; font-size: 14px;&quot;&gt;[Template:order.email.template]&lt;/span&gt;&lt;/p&gt;]]></ordervalidated.email><orderview.text Lang="None "><![CDATA[&lt;p&gt;&lt;span style=&quot;font-family: tahoma; font-size: 14px;&quot;&gt;[Template:order.text.template]&lt;/span&gt;&lt;/p&gt;]]></orderview.text><paymentFAIL.text Lang="None "><![CDATA[&lt;p&gt;&lt;span style=&quot;font-family: tahoma; font-size: 14px;&quot;&gt;Pago &lt;strong&gt;NO&lt;/strong&gt; validado. Se&amp;nbsp;proceder&amp;aacute;&amp;nbsp;a cancelar la orden&lt;/span&gt;&lt;/p&gt;]]></paymentFAIL.text><paymentinprocess.text Lang="None "><![CDATA[&lt;p&gt;&lt;span style=&quot;font-family: tahoma; font-size: 14px;&quot;&gt;Pago de la orden se esta procesando&lt;/span&gt;&lt;/p&gt;]]></paymentinprocess.text><paymentOK.email Lang="None "><![CDATA[&lt;p&gt;&lt;span style=&quot;font-family: tahoma; font-size: 13px;&quot;&gt;Pago de orden recibido&lt;/span&gt;&lt;/p&gt;
 &lt;p&gt;&lt;span style=&quot;font-family: tahoma; font-size: 13px;&quot;&gt;[Template:order.email.template]&lt;/span&gt;&lt;/p&gt;]]></paymentOK.email><paymentOK.text Lang="None "><![CDATA[&lt;p&gt;&lt;br /&gt;
@@ -224,53 +333,147 @@ Se ha seleccionado como m&amp;eacute;todo de pago transferencia electr&amp;oacut
 &lt;p&gt;&lt;br /&gt;
 &lt;/p&gt;]]></paymentOK.text><paymentSECURITY.text Lang="None "><![CDATA[&lt;p&gt;&lt;span style=&quot;font-family: tahoma; font-size: 14px;&quot;&gt;Violaci&amp;oacute;n&amp;nbsp;de seguridad&lt;/span&gt;&lt;/p&gt;
 &lt;p&gt;&lt;span style=&quot;font-family: tahoma; font-size: 14px;&quot;&gt;Para mayor&amp;nbsp;informaci&amp;oacute;n&amp;nbsp;ponerse en contacto con el administrador&lt;/span&gt;&lt;/p&gt;]]></paymentSECURITY.text><paymentunverified.email Lang="None "><![CDATA[&lt;p&gt;&lt;span style=&quot;font-family: tahoma; font-size: 14px;&quot;&gt;&lt;strong&gt;*** Pago NO verificado ***&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;&lt;span style=&quot;font-family: tahoma; font-size: 13px;&quot;&gt;[Template:order.email.template]&lt;/span&gt;&lt;/p&gt;]]></paymentunverified.email><productCSV.ImportMapping Lang="None "><![CDATA[&lt;P&gt;   &lt;NB_Store_ProductsInfo&gt;     &lt;ProductID&gt;&lt;/ProductID&gt;     &lt;PortalID&gt;[PORTALID]&lt;/PortalID&gt;     &lt;TaxCategoryID&gt;-1&lt;/TaxCategoryID&gt;     &lt;Featured&gt;false&lt;/Featured&gt;     &lt;Archived&gt;false&lt;/Archived&gt;     &lt;CreatedByUser&gt;-1&lt;/CreatedByUser&gt;     &lt;CreatedDate&gt;2009-09-10T17:03:51.47&lt;/CreatedDate&gt;     &lt;IsDeleted&gt;false&lt;/IsDeleted&gt;     &lt;ProductRef&gt;[COL:2]&lt;/ProductRef&gt;     &lt;Lang&gt;[LANG]&lt;/Lang&gt;     &lt;Summary&gt;[COL:5]&lt;/Summary&gt;     &lt;Description&gt;&lt;/Description&gt;     &lt;Manufacturer&gt;[COL:3]&lt;/Manufacturer&gt;     &lt;ProductName&gt;[COL:4]&lt;/ProductName&gt;     &lt;XMLData&gt;&amp;lt;genxml&amp;gt;&amp;lt;textbox&amp;gt;&amp;lt;txtcolissage&amp;gt;[COL:6]&amp;lt;/txtcolissage&amp;gt;&amp;lt;/textbox&amp;gt;&amp;lt;checkbox /&amp;gt;&amp;lt;dropdownlist /&amp;gt;&amp;lt;checkboxlist /&amp;gt;&amp;lt;radiobuttonlist /&amp;gt;&amp;lt;/genxml&amp;gt;&lt;/XMLData&gt;   &lt;/NB_Store_ProductsInfo&gt;   &lt;M&gt;     &lt;NB_Store_ModelInfo&gt;       &lt;ModelID&gt;&lt;/ModelID&gt;       &lt;ProductID&gt;&lt;/ProductID&gt;       &lt;ListOrder&gt;1&lt;/ListOrder&gt;       &lt;UnitCost&gt;[COL:8]&lt;/UnitCost&gt;       &lt;Barcode /&gt;       &lt;ModelRef&gt;[COL:2]&lt;/ModelRef&gt;       &lt;Lang&gt;[LANG]&lt;/Lang&gt;       &lt;ModelName&gt;[COL:4]&lt;/ModelName&gt;       &lt;QtyRemaining&gt;-1&lt;/QtyRemaining&gt;       &lt;QtyTrans&gt;0&lt;/QtyTrans&gt;       &lt;QtyTransDate&gt;&lt;/QtyTransDate&gt;       &lt;ProductName&gt;[COL:4]&lt;/ProductName&gt;       &lt;PortalID&gt;[PORTALID]&lt;/PortalID&gt;       &lt;Weight&gt;[COL:7]&lt;/Weight&gt;       &lt;Height&gt;0.00&lt;/Height&gt;       &lt;Length&gt;0.00&lt;/Length&gt;       &lt;Width&gt;0.00&lt;/Width&gt;       &lt;Deleted&gt;false&lt;/Deleted&gt;       &lt;QtyStockSet&gt;0&lt;/QtyStockSet&gt;       &lt;DealerCost&gt;0.0000&lt;/DealerCost&gt;       &lt;PurchaseCost&gt;0.0000&lt;/PurchaseCost&gt;       &lt;XMLData /&gt;     &lt;/NB_Store_ModelInfo&gt;   &lt;/M&gt;   &lt;I&gt;     &lt;NB_Store_ProductImageInfo&gt;       &lt;ImageID&gt;&lt;/ImageID&gt;       &lt;ProductID&gt;&lt;/ProductID&gt;       &lt;ImagePath&gt;E:\Websites\NB_Store\v1.2.0\Website\Portals\0\productimages\[COL:10]&lt;/ImagePath&gt;       &lt;ListOrder&gt;1&lt;/ListOrder&gt;       &lt;Hidden&gt;false&lt;/Hidden&gt;       &lt;Lang&gt;[LANG]&lt;/Lang&gt;       &lt;ImageDesc /&gt;       &lt;ImageURL&gt;/Portals/0/productimages/[COL:10]&lt;/ImageURL&gt;     &lt;/NB_Store_ProductImageInfo&gt;   &lt;/I&gt;   &lt;D&gt;   &lt;/D&gt;   &lt;C&gt;     &lt;NB_Store_ProductCategoryInfo&gt;       &lt;ProductID&gt;&lt;/ProductID&gt;       &lt;CategoryID&gt;[COL:1]&lt;/CategoryID&gt;     &lt;/NB_Store_ProductCategoryInfo&gt;   &lt;/C&gt;   &lt;options&gt;&lt;/options&gt; &lt;/P&gt;]]></productCSV.ImportMapping><productdetail.template Lang="None "><![CDATA[&lt;table cellspacing=&quot;0&quot; cellpadding=&quot;0&quot; width=&quot;100%&quot; border=&quot;0&quot;&gt;
-    &lt;tbody&gt;
-        &lt;tr&gt;
-            &lt;td style=&quot;padding-bottom: 10px;&quot; colspan=&quot;3&quot;&gt;&lt;a class=&quot;prodlinks&quot; href=&quot;javascript:history.back()&quot;&gt;&lt;span style=&quot;font-family: tahoma; font-size: 14px;&quot;&gt;Regresar&lt;/span&gt;&lt;/a&gt;&lt;/td&gt;
-        &lt;/tr&gt;
-        &lt;tr&gt;
-            &lt;td&gt;&lt;span style=&quot;font-family: tahoma;&quot;&gt;[TAG:IMAGELIGHTBOX]&lt;/span&gt;&lt;/td&gt;
-            &lt;td valign=&quot;top&quot;&gt;
-            &lt;div style=&quot;margin-top: 0px; margin-right: 0px; margin-bottom: 12px; margin-left: 12px;&quot;&gt;&lt;span style=&quot;font-family: tahoma;&quot;&gt;[TAG:GALLERY2]&lt;/span&gt;&lt;/div&gt;
-            &lt;div style=&quot;margin-top: 0px; margin-right: 0px; margin-bottom: 12px; margin-left: 12px;&quot;&gt;&lt;span style=&quot;font-family: tahoma;&quot;&gt;[TAG:GALLERY3]&lt;/span&gt;&lt;/div&gt;
-            &lt;/td&gt;
-            &lt;td valign=&quot;top&quot; style=&quot;width: 100%;&quot;&gt;
-            &lt;div style=&quot;margin-top: 0px; margin-right: 0px; margin-bottom: 12px; margin-left: 12px;&quot;&gt;&lt;span style=&quot;font-family: tahoma;&quot;&gt;[TAG:GALLERY4]&lt;/span&gt;&lt;/div&gt;
-            &lt;div style=&quot;margin-top: 0px; margin-right: 0px; margin-bottom: 12px; margin-left: 12px;&quot;&gt;&lt;span style=&quot;font-family: tahoma;&quot;&gt;[TAG:GALLERY5]&lt;/span&gt;&lt;/div&gt;
-            &lt;/td&gt;
-        &lt;/tr&gt;
-        &lt;tr&gt;
-            &lt;td colspan=&quot;3&quot;&gt;
-            &lt;h4&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;[TAG:PRODUCTNAME]&lt;/span&gt;&lt;/h4&gt;
-            &lt;span style=&quot;font-family: tahoma; font-size: 14px;&quot;&gt;             [TAG:DESCRIPTION]&lt;br /&gt;
-            &lt;br /&gt;
-            Precio : [TAG:FROMPRICE] [TAG:EDITLINK]&lt;/span&gt;&lt;/td&gt;
-        &lt;/tr&gt;
-        &lt;tr&gt;
-            &lt;td style=&quot;padding-right: 10px; padding-left: 10px; padding-bottom: 10px; padding-top: 10px;&quot; align=&quot;center&quot; colspan=&quot;3&quot;&gt;
-            &lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;font-size: 13px;&quot;&gt;&lt;br /&gt;
-            &lt;span style=&quot;font-family: tahoma;&quot;&gt;[TAG:OPTIONNAME1] &amp;nbsp; [TAG:OPTION1]&lt;/span&gt;&lt;br /&gt;
-            &lt;/span&gt;&lt;/div&gt;
-            &lt;span style=&quot;font-family: tahoma;&quot;&gt;
-            &lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;font-size: 13px;&quot;&gt;[TAG:MODELS]&amp;nbsp;Cantidad: [TAG:QTY] &lt;strong&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;[TAG:ADDTOBASKET]&lt;/span&gt;&lt;/strong&gt;&lt;/span&gt;&lt;br /&gt;
-            &lt;/div&gt;
-            &lt;/span&gt;&lt;/td&gt;
-        &lt;/tr&gt;
-    &lt;/tbody&gt;
-&lt;/table&gt;]]></productdetail.template><productdetail2.template Lang="None "><![CDATA[&lt;table&gt; &lt;tbody&gt; &lt;tr&gt; &lt;td&gt;[TAG:IMAGE]&lt;/td&gt; &lt;td&gt;&lt;i&gt;[TAG:SUMMARY]&lt;/i&gt;&lt;br /&gt; [TAG:DESCRIPTION]&lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td&gt;&lt;/td&gt; &lt;/tr&gt; &lt;/tbody&gt; &lt;/table&gt; &lt;table&gt; &lt;tbody&gt; &lt;tr&gt; &lt;td&gt;[TAG:MODELS] Qty :[TAG:QTY]&lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td&gt;[TAG:OPTIONNAME1] [TAG:OPTION1]&lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td&gt;[TAG:OPTIONNAME2] [TAG:OPTION2]&lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td&gt;[TAG:OPTIONNAME3] [TAG:OPTION3]&lt;/td&gt; &lt;/tr&gt; &lt;/tbody&gt; &lt;/table&gt; &lt;div align=&quot;center&quot;&gt;[TAG:ADDTOBASKET] &lt;a href=&quot;javascript:history.back()&quot; class=&quot;CommandButton&quot;&gt;Return&lt;/a&gt;[TAG:EDITLINK]&lt;/div&gt;]]></productdetail2.template><productlimit.text Lang="None "><![CDATA[&lt;strong&gt;&lt;span style=&quot;font-family: tahoma; font-size: 13px;&quot;&gt;El limite de productos se ha alcanzado&lt;br /&gt;
-&lt;/span&gt;&lt;/strong&gt;&lt;span style=&quot;font-family: tahoma; font-size: 13px;&quot;&gt; Para agregar un nuevo producto tiene que remover alguno de los actuales&lt;/span&gt;]]></productlimit.text><productlist.template Lang="None "><![CDATA[&lt;div style=&quot;margin-top: 5px; margin-right: 20px; margin-bottom: 5px; margin-left: 20px; text-align: center;&quot;&gt;
-&lt;table height=&quot;122&quot; cellspacing=&quot;0&quot; cellpadding=&quot;0&quot; width=&quot;122&quot; border=&quot;0&quot; style=&quot;background-color: #ffffff;&quot;&gt;
-    &lt;tbody&gt;
-        &lt;tr&gt;
-            &lt;td style=&quot;border: 1px  solid  #d8d0bb;&quot; valign=&quot;middle&quot; align=&quot;center&quot;&gt;&lt;a title=&quot;[TAG:PRODUCTNAME]&quot; href=&quot;[TAG:LINK]&quot;&gt;&lt;span style=&quot;font-family: tahoma; font-size: 14px;&quot;&gt;[TAG:IMAGE]&lt;/span&gt;&lt;/a&gt;&lt;/td&gt;
-        &lt;/tr&gt;
-    &lt;/tbody&gt;
-&lt;/table&gt;
-&lt;strong&gt;&lt;span style=&quot;font-family: tahoma; font-size: 14px;&quot;&gt;[TAG:PRODUCTNAME]&lt;/span&gt;&lt;/strong&gt;&lt;span style=&quot;font-family: tahoma; font-size: 14px;&quot;&gt;&lt;br /&gt;
-[TAG:FROMPRICE]  [TAG:EDITLINK]&lt;/span&gt;&lt;/div&gt;]]></productlist.template><productlist2.template Lang="None "><![CDATA[&lt;table width=&quot;100%&quot; height=&quot;100&quot; cellspacing=&quot;0&quot; cellpadding=&quot;0&quot; border=&quot;0&quot;&gt; &lt;tbody&gt; &lt;tr&gt; &lt;td width=&quot;100&quot; height=&quot;100&quot; align=&quot;center&quot;&gt; &lt;a href=&quot;[TAG:LINK]&quot;&gt;[TAG:IMAGE]&lt;/a&gt;&lt;/td&gt; &lt;td width=&quot;100%&quot; valign=&quot;top&quot;&gt; &lt;h1&gt;[TAG:EDITLINK][TAG:SUMMARY]&lt;/h1&gt; &lt;font color=&quot;#7B7B7B&quot;&gt;A partir de :&lt;/font&gt; &lt;strong&gt;[TAG:FROMPRICE] &amp;#8364; TTC&lt;/strong&gt; &lt;font color=&quot;#7B7B7B&quot;&gt;&lt;em&gt;selon disponibilit&amp;#233;&lt;/em&gt;&lt;/font&gt;&lt;/td&gt; &lt;td valign=&quot;top&quot; align=&quot;center&quot;&gt; &lt;h2&gt;[TAG:MANUFACTURER]&lt;/h2&gt; &lt;/td&gt; &lt;td valign=&quot;top&quot; align=&quot;center&quot;&gt; &lt;h2&gt;[TAG:PRODUCTREF]&lt;/h2&gt; &lt;/td&gt; &lt;/tr&gt; &lt;/tbody&gt; &lt;/table&gt;]]></productlist2.template><productxmldata.template Lang="None "><![CDATA[]]></productxmldata.template><specialshipping.text Lang="None "><![CDATA[&lt;p&gt;&lt;span style=&quot;font-family: tahoma;&quot;&gt;La orden seleccionada necesita&amp;nbsp;envi&amp;oacute;&amp;nbsp;especial&lt;br /&gt;
+&lt;p&gt;&lt;span style=&quot;font-family: tahoma; font-size: 13px;&quot;&gt;[Template:order.email.template]&lt;/span&gt;&lt;/p&gt;]]></paymentunverified.email><productCSV.ImportMapping Lang="None "><![CDATA[&lt;P&gt;   &lt;NB_Store_ProductsInfo&gt;     &lt;ProductID&gt;&lt;/ProductID&gt;     &lt;PortalID&gt;[PORTALID]&lt;/PortalID&gt;     &lt;TaxCategoryID&gt;-1&lt;/TaxCategoryID&gt;     &lt;Featured&gt;false&lt;/Featured&gt;     &lt;Archived&gt;false&lt;/Archived&gt;     &lt;CreatedByUser&gt;-1&lt;/CreatedByUser&gt;     &lt;CreatedDate&gt;2009-09-10T17:03:51.47&lt;/CreatedDate&gt;     &lt;IsDeleted&gt;false&lt;/IsDeleted&gt;     &lt;ProductRef&gt;[COL:2]&lt;/ProductRef&gt;     &lt;Lang&gt;[LANG]&lt;/Lang&gt;     &lt;Summary&gt;[COL:5]&lt;/Summary&gt;     &lt;Description&gt;&lt;/Description&gt;     &lt;Manufacturer&gt;[COL:3]&lt;/Manufacturer&gt;     &lt;ProductName&gt;[COL:4]&lt;/ProductName&gt;     &lt;XMLData&gt;&amp;lt;genxml&amp;gt;&amp;lt;textbox&amp;gt;&amp;lt;txtcolissage&amp;gt;[COL:6]&amp;lt;/txtcolissage&amp;gt;&amp;lt;/textbox&amp;gt;&amp;lt;checkbox /&amp;gt;&amp;lt;dropdownlist /&amp;gt;&amp;lt;checkboxlist /&amp;gt;&amp;lt;radiobuttonlist /&amp;gt;&amp;lt;/genxml&amp;gt;&lt;/XMLData&gt;   &lt;/NB_Store_ProductsInfo&gt;   &lt;M&gt;     &lt;NB_Store_ModelInfo&gt;       &lt;ModelID&gt;&lt;/ModelID&gt;       &lt;ProductID&gt;&lt;/ProductID&gt;       &lt;ListOrder&gt;1&lt;/ListOrder&gt;       &lt;UnitCost&gt;[COL:8]&lt;/UnitCost&gt;       &lt;Barcode /&gt;       &lt;ModelRef&gt;[COL:2]&lt;/ModelRef&gt;       &lt;Lang&gt;[LANG]&lt;/Lang&gt;       &lt;ModelName&gt;[COL:4]&lt;/ModelName&gt;       &lt;QtyRemaining&gt;-1&lt;/QtyRemaining&gt;       &lt;QtyTrans&gt;0&lt;/QtyTrans&gt;       &lt;QtyTransDate&gt;&lt;/QtyTransDate&gt;       &lt;ProductName&gt;[COL:4]&lt;/ProductName&gt;       &lt;PortalID&gt;[PORTALID]&lt;/PortalID&gt;       &lt;Weight&gt;[COL:7]&lt;/Weight&gt;       &lt;Height&gt;0.00&lt;/Height&gt;       &lt;Length&gt;0.00&lt;/Length&gt;       &lt;Width&gt;0.00&lt;/Width&gt;       &lt;Deleted&gt;false&lt;/Deleted&gt;       &lt;QtyStockSet&gt;0&lt;/QtyStockSet&gt;       &lt;DealerCost&gt;0.0000&lt;/DealerCost&gt;       &lt;PurchaseCost&gt;0.0000&lt;/PurchaseCost&gt;       &lt;XMLData /&gt;     &lt;/NB_Store_ModelInfo&gt;   &lt;/M&gt;   &lt;I&gt;     &lt;NB_Store_ProductImageInfo&gt;       &lt;ImageID&gt;&lt;/ImageID&gt;       &lt;ProductID&gt;&lt;/ProductID&gt;       &lt;ImagePath&gt;E:\Websites\NB_Store\v1.2.0\Website\Portals\0\productimages\[COL:10]&lt;/ImagePath&gt;       &lt;ListOrder&gt;1&lt;/ListOrder&gt;       &lt;Hidden&gt;false&lt;/Hidden&gt;       &lt;Lang&gt;[LANG]&lt;/Lang&gt;       &lt;ImageDesc /&gt;       &lt;ImageURL&gt;/Portals/0/productimages/[COL:10]&lt;/ImageURL&gt;     &lt;/NB_Store_ProductImageInfo&gt;   &lt;/I&gt;   &lt;D&gt;   &lt;/D&gt;   &lt;C&gt;     &lt;NB_Store_ProductCategoryInfo&gt;       &lt;ProductID&gt;&lt;/ProductID&gt;       &lt;CategoryID&gt;[COL:1]&lt;/CategoryID&gt;     &lt;/NB_Store_ProductCategoryInfo&gt;   &lt;/C&gt;   &lt;options&gt;&lt;/options&gt; &lt;/P&gt;]]></productCSV.ImportMapping><productdetail.template Lang="None "><![CDATA[&lt;!DOCTYPE html PUBLIC &quot;-//W3C//DTD XHTML 1.0 Transitional//EN&quot; &quot;http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd&quot;&gt;
+&lt;html xmlns=&quot;http://www.w3.org/1999/xhtml&quot;&gt;
+&lt;head&gt;
+    &lt;title&gt;&lt;/title&gt;
+    &lt;style type=&quot;text/css&quot;&gt;
+        .style1
+        {
+            font-family: Tahoma;
+        }
+        .style2
+        {
+            font-family: Tahoma;
+            font-size: x-small;
+            margin-left: 12px;
+            margin-right: 0px;
+            margin-top: 0px;
+            margin-bottom: 12px;
+        }
+        .style4
+        {
+            font-family: Tahoma;
+            font-size: x-small;
+        }
+        .style5
+        {
+            font-size: x-small;
+        }
+        .style6
+        {
+            text-align: left;
+            font-size: x-small;
+            font-family: Tahoma;
+        }
+    &lt;/style&gt;
+&lt;/head&gt;
+&lt;body&gt;
+    &lt;table cellspacing=&quot;0&quot; cellpadding=&quot;0&quot; width=&quot;100%&quot; border=&quot;0&quot;&gt;
+        &lt;tbody&gt;
+            &lt;tr&gt;
+                &lt;td style=&quot;padding-bottom: 10px;&quot; colspan=&quot;3&quot;&gt;
+                    &lt;a class=&quot;prodlinks&quot; href=&quot;javascript:history.back()&quot;&gt;&lt;span class=&quot;style4&quot;&gt;Regresar&lt;/span&gt;&lt;/a&gt;&lt;span 
+                        class=&quot;style4&quot;&gt; &lt;/span&gt;
+                &lt;/td&gt;
+            &lt;/tr&gt;
+            &lt;tr&gt;
+                &lt;td class=&quot;style4&quot;&gt;
+                    [TAG:IMAGELIGHTBOX]
+                &lt;/td&gt;
+                &lt;td valign=&quot;top&quot;&gt;
+                    &lt;div class=&quot;style2&quot;&gt;
+                        [TAG:GALLERY2]&lt;/div&gt;
+                    &lt;div class=&quot;style2&quot;&gt;
+                        [TAG:GALLERY3]&lt;/div&gt;
+                &lt;/td&gt;
+                &lt;td valign=&quot;top&quot; style=&quot;width: 100%;&quot;&gt;
+                    &lt;div class=&quot;style2&quot;&gt;
+                        [TAG:GALLERY4]&lt;/div&gt;
+                    &lt;div class=&quot;style2&quot;&gt;
+                        [TAG:GALLERY5]&lt;/div&gt;
+                &lt;/td&gt;
+            &lt;/tr&gt;
+            &lt;tr&gt;
+                &lt;td colspan=&quot;3&quot;&gt;
+                    &lt;h4 class=&quot;style4&quot;&gt;
+                        &amp;nbsp;&lt;/h4&gt;
+                    &lt;h4 class=&quot;style4&quot;&gt;
+                        [TAG:PRODUCTNAME]&lt;/h4&gt;
+                    &lt;span class=&quot;style4&quot;&gt;[TAG:DESCRIPTION]&lt;br /&gt;
+                    &lt;br /&gt;
+                    Precio : [TAG:FROMPRICE]
+                        [TAG:EDITLINK] &lt;/span&gt;
+                &lt;/td&gt;
+            &lt;/tr&gt;
+            &lt;tr&gt;
+                &lt;td style=&quot;padding-right: 10px; padding-left: 10px; padding-bottom: 10px; padding-top: 10px;&quot;
+                    align=&quot;center&quot; colspan=&quot;3&quot;&gt;
+                    &lt;div class=&quot;style6&quot;&gt;
+                        [TAG:OPTIONNAME1]
+                            &amp;nbsp; [TAG:OPTION1]&lt;br /&gt;
+&amp;nbsp;&lt;/div&gt;
+                        &lt;div style=&quot;text-align: left;&quot;&gt;
+                            &lt;span class=&quot;style4&quot;&gt;[TAG:MODELS]&amp;nbsp;Cantidad: [TAG:QTY] &lt;/span&gt;
+                            &lt;span style=&quot;font-size: 13px;&quot; class=&quot;style1&quot;&gt; &lt;strong&gt;&lt;span class=&quot;style5&quot;&gt;[TAG:ADDTOBASKET]&lt;/span&gt;&lt;/strong&gt;&lt;/span&gt;&lt;span 
+                                class=&quot;style4&quot;&gt;
+                            &lt;br /&gt;
+                            &lt;br /&gt;
+                            &lt;span lang=&quot;en-us&quot;&gt;Hoja Tecnica del Producto: [TAG:DOC1]&lt;/span&gt;&lt;/div&gt;
+                    &lt;/span&gt;
+                &lt;/td&gt;
+            &lt;/tr&gt;
+        &lt;/tbody&gt;
+    &lt;/table&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+]]></productdetail.template><productdetail2.template Lang="None "><![CDATA[&lt;table&gt; &lt;tbody&gt; &lt;tr&gt; &lt;td&gt;[TAG:IMAGE]&lt;/td&gt; &lt;td&gt;&lt;i&gt;[TAG:SUMMARY]&lt;/i&gt;&lt;br /&gt; [TAG:DESCRIPTION]&lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td&gt;&lt;/td&gt; &lt;/tr&gt; &lt;/tbody&gt; &lt;/table&gt; &lt;table&gt; &lt;tbody&gt; &lt;tr&gt; &lt;td&gt;[TAG:MODELS] Qty :[TAG:QTY]&lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td&gt;[TAG:OPTIONNAME1] [TAG:OPTION1]&lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td&gt;[TAG:OPTIONNAME2] [TAG:OPTION2]&lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td&gt;[TAG:OPTIONNAME3] [TAG:OPTION3]&lt;/td&gt; &lt;/tr&gt; &lt;/tbody&gt; &lt;/table&gt; &lt;div align=&quot;center&quot;&gt;[TAG:ADDTOBASKET] &lt;a href=&quot;javascript:history.back()&quot; class=&quot;CommandButton&quot;&gt;Return&lt;/a&gt;[TAG:EDITLINK]&lt;/div&gt;]]></productdetail2.template><productlimit.text Lang="None "><![CDATA[&lt;strong&gt;&lt;span style=&quot;font-family: tahoma; font-size: 13px;&quot;&gt;El limite de productos se ha alcanzado&lt;br /&gt;
+&lt;/span&gt;&lt;/strong&gt;&lt;span style=&quot;font-family: tahoma; font-size: 13px;&quot;&gt; Para agregar un nuevo producto tiene que remover alguno de los actuales&lt;/span&gt;]]></productlimit.text><productlist.template Lang="None "><![CDATA[&lt;!DOCTYPE html PUBLIC &quot;-//W3C//DTD XHTML 1.0 Transitional//EN&quot; &quot;http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd&quot;&gt;
+&lt;html xmlns=&quot;http://www.w3.org/1999/xhtml&quot;&gt;
+&lt;head&gt;
+    &lt;title&gt;&lt;/title&gt;
+    &lt;style type=&quot;text/css&quot;&gt;
+        .style1
+        {
+            font-family: Tahoma;
+            font-size: x-small;
+        }
+        .style2
+        {
+            font-size: x-small;
+        }
+        .style3
+        {
+            font-family: Tahoma;
+        }
+    &lt;/style&gt;
+&lt;/head&gt;
+&lt;body&gt;
+    &lt;div style=&quot;margin-top: 5px; margin-right: 20px; margin-bottom: 5px; margin-left: 20px; text-align: center;&quot; 
+        class=&quot;style2&quot;&gt;
+        &lt;table border=&quot;0&quot; cellpadding=&quot;0&quot; cellspacing=&quot;0&quot; height=&quot;122&quot; align=&quot;center&quot; 
+            style=&quot;text-align: center; background-color: #ffffff;&quot; width=&quot;122&quot;&gt;
+            &lt;tr&gt;
+                &lt;td align=&quot;center&quot; style=&quot;border: 1px solid #d8d0bb;&quot; valign=&quot;middle&quot;&gt;
+                    &lt;a href=&quot;[TAG:LINK]&quot; title=&quot;[TAG:PRODUCTNAME]&quot;&gt;&lt;span class=&quot;style3&quot;&gt;[TAG:IMAGE]&lt;/span&gt;&lt;/a&gt;&lt;/td&gt;
+            &lt;/tr&gt;
+        &lt;/table&gt;
+        &lt;strong&gt;
+        &lt;div style=&quot;text-align: center;&quot;&gt;
+            &lt;span style=&quot;font-weight: normal;&quot;&gt;&lt;span class=&quot;style3&quot;&gt;[TAG:PRODUCTNAME]&lt;/span&gt;&lt;/span&gt;&lt;br 
+                class=&quot;style3&quot; /&gt;
+        &lt;/div&gt;
+        &lt;/strong&gt;&lt;span class=&quot;style1&quot;&gt;
+        &lt;div style=&quot;text-align: center;&quot;&gt;
+            [TAG:FROMPRICE] [TAG:EDITLINK]&lt;br /&gt;
+        &lt;/div&gt;
+        &lt;/span&gt;
+    &lt;/div&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+]]></productlist.template><productlist2.template Lang="None "><![CDATA[&lt;table width=&quot;100%&quot; height=&quot;100&quot; cellspacing=&quot;0&quot; cellpadding=&quot;0&quot; border=&quot;0&quot;&gt; &lt;tbody&gt; &lt;tr&gt; &lt;td width=&quot;100&quot; height=&quot;100&quot; align=&quot;center&quot;&gt; &lt;a href=&quot;[TAG:LINK]&quot;&gt;[TAG:IMAGE]&lt;/a&gt;&lt;/td&gt; &lt;td width=&quot;100%&quot; valign=&quot;top&quot;&gt; &lt;h1&gt;[TAG:EDITLINK][TAG:SUMMARY]&lt;/h1&gt; &lt;font color=&quot;#7B7B7B&quot;&gt;A partir de :&lt;/font&gt; &lt;strong&gt;[TAG:FROMPRICE] &amp;#8364; TTC&lt;/strong&gt; &lt;font color=&quot;#7B7B7B&quot;&gt;&lt;em&gt;selon disponibilit&amp;#233;&lt;/em&gt;&lt;/font&gt;&lt;/td&gt; &lt;td valign=&quot;top&quot; align=&quot;center&quot;&gt; &lt;h2&gt;[TAG:MANUFACTURER]&lt;/h2&gt; &lt;/td&gt; &lt;td valign=&quot;top&quot; align=&quot;center&quot;&gt; &lt;h2&gt;[TAG:PRODUCTREF]&lt;/h2&gt; &lt;/td&gt; &lt;/tr&gt; &lt;/tbody&gt; &lt;/table&gt;]]></productlist2.template><productxmldata.template Lang="None "><![CDATA[]]></productxmldata.template><specialshipping.text Lang="None "><![CDATA[&lt;p&gt;&lt;span style=&quot;font-family: tahoma;&quot;&gt;La orden seleccionada necesita&amp;nbsp;envi&amp;oacute;&amp;nbsp;especial&lt;br /&gt;
 &lt;br /&gt;
 Por favor&amp;nbsp;ponerse&amp;nbsp;en contacto al correo&lt;/span&gt;&lt;/p&gt;
 &lt;p&gt;   &lt;strong&gt;&lt;span style=&quot;font-family: tahoma;&quot;&gt;[TAG:STOREEMAIL]&lt;/span&gt;&lt;/strong&gt;&lt;span style=&quot;font-family: tahoma;&quot;&gt;   &lt;br /&gt;
 &lt;/span&gt; &lt;/p&gt;
-&lt;p&gt;&lt;span style=&quot;font-family: tahoma;&quot;&gt;   Gracias&lt;/span&gt;&lt;/p&gt;]]></specialshipping.text><standard.shiptemplate Lang="None "><![CDATA[&lt;span style=&quot;font-family: tahoma; font-size: 13px;&quot;&gt; 3 - 5&amp;nbsp;d&amp;iacute;as&amp;nbsp;Entrega&amp;nbsp;Est&amp;aacute;ndar&amp;nbsp;([TAG:SHIPPINGCOST])&lt;/span&gt;]]></standard.shiptemplate><ups.tracktemplate Lang="None "><![CDATA[&lt;a href=&quot;http://wwwapps.ups.com/WebTracking/processInputRequest?sort_by=status&amp;amp;tracknums_displayed=1&amp;amp;TypeOfInquiryNumber=T&amp;amp;loc=en_US&amp;amp;InquiryNumber1=[TAG:TRACKINGCODE]&amp;amp;track.x=0&amp;amp;track.y=0&quot; target=&quot;_blank&quot;&gt;&lt;span style=&quot;color: #000000; font-family: tahoma; font-size: 13px;&quot;&gt;N&lt;/span&gt;&lt;/a&gt;&lt;span style=&quot;font-family: tahoma; font-size: 13px;&quot;&gt;umero de&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;font-family: tahoma; font-size: 13px;&quot;&gt;Gu&amp;iacute;a&lt;/span&gt;]]></ups.tracktemplate></settingstext><status><ID10 Lang="XX" ListOrder="1"><![CDATA[Incomplete]]></ID10><ID20 Lang="XX" ListOrder="2"><![CDATA[Waiting for Bank]]></ID20><ID30 Lang="XX" ListOrder="3"><![CDATA[Cancelled]]></ID30><ID40 Lang="XX" ListOrder="4"><![CDATA[Payment OK]]></ID40><ID45 Lang="XX" ListOrder="5"><![CDATA[Payment not verified]]></ID45><ID50 Lang="XX" ListOrder="6"><![CDATA[Shipped]]></ID50><ID60 Lang="XX" ListOrder="7"><![CDATA[Waiting]]></ID60><ID70 Lang="XX" ListOrder="8"><![CDATA[Closed]]></ID70><ID75 Lang="XX" ListOrder="9"><![CDATA[Archived]]></ID75><ID80 Lang="XX" ListOrder="10"><![CDATA[Waiting for Cheque]]></ID80><ID90 Lang="XX" ListOrder="11"><![CDATA[Waiting for Payment]]></ID90><ID100 Lang="XX" ListOrder="12"><![CDATA[Waiting for Stock]]></ID100></status><SQLReports><SQLReport><NB_Store_SQLReportInfo><ReportID>1</ReportID><PortalID>0</PortalID><ReportName>Dashboard_GetDate</ReportName><ReportTitle /><SQL>Select Getdate() as [Date]</SQL><SchedulerFlag>false</SchedulerFlag><SchStartHour>0</SchStartHour><SchStartMins>00</SchStartMins><SchReRunMins>15</SchReRunMins><LastRunTime>2010-03-03T00:00:00</LastRunTime><AllowExport>false</AllowExport><AllowDisplay>true</AllowDisplay><DisplayInLine>false</DisplayInLine><EmailResults>false</EmailResults><EmailFrom /><EmailTo /><ShowSQL>false</ShowSQL><ConnectionString /><ReportRef>Dash_getdate</ReportRef><AllowPaging>false</AllowPaging><FieldDelimeter>,</FieldDelimeter><FieldQualifier></FieldQualifier></NB_Store_SQLReportInfo><SQLReportParams></SQLReportParams><SQLReportXSL></SQLReportXSL></SQLReport><SQLReport><NB_Store_SQLReportInfo><ReportID>2</ReportID><PortalID>0</PortalID><ReportName>Dashboard_LatestOrders</ReportName><ReportTitle /><SQL>select top 10 OrderDate,OrderNumber,AddressName as [Name],convert(decimal(16,2),Total) As Total, OrderStatusText as Status  from dbo.NB_Store_Orders as O inner join dbo.NB_Store_OrderStatus as OS on OS.OrderStatusID = O.OrderStatusID and Lang= 'XX' inner join dbo.NB_Store_Address as AD on AD.AddressID = O.BillingAddressID where OrderNumber != '' and O.PortalID = @PortalID order by OrderDate Desc</SQL><SchedulerFlag>false</SchedulerFlag><SchStartHour>0</SchStartHour><SchStartMins>00</SchStartMins><SchReRunMins>15</SchReRunMins><LastRunTime>2010-06-25T00:00:00</LastRunTime><AllowExport>false</AllowExport><AllowDisplay>true</AllowDisplay><DisplayInLine>false</DisplayInLine><EmailResults>true</EmailResults><EmailFrom>oscar@omsys.co.cr</EmailFrom><EmailTo>oscar@omsys.co.cr</EmailTo><ShowSQL>false</ShowSQL><ConnectionString /><ReportRef>Dash_LatestOrders</ReportRef><AllowPaging>false</AllowPaging><FieldDelimeter>,</FieldDelimeter><FieldQualifier></FieldQualifier></NB_Store_SQLReportInfo><SQLReportParams><NB_Store_SQLReportParamInfo><ReportParamID>1</ReportParamID><ReportID>2</ReportID><ParamName>@PortalID</ParamName><ParamType>int</ParamType><ParamValue /><ParamSource>5</ParamSource></NB_Store_SQLReportParamInfo></SQLReportParams><SQLReportXSL></SQLReportXSL></SQLReport><SQLReport><NB_Store_SQLReportInfo><ReportID>3</ReportID><PortalID>0</PortalID><ReportName>Dashboard_OrderCount</ReportName><ReportTitle /><SQL>select count(OrderID) as [Order Count]  from dbo.NB_Store_Orders where PortalID = @PortalID and OrderNumber != ''</SQL><SchedulerFlag>false</SchedulerFlag><SchStartHour>0</SchStartHour><SchStartMins>00</SchStartMins><SchReRunMins>15</SchReRunMins><LastRunTime>2010-03-03T00:00:00</LastRunTime><AllowExport>false</AllowExport><AllowDisplay>true</AllowDisplay><DisplayInLine>false</DisplayInLine><EmailResults>false</EmailResults><EmailFrom /><EmailTo /><ShowSQL>false</ShowSQL><ConnectionString /><ReportRef>Dash_OrderCount</ReportRef><AllowPaging>false</AllowPaging><FieldDelimeter>,</FieldDelimeter><FieldQualifier></FieldQualifier></NB_Store_SQLReportInfo><SQLReportParams><NB_Store_SQLReportParamInfo><ReportParamID>2</ReportParamID><ReportID>3</ReportID><ParamName>@PortalID</ParamName><ParamType>int</ParamType><ParamValue /><ParamSource>5</ParamSource></NB_Store_SQLReportParamInfo></SQLReportParams><SQLReportXSL></SQLReportXSL></SQLReport><SQLReport><NB_Store_SQLReportInfo><ReportID>4</ReportID><PortalID>0</PortalID><ReportName>Dashboard_OrderTotal</ReportName><ReportTitle /><SQL>select convert(decimal(16,2),sum(Total)) as [Order Total]  from dbo.NB_Store_Orders where Portalid = @PortalID and OrderNumber != ''</SQL><SchedulerFlag>false</SchedulerFlag><SchStartHour>0</SchStartHour><SchStartMins>00</SchStartMins><SchReRunMins>15</SchReRunMins><LastRunTime>2010-03-03T00:00:00</LastRunTime><AllowExport>false</AllowExport><AllowDisplay>true</AllowDisplay><DisplayInLine>false</DisplayInLine><EmailResults>false</EmailResults><EmailFrom /><EmailTo /><ShowSQL>false</ShowSQL><ConnectionString /><ReportRef>Dash_OrderTotal</ReportRef><AllowPaging>false</AllowPaging><FieldDelimeter>,</FieldDelimeter><FieldQualifier></FieldQualifier></NB_Store_SQLReportInfo><SQLReportParams><NB_Store_SQLReportParamInfo><ReportParamID>3</ReportParamID><ReportID>4</ReportID><ParamName>@PortalID</ParamName><ParamType>int</ParamType><ParamValue /><ParamSource>5</ParamSource></NB_Store_SQLReportParamInfo></SQLReportParams><SQLReportXSL></SQLReportXSL></SQLReport><SQLReport><NB_Store_SQLReportInfo><ReportID>5</ReportID><PortalID>0</PortalID><ReportName>Dashboard_ProductCount</ReportName><ReportTitle /><SQL>select count(ProductID) as [Product Count] from dbo.NB_Store_Products where Archived = 0 and IsDeleted = 0 and PortalID = @PortalID</SQL><SchedulerFlag>false</SchedulerFlag><SchStartHour>0</SchStartHour><SchStartMins>00</SchStartMins><SchReRunMins>15</SchReRunMins><LastRunTime>2010-03-03T00:00:00</LastRunTime><AllowExport>false</AllowExport><AllowDisplay>true</AllowDisplay><DisplayInLine>false</DisplayInLine><EmailResults>false</EmailResults><EmailFrom /><EmailTo /><ShowSQL>false</ShowSQL><ConnectionString /><ReportRef>Dash_productcount</ReportRef><AllowPaging>false</AllowPaging><FieldDelimeter>,</FieldDelimeter><FieldQualifier></FieldQualifier></NB_Store_SQLReportInfo><SQLReportParams><NB_Store_SQLReportParamInfo><ReportParamID>4</ReportParamID><ReportID>5</ReportID><ParamName>@PortalID</ParamName><ParamType>int</ParamType><ParamValue /><ParamSource>5</ParamSource></NB_Store_SQLReportParamInfo></SQLReportParams><SQLReportXSL></SQLReportXSL></SQLReport></SQLReports></storecontent></content>
+&lt;p&gt;&lt;span style=&quot;font-family: tahoma;&quot;&gt;   Gracias&lt;/span&gt;&lt;/p&gt;]]></specialshipping.text><standard.shiptemplate Lang="None "><![CDATA[&lt;span style=&quot;font-family: tahoma; font-size: 13px;&quot;&gt; 3 - 5&amp;nbsp;d&amp;iacute;as&amp;nbsp;Entrega&amp;nbsp;Est&amp;aacute;ndar&amp;nbsp;([TAG:SHIPPINGCOST])&lt;/span&gt;]]></standard.shiptemplate><ups.tracktemplate Lang="None "><![CDATA[&lt;a href=&quot;http://wwwapps.ups.com/WebTracking/processInputRequest?sort_by=status&amp;amp;tracknums_displayed=1&amp;amp;TypeOfInquiryNumber=T&amp;amp;loc=en_US&amp;amp;InquiryNumber1=[TAG:TRACKINGCODE]&amp;amp;track.x=0&amp;amp;track.y=0&quot; target=&quot;_blank&quot;&gt;&lt;span style=&quot;color: #000000; font-family: tahoma; font-size: 13px;&quot;&gt;N&lt;/span&gt;&lt;/a&gt;&lt;span style=&quot;font-family: tahoma; font-size: 13px;&quot;&gt;umero de&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;font-family: tahoma; font-size: 13px;&quot;&gt;Gu&amp;iacute;a&lt;/span&gt;]]></ups.tracktemplate></settingstext><status><ID10 Lang="XX" ListOrder="1"><![CDATA[Incomplete]]></ID10><ID20 Lang="XX" ListOrder="2"><![CDATA[Waiting for Bank]]></ID20><ID30 Lang="XX" ListOrder="3"><![CDATA[Cancelled]]></ID30><ID40 Lang="XX" ListOrder="4"><![CDATA[Payment OK]]></ID40><ID45 Lang="XX" ListOrder="5"><![CDATA[Payment not verified]]></ID45><ID50 Lang="XX" ListOrder="6"><![CDATA[Shipped]]></ID50><ID60 Lang="XX" ListOrder="7"><![CDATA[Waiting]]></ID60><ID70 Lang="XX" ListOrder="8"><![CDATA[Closed]]></ID70><ID75 Lang="XX" ListOrder="9"><![CDATA[Archived]]></ID75><ID80 Lang="XX" ListOrder="10"><![CDATA[Waiting for Cheque]]></ID80><ID90 Lang="XX" ListOrder="11"><![CDATA[Waiting for Payment]]></ID90><ID100 Lang="XX" ListOrder="12"><![CDATA[Waiting for Stock]]></ID100></status><SQLReports><SQLReport><NB_Store_SQLReportInfo><ReportID>1</ReportID><PortalID>0</PortalID><ReportName>Dashboard_GetDate</ReportName><ReportTitle /><SQL>Select Getdate() as [Date]</SQL><SchedulerFlag>false</SchedulerFlag><SchStartHour>0</SchStartHour><SchStartMins>00</SchStartMins><SchReRunMins>15</SchReRunMins><LastRunTime>2010-03-03T00:00:00</LastRunTime><AllowExport>false</AllowExport><AllowDisplay>true</AllowDisplay><DisplayInLine>false</DisplayInLine><EmailResults>false</EmailResults><EmailFrom /><EmailTo /><ShowSQL>false</ShowSQL><ConnectionString /><ReportRef>Dash_getdate</ReportRef><AllowPaging>false</AllowPaging><FieldDelimeter>,</FieldDelimeter><FieldQualifier></FieldQualifier></NB_Store_SQLReportInfo><SQLReportParams></SQLReportParams><SQLReportXSL></SQLReportXSL></SQLReport><SQLReport><NB_Store_SQLReportInfo><ReportID>2</ReportID><PortalID>0</PortalID><ReportName>Dashboard_LatestOrders</ReportName><ReportTitle /><SQL>select top 10 OrderDate,OrderNumber,AddressName as [Name],convert(decimal(16,2),Total) As Total, OrderStatusText as Status  from dbo.NB_Store_Orders as O inner join dbo.NB_Store_OrderStatus as OS on OS.OrderStatusID = O.OrderStatusID and Lang= 'XX' inner join dbo.NB_Store_Address as AD on AD.AddressID = O.BillingAddressID where OrderNumber != '' and O.PortalID = @PortalID order by OrderDate Desc</SQL><SchedulerFlag>false</SchedulerFlag><SchStartHour>0</SchStartHour><SchStartMins>00</SchStartMins><SchReRunMins>15</SchReRunMins><LastRunTime>2010-03-03T00:00:00</LastRunTime><AllowExport>false</AllowExport><AllowDisplay>true</AllowDisplay><DisplayInLine>false</DisplayInLine><EmailResults>false</EmailResults><EmailFrom /><EmailTo /><ShowSQL>false</ShowSQL><ConnectionString /><ReportRef>Dash_LatestOrders</ReportRef><AllowPaging>false</AllowPaging><FieldDelimeter>,</FieldDelimeter><FieldQualifier></FieldQualifier></NB_Store_SQLReportInfo><SQLReportParams><NB_Store_SQLReportParamInfo><ReportParamID>1</ReportParamID><ReportID>2</ReportID><ParamName>@PortalID</ParamName><ParamType>int</ParamType><ParamValue /><ParamSource>5</ParamSource></NB_Store_SQLReportParamInfo></SQLReportParams><SQLReportXSL></SQLReportXSL></SQLReport><SQLReport><NB_Store_SQLReportInfo><ReportID>3</ReportID><PortalID>0</PortalID><ReportName>Dashboard_OrderCount</ReportName><ReportTitle /><SQL>select count(OrderID) as [Order Count]  from dbo.NB_Store_Orders where PortalID = @PortalID and OrderNumber != ''</SQL><SchedulerFlag>false</SchedulerFlag><SchStartHour>0</SchStartHour><SchStartMins>00</SchStartMins><SchReRunMins>15</SchReRunMins><LastRunTime>2010-03-03T00:00:00</LastRunTime><AllowExport>false</AllowExport><AllowDisplay>true</AllowDisplay><DisplayInLine>false</DisplayInLine><EmailResults>false</EmailResults><EmailFrom /><EmailTo /><ShowSQL>false</ShowSQL><ConnectionString /><ReportRef>Dash_OrderCount</ReportRef><AllowPaging>false</AllowPaging><FieldDelimeter>,</FieldDelimeter><FieldQualifier></FieldQualifier></NB_Store_SQLReportInfo><SQLReportParams><NB_Store_SQLReportParamInfo><ReportParamID>2</ReportParamID><ReportID>3</ReportID><ParamName>@PortalID</ParamName><ParamType>int</ParamType><ParamValue /><ParamSource>5</ParamSource></NB_Store_SQLReportParamInfo></SQLReportParams><SQLReportXSL></SQLReportXSL></SQLReport><SQLReport><NB_Store_SQLReportInfo><ReportID>4</ReportID><PortalID>0</PortalID><ReportName>Dashboard_OrderTotal</ReportName><ReportTitle /><SQL>select convert(decimal(16,2),sum(Total)) as [Order Total]  from dbo.NB_Store_Orders where Portalid = @PortalID and OrderNumber != ''</SQL><SchedulerFlag>false</SchedulerFlag><SchStartHour>0</SchStartHour><SchStartMins>00</SchStartMins><SchReRunMins>15</SchReRunMins><LastRunTime>2010-03-03T00:00:00</LastRunTime><AllowExport>false</AllowExport><AllowDisplay>true</AllowDisplay><DisplayInLine>false</DisplayInLine><EmailResults>false</EmailResults><EmailFrom /><EmailTo /><ShowSQL>false</ShowSQL><ConnectionString /><ReportRef>Dash_OrderTotal</ReportRef><AllowPaging>false</AllowPaging><FieldDelimeter>,</FieldDelimeter><FieldQualifier></FieldQualifier></NB_Store_SQLReportInfo><SQLReportParams><NB_Store_SQLReportParamInfo><ReportParamID>3</ReportParamID><ReportID>4</ReportID><ParamName>@PortalID</ParamName><ParamType>int</ParamType><ParamValue /><ParamSource>5</ParamSource></NB_Store_SQLReportParamInfo></SQLReportParams><SQLReportXSL></SQLReportXSL></SQLReport><SQLReport><NB_Store_SQLReportInfo><ReportID>5</ReportID><PortalID>0</PortalID><ReportName>Dashboard_ProductCount</ReportName><ReportTitle /><SQL>select count(ProductID) as [Product Count] from dbo.NB_Store_Products where Archived = 0 and IsDeleted = 0 and PortalID = @PortalID</SQL><SchedulerFlag>false</SchedulerFlag><SchStartHour>0</SchStartHour><SchStartMins>00</SchStartMins><SchReRunMins>15</SchReRunMins><LastRunTime>2010-03-03T00:00:00</LastRunTime><AllowExport>false</AllowExport><AllowDisplay>true</AllowDisplay><DisplayInLine>false</DisplayInLine><EmailResults>false</EmailResults><EmailFrom /><EmailTo /><ShowSQL>false</ShowSQL><ConnectionString /><ReportRef>Dash_productcount</ReportRef><AllowPaging>false</AllowPaging><FieldDelimeter>,</FieldDelimeter><FieldQualifier></FieldQualifier></NB_Store_SQLReportInfo><SQLReportParams><NB_Store_SQLReportParamInfo><ReportParamID>4</ReportParamID><ReportID>5</ReportID><ParamName>@PortalID</ParamName><ParamType>int</ParamType><ParamValue /><ParamSource>5</ParamSource></NB_Store_SQLReportParamInfo></SQLReportParams><SQLReportXSL></SQLReportXSL></SQLReport></SQLReports></storecontent></content>
