@@ -1,0 +1,781 @@
+<content type="NB_Store_BackOffice" version="02.01.01"><storecontent><settings><admincss.includes Lang="None" HostOnly="True" CtrlType="TextBox" GroupRef="root/system/backoffice" HostOnly="True"><![CDATA[jquery.treeview.css]]></admincss.includes><administrator.email Lang="None" HostOnly="True" CtrlType="TextBox" GroupRef="root/notifications" HostOnly="True"><![CDATA[cefotec@pernix.cr]]></administrator.email><adminjs.includes Lang="None" HostOnly="True" CtrlType="TextBox" GroupRef="root/system/backoffice" HostOnly="True"><![CDATA[jquery.cookie.js,jquery.treeview.min.js,jquery.nbstoreadmin.js]]></adminjs.includes><adminproduct.pagesize Lang="None" HostOnly="False" CtrlType="TextBox" GroupRef="root/system/backoffice" HostOnly="False"><![CDATA[32]]></adminproduct.pagesize><adminproduct.thumbsize Lang="None" HostOnly="False" CtrlType="TextBox" GroupRef="root/system/backoffice" HostOnly="False"><![CDATA[60]]></adminproduct.thumbsize><adminsettings.groups Lang="None" HostOnly="True" CtrlType="MultiLineTextBox" GroupRef="root/system/backoffice" HostOnly="True"><![CDATA[<root>
+  <notifications text="Notifications"/>
+  <payment text="Payment">
+   <pricing text="Pricing"/>
+   <shipping text="Shipping"/>
+   <gateways text="Gateways"/>
+  </payment>
+  <catalogue text="Catalogue">
+   <images text="Images"/>
+   <products text="Products"/>
+   <categories text="Categories"/>
+  </catalogue>
+  <security text="Security"/>
+  <system text="System">
+   <backoffice text="Back Office"/>
+   <data text="Data Management"/>
+   <reports text="Reports"/>
+   <misc text="Misc"/>
+  </system>
+</root>]]></adminsettings.groups><adminstartup.includes Lang="None" HostOnly="True" CtrlType="TextBox" GroupRef="root/system/backoffice" HostOnly="True"><![CDATA[jqadmintreeview.code]]></adminstartup.includes><admintemplates.groups Lang="None" HostOnly="True" CtrlType="MultiLineTextBox" GroupRef="root/system/backoffice" HostOnly="True"><![CDATA[<root>
+  <notifications text="Notifications"/>
+  <payment text="Payment">
+   <pricing text="Pricing"/>
+   <cart text="Cart"/>
+   <checkout text="Checkout"/>
+   <shipping text="Shipping"/>
+   <gateways text="Gateways"/>
+ </payment>
+  <catalogue text="Catalogue">
+   <images text="Images"/>
+   <products text="Products"/>
+   <categories text="Categories"/>
+  </catalogue>
+  <security text="Security"/>
+  <system text="System">
+   <backoffice text="Back Office"/>
+   <data text="Data Management"/>
+   <reports text="Reports"/>
+   <misc text="Misc"/>
+  </system>
+</root>]]></admintemplates.groups><allowmultidiscount.flag Lang="None" HostOnly="True" CtrlType="Boolean" GroupRef="root/payment/pricing" HostOnly="True"><![CDATA[0]]></allowmultidiscount.flag><categorymenucss.includes Lang="None" HostOnly="True" CtrlType="TextBox" GroupRef="root/catalogue/categories" HostOnly="True"><![CDATA[jquery.treeview.css,jquery.accordion.css]]></categorymenucss.includes><categorymenujs.includes Lang="None" HostOnly="True" CtrlType="TextBox" GroupRef="root/catalogue/categories" HostOnly="True"><![CDATA[jquery.treeview.min.js,jquery.accordion.js,jquery.dimensions.js]]></categorymenujs.includes><categorymenustartupjs.includes Lang="None" HostOnly="True" CtrlType="TextBox" GroupRef="root/catalogue/categories" HostOnly="True"><![CDATA[jqtreeview.code,jqueryaccordion.code]]></categorymenustartupjs.includes><chqpayment.emailsubject Lang="None" HostOnly="False" CtrlType="TextBox" GroupRef="root/notifications" HostOnly="False"><![CDATA[Confirmación de Compra - [Order:OrderNumber]]]></chqpayment.emailsubject><cookiecart.expire Lang="None" HostOnly="True" CtrlType="TextBox" GroupRef="root/security" HostOnly="True"><![CDATA[30]]></cookiecart.expire><country.list Lang="None" HostOnly="False" CtrlType="TextBox" GroupRef="root/payment/shipping" HostOnly="False"><![CDATA[Costa Rica]]></country.list><currency.culture Lang="None" HostOnly="True" CtrlType="TextBox" GroupRef="root/payment/pricing" HostOnly="True"><![CDATA[es-CR]]></currency.culture><debug.mode Lang="None" HostOnly="True" CtrlType="Boolean" GroupRef="root/system/misc" HostOnly="True"><![CDATA[0]]></debug.mode><encapsulated.provider Lang="None" HostOnly="True" CtrlType="TextBox" GroupRef="root/payment/gateways" HostOnly="True"><![CDATA[NEvoweb.DNN.Modules.NB_Store.GatewayCheque,NEvoWeb.Modules.NB_Store.Gateway.GatewayCheque]]></encapsulated.provider><encapsulatedproviders.xml Lang="None" HostOnly="False" CtrlType="MultiLineTextBox" GroupRef="root/payment/gateways" HostOnly="False"><![CDATA[<?xml version="1.0" encoding="utf-8" ?>
+<root>
+  <gateways>  
+  <gateway ref="standard">
+    <name>Standard</name>
+    <assembly>NEvoweb.DNN.Modules.NB_Store.GatewayCheque</assembly>
+    <class>NEvoWeb.Modules.NB_Store.Gateway.GatewayCheque</class>
+  </gateway>
+  </gateways>
+</root>]]></encapsulatedproviders.xml><err404.url Lang="None" HostOnly="True" CtrlType="TextBox" GroupRef="root/catalogue/products" HostOnly="True"><![CDATA[]]></err404.url><exempttax.list Lang="None" HostOnly="True" CtrlType="TextBox" GroupRef="root/payment/pricing" HostOnly="True"><![CDATA[]]></exempttax.list><fielddelimeter.importmapping Lang="None" HostOnly="True" CtrlType="TextBox" GroupRef="root/system/data" HostOnly="True"><![CDATA[,]]></fielddelimeter.importmapping><fieldescapedqualifier.importmapping Lang="None" HostOnly="True" CtrlType="TextBox" GroupRef="root/system/data" HostOnly="True"><![CDATA[""]]></fieldescapedqualifier.importmapping><fieldqualifier.importmapping Lang="None" HostOnly="True" CtrlType="TextBox" GroupRef="root/system/data" HostOnly="True"><![CDATA["]]></fieldqualifier.importmapping><filesystemtemplates.flag Lang="None" HostOnly="False" CtrlType="Boolean" GroupRef="root/system/misc" HostOnly="False"><![CDATA[0]]></filesystemtemplates.flag><gateway.loadimage Lang="None" HostOnly="True" CtrlType="TextBox" GroupRef="root/payment/gateways" HostOnly="True"><![CDATA[/images/progressbar.gif]]></gateway.loadimage><gateway.provider Lang="None" HostOnly="True" CtrlType="TextBox" GroupRef="root/payment/gateways" HostOnly="True"><![CDATA[]]></gateway.provider><gatewayexpiremins Lang="None" HostOnly="True" CtrlType="TextBox" GroupRef="root/payment/gateways" HostOnly="True"><![CDATA[]]></gatewayexpiremins><gatewayproviders.xml Lang="None" HostOnly="False" CtrlType="MultiLineTextBox" GroupRef="root/payment/gateways" HostOnly="False"><![CDATA[<?xml version="1.0" encoding="utf-8" ?>
+<root>
+  <gateways>  
+  <gateway ref="SIPS">
+    <name>SIPS</name>
+    <assembly>NEvoweb.DNN.Modules.NB_Store.GatewaySIPS</assembly>
+    <class>NEvoWeb.Modules.NB_Store.Gateway.GatewaySIPS</class>
+  </gateway>
+    <gateway ref="Paypal">
+      <name>Paypal</name>
+      <assembly>NEvoweb.DNN.Modules.NB_Store.GatewayPayPal</assembly>
+      <class>NEvoWeb.Modules.NB_Store.Gateway.GatewayPayPal</class>
+    </gateway>
+    <gateway ref="PxPay">
+      <name>PxPay</name>
+      <assembly>NEvoweb.DNN.Modules.NB_Store.GatewayPxPay</assembly>
+      <class>NEvoWeb.Modules.NB_Store.Gateway.GatewayPxPay</class>
+    </gateway>
+    <gateway ref="PayBox">
+      <name>PayBox</name>
+      <assembly>NEvoweb.DNN.Modules.NB_Store.GatewayPayBox</assembly>
+      <class>NEvoWeb.Modules.NB_Store.Gateway.GatewayPayBox</class>
+    </gateway>
+    <gateway ref="SPplus">
+      <name>SPplus</name>
+      <assembly>NEvoweb.DNN.Modules.NB_Store.GatewaySPplus</assembly>
+      <class>NEvoWeb.Modules.NB_Store.Gateway.GatewaySPplus</class>
+    </gateway>
+    <gateway ref="DIBS">
+      <name>DIBS</name>
+      <assembly>NEvoweb.DNN.Modules.NB_Store.GatewayDIBS</assembly>
+      <class>NEvoWeb.Modules.NB_Store.Gateway.GatewayDIBS</class>
+    </gateway>	
+    <gateway ref="QuickPay">
+      <name>QuickPay</name>
+      <assembly>NEvoweb.DNN.Modules.NB_Store.GatewayQuickPay</assembly>
+      <class>NEvoWeb.Modules.NB_Store.Gateway.GatewayQuickPay</class>
+    </gateway>
+  </gateways>
+</root>]]></gatewayproviders.xml><image.quality Lang="None" HostOnly="True" CtrlType="TextBox" GroupRef="root/catalogue/images" HostOnly="True"><![CDATA[85]]></image.quality><image.resize Lang="None" HostOnly="True" CtrlType="TextBox" GroupRef="root/catalogue/images" HostOnly="True"><![CDATA[480]]></image.resize><lightboxgallerytemplate.name Lang="None" HostOnly="True" CtrlType="TextBox" GroupRef="root/catalogue/images" HostOnly="True"><![CDATA[jquerylightboxgallery.template]]></lightboxgallerytemplate.name><lightboxtemplate.name Lang="None" HostOnly="True" CtrlType="TextBox" GroupRef="root/catalogue/images" HostOnly="True"><![CDATA[jquerylightbox.template]]></lightboxtemplate.name><lockstockoncart Lang="None" HostOnly="True" CtrlType="Boolean" GroupRef="root/security" HostOnly="True"><![CDATA[0]]></lockstockoncart><manager.role Lang="None" HostOnly="True" CtrlType="TextBox" GroupRef="root/security" HostOnly="True"><![CDATA[Manager]]></manager.role><managerlite.role Lang="None" HostOnly="True" CtrlType="TextBox" GroupRef="root/security" HostOnly="True"><![CDATA[ManagerLite]]></managerlite.role><merchant.culture Lang="None" HostOnly="True" CtrlType="TextBox" GroupRef="root/payment/pricing" HostOnly="True"><![CDATA[es-CR]]></merchant.culture><merchant.email Lang="None" HostOnly="False" CtrlType="TextBox" GroupRef="root/notifications" HostOnly="False"><![CDATA[cenfotec@pernix.cr]]></merchant.email><minimumcarttotal.limit Lang="None" HostOnly="True" CtrlType="TextBox" GroupRef="root/payment/pricing" HostOnly="True"><![CDATA[]]></minimumcarttotal.limit><ordershipdate.days Lang="None" HostOnly="False" CtrlType="TextBox" GroupRef="root/payment/shipping" HostOnly="False"><![CDATA[0]]></ordershipdate.days><ordershipped.emailsubject Lang="None" HostOnly="False" CtrlType="TextBox" GroupRef="root/notifications" HostOnly="False"><![CDATA[La orden ha sido enviada - [Order:OrderNumber]]]></ordershipped.emailsubject><ordersreport.subject Lang="None" HostOnly="False" CtrlType="TextBox" GroupRef="root/notifications" HostOnly="False"><![CDATA[Reporte de ordenes]]></ordersreport.subject><ordersreport.xsl Lang="None" HostOnly="True" CtrlType="TextBox" GroupRef="root/system/reports" HostOnly="True"><![CDATA[/Desktopmodules/NB_Store/ordersreport_en.xsl]]></ordersreport.xsl><ordervalidated.emailsubject Lang="None" HostOnly="False" CtrlType="TextBox" GroupRef="root/notifications" HostOnly="False"><![CDATA[Orden Validada - [Order:OrderNumber]]]></ordervalidated.emailsubject><paymentOK.emailsubject Lang="None" HostOnly="False" CtrlType="TextBox" GroupRef="root/notifications" HostOnly="False"><![CDATA[Pago de su orden confirmado - [Order:OrderNumber]]]></paymentOK.emailsubject><paymentunverified.emailsubject Lang="None" HostOnly="False" CtrlType="TextBox" GroupRef="root/notifications" HostOnly="False"><![CDATA[No se pudo verificar el pago - [Order:OrderNumber]]]></paymentunverified.emailsubject><PayPal.gateway Lang="None" HostOnly="True" CtrlType="MultiLineTextBox" GroupRef="root/payment/gateways" HostOnly="True"><![CDATA[<root>
+        <paymentURL>https://www.paypal.com/cgi-bin/webscr</paymentURL>
+        <verifyURL>https://www.paypal.com/cgi-bin/webscr</verifyURL>
+        <PayPalID>sales@mywebsite.com</PayPalID>
+        <CartName>mywebsite</CartName>
+        <ButtonImageURL>/Desktopmodules/NB_Store/img/paypal60x38.gif</ButtonImageURL>
+        <Currency>(my-currency-code(USD))</Currency>
+        <ReturnURL>http://www.mywebsite.com/(checkout-page-name)/tabid/(tabid-number)/stg/5/Default.aspx?PayPalExit=RETURN</ReturnURL>
+        <ReturnCancelURL>http://www.mywebsite.com/(checkout-page-name)/tabid/(tabid-number)/stg/5/Default.aspx?PayPalExit=CANCEL</ReturnCancelURL>
+        <ReturnNotifyURL>http://www.mywebsite.com/(checkout-page-name)/tabid/(tabid-number)/stg/4/Default.aspx</ReturnNotifyURL>
+        <MerchantLanguage>(my-language-code(en))</MerchantLanguage>
+        <paypalurl>
+        <cmd>_xclick</cmd>
+        </paypalurl>
+      </root>]]></PayPal.gateway><product.limit Lang="None" HostOnly="True" CtrlType="TextBox" GroupRef="root/security" HostOnly="True"><![CDATA[10000]]></product.limit><productlinksoncart.flag Lang="None" HostOnly="True" CtrlType="Boolean" GroupRef="root/notifications" HostOnly="True"><![CDATA[0]]></productlinksoncart.flag><productlistcss.includes Lang="None" HostOnly="True" CtrlType="TextBox" GroupRef="root/catalogue/products" HostOnly="True"><![CDATA[jquery.lightbox-0.5.css]]></productlistcss.includes><productlistjs.includes Lang="None" HostOnly="True" CtrlType="TextBox" GroupRef="root/catalogue/products" HostOnly="True"><![CDATA[jquery.lightbox-0.5.min.js]]></productlistjs.includes><productliststartupjs.includes Lang="None" HostOnly="True" CtrlType="TextBox" GroupRef="root/catalogue/products" HostOnly="True"><![CDATA[jquerylightbox.code]]></productliststartupjs.includes><productlite.limit Lang="None" HostOnly="True" CtrlType="TextBox" GroupRef="root/security" HostOnly="True"><![CDATA[30]]></productlite.limit><productqty.limit Lang="None" HostOnly="True" CtrlType="TextBox" GroupRef="root/payment/pricing" HostOnly="True"><![CDATA[999999]]></productqty.limit><promo.roles Lang="None" HostOnly="True" CtrlType="TextBox" GroupRef="root/security" HostOnly="True"><![CDATA[]]></promo.roles><purgecartmins Lang="None" HostOnly="True" CtrlType="TextBox" GroupRef="root/security" HostOnly="True"><![CDATA[10080]]></purgecartmins><purgeordermins Lang="None" HostOnly="True" CtrlType="TextBox" GroupRef="root/security" HostOnly="True"><![CDATA[2880]]></purgeordermins><PxPay.gateway Lang="None" HostOnly="True" CtrlType="MultiLineTextBox" GroupRef="root/payment/gateways" HostOnly="True"><![CDATA[<root>
+        <paymentURL>https://www.paymentexpress.com/pxpay/pxaccess.aspx</paymentURL>
+        <PaymentExpress.PxPay>https://www.paymentexpress.com/pxpay/pxaccess.aspx</PaymentExpress.PxPay>
+        <PxPayUserId>(mywebsite-name)</PxPayUserId>
+        <PxPayKey>(my-pxpay-key)</PxPayKey>
+        <ButtonImageURL>/Desktopmodules/NB_Store_GatewayPxPay/pxpay.jpg</ButtonImageURL>
+        <ReturnURL>http://www.mywebsite.com/(checkout-page-name)/tabid/(tabid-number)/stg/5/PxPayExit/RETURN/Default.aspx</ReturnURL>
+        <ReturnCancelURL>http://www.mywebsite.com/(checkout-page-name)/tabid/(tabid-number)/stg/5/PxPayExit/CANCEL/Default.aspx</ReturnCancelURL>
+        <MerchantLanguage>(my-language-code(en))</MerchantLanguage>
+        <InputCurrency>(my-currency-code(NZD))</InputCurrency>
+        <TxnType>Purchase</TxnType>
+        <MerchantReference>(mywebsite-Purchase)</MerchantReference>
+        </root>]]></PxPay.gateway><rowdelimeter.importmapping Lang="None" HostOnly="True" CtrlType="TextBox" GroupRef="root/system/data" HostOnly="True"><![CDATA[]]></rowdelimeter.importmapping><salerates.lastday Lang="None" HostOnly="True" CtrlType="TextBox" GroupRef="root/system/reports" HostOnly="True"><![CDATA[18]]></salerates.lastday><searchdescription.flag Lang="None" HostOnly="True" CtrlType="Boolean" GroupRef="root/catalogue/products" HostOnly="True"><![CDATA[1]]></searchdescription.flag><settings.overwrite Lang="None" HostOnly="True" CtrlType="" GroupRef="root/general" HostOnly="True"><![CDATA[0]]></settings.overwrite><shipcountrycode.default Lang="None" HostOnly="True" CtrlType="TextBox" GroupRef="root/payment/shipping" HostOnly="True"><![CDATA[]]></shipcountrycode.default><shipfree.list Lang="None" HostOnly="True" CtrlType="TextBox" GroupRef="root/payment/shipping" HostOnly="True"><![CDATA[]]></shipfree.list><store.email Lang="None" HostOnly="False" CtrlType="TextBox" GroupRef="root/notifications" HostOnly="False"><![CDATA[cenfotec@pernix.cr]]></store.email><textboxedit.flag Lang="None" HostOnly="True" CtrlType="Boolean" GroupRef="root/system/backoffice" HostOnly="True"><![CDATA[1]]></textboxedit.flag><urlname.column Lang="None" HostOnly="True" CtrlType="TextBox" GroupRef="root/catalogue/products" HostOnly="True"><![CDATA[SEOName]]></urlname.column><usednnjquery.flag Lang="None" HostOnly="True" CtrlType="Boolean" GroupRef="root/system/misc" HostOnly="True"><![CDATA[0]]></usednnjquery.flag><version Lang="None" HostOnly="True" CtrlType="TextBox" GroupRef="root/system/misc" HostOnly="True"><![CDATA[02.01.01]]></version></settings><settingstext><adminproductalt.template Lang="None" CtrlType="" GroupRef="root/system/backoffice" HostOnly="False"><![CDATA[&lt;div class=&quot;NBright_ProductSelectAlt&quot;&gt;
+&lt;img src=&quot;[TAG:THUMBURL]&quot; style=&quot;padding: 5px;&quot;/&gt;&lt;br/&gt;
+[TAG:ADDRELATED:&lt;prop text=&quot;Select&quot; /&gt;]&lt;br/&gt;
+[TAG:PRODUCTNAME]&lt;/td&gt;
+&lt;/div&gt;]]></adminproductalt.template><adminproductitem.template Lang="None" CtrlType="" GroupRef="root/system/backoffice" HostOnly="False"><![CDATA[&lt;div class=&quot;NBright_ProductSelectItem&quot;&gt;
+&lt;img src=&quot;[TAG:THUMBURL]&quot; style=&quot;padding: 5px;&quot;/&gt;&lt;br/&gt;
+[TAG:ADDRELATED:&lt;prop text=&quot;Select&quot; /&gt;]&lt;br/&gt;
+[TAG:PRODUCTNAME]&lt;/td&gt;
+&lt;/div&gt;
+]]></adminproductitem.template><backoffice.text Lang="None" CtrlType="" GroupRef="root/notifications" HostOnly="False"><![CDATA[&lt;style type=&quot;text/css&quot;&gt;
+.NBright_ButtonDiv a {
+    background-color:#f5f5f5;
+    border:1px solid #dedede;
+    border-top:1px solid #eee;
+    border-left:1px solid #eee;
+    font-family:&quot;Lucida Grande&quot;, Tahoma, Arial, Verdana, sans-serif;
+    font-size:12px;
+    line-height:130%;
+    text-decoration:none;
+    font-weight:bold;
+    color:#565656;
+    cursor:pointer;
+    padding:5px 10px 6px 30px; /* Links */
+}
+.NBright_EnterButton{background:url(&quot;/DesktopModules/NB_Store/img/application_key.png&quot;) no-repeat 10px 50%;}
+a.NBright_EnterButton:link{color:#336699;}
+a.NBright_EnterButton:hover{background-color:#dff4ff;border:1px solid #c2e1ef;color:#336699;text-decoration: none;}
+a.NBright_EnterButton:active{background-color:#6299c5;border:1px solid #6299c5;color:#fff;}&lt;/style&gt;&lt;img alt=&quot;&quot; src=&quot;/DesktopModules/NB_Store/img/nbstore_logo.png&quot; vspace=&quot;10&quot; /&gt;]]></backoffice.text><buybutton.text Lang="None" CtrlType="" GroupRef="root/catalogue/products" HostOnly="False"><![CDATA[Comprar]]></buybutton.text><categoryCSV.ImportMapping Lang="None" CtrlType="" GroupRef="root/system/data" HostOnly="False"><![CDATA[&lt;NB_Store_CategoriesInfo&gt;
+    &lt;CategoryID&gt;&lt;/CategoryID&gt;
+    &lt;PortalID&gt;&lt;/PortalID&gt;
+    &lt;Archived&gt;false&lt;/Archived&gt;
+    &lt;CreatedByUser&gt;-1&lt;/CreatedByUser&gt;
+    &lt;CreatedDate&gt;2009-09-10T17:03:51.47&lt;/CreatedDate&gt;
+    &lt;ParentCategoryID&gt;&lt;/ParentCategoryID&gt;
+    &lt;ListOrder&gt;1&lt;/ListOrder&gt;
+    &lt;Lang&gt;[LANG]&lt;/Lang&gt;
+    &lt;CategoryName&gt;[COL:7]&lt;/CategoryName&gt;
+    &lt;ParentName&gt;&lt;/ParentName&gt;
+    &lt;CategoryDesc&gt;&lt;/CategoryDesc&gt;
+    &lt;Message&gt;&lt;/Message&gt;
+    &lt;ProductCount&gt;0&lt;/ProductCount&gt;
+    &lt;ProductTemplate /&gt;
+    &lt;ListItemTemplate /&gt;
+    &lt;ListAltItemTemplate /&gt;
+&lt;/NB_Store_CategoriesInfo&gt;]]></categoryCSV.ImportMapping><checkout.url Lang="None" CtrlType="" GroupRef="root/payment/cart" HostOnly="False"><![CDATA[http://cenfo.pernix.cr/Carrito.aspx]]></checkout.url><checkoutaddress.template Lang="None" CtrlType="" GroupRef="root/payment/checkout" HostOnly="False"><![CDATA[&lt;table cellspacing=&quot;0&quot; cellpadding=&quot;0&quot; class=&quot;NBright_AddressTable&quot; border=&quot;0&quot;&gt;
+        &lt;tr&gt;
+            &lt;td class=&quot;SubHead&quot; nowrap&gt;
+                Nombre Empresa :
+            &lt;/td&gt;
+            &lt;td valign=&quot;top&quot; nowrap&gt;
+                [&lt;tag id=&quot;txtAddressDescription&quot; type=&quot;textbox&quot; width=&quot;300&quot; cssclass=&quot;normal&quot; maxlength=&quot;50&quot;
+                    databind=&quot;AddressDescription&quot; /&gt;]
+            &lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td class=&quot;SubHead&quot; nowrap&gt;
+                Nombre del contacto :
+            &lt;/td&gt;
+            &lt;td valign=&quot;top&quot; nowrap&gt;
+                [&lt;tag id=&quot;txtAddressName&quot; type=&quot;textbox&quot; width=&quot;300&quot; cssclass=&quot;normal&quot; maxlength=&quot;50&quot;
+                    databind=&quot;AddressName&quot; /&gt;] [&lt;tag id=&quot;valAddressName&quot; ctrltype=&quot;rfvalidator&quot; errormessage=&quot;El nombre del contacto es requerido&quot;
+                        text=&quot;*&quot; controltovalidate=&quot;txtAddressName&quot; /&gt;]
+            &lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td class=&quot;SubHead&quot; nowrap&gt;
+                Pa&#237;s :
+            &lt;/td&gt;
+            &lt;td valign=&quot;top&quot; nowrap&gt;
+                [&lt;tag id=&quot;cboCountry&quot; type=&quot;dropdownlist&quot; cssclass=&quot;normal&quot; databind=&quot;CountryCode&quot; /&gt;]
+            &lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td class=&quot;SubHead&quot; nowrap&gt;
+                Provincia :
+            &lt;/td&gt;
+            &lt;td valign=&quot;top&quot; nowrap&gt;
+                [&lt;tag id=&quot;txtRegion&quot; type=&quot;textbox&quot; width=&quot;300&quot; cssclass=&quot;normal&quot; maxlength=&quot;50&quot;
+                    databind=&quot;RegionCode&quot; /&gt;]
+            &lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;tr&gt;
+                &lt;td class=&quot;SubHead&quot; nowrap&gt;
+                    Ciudad :
+                &lt;/td&gt;
+                &lt;td valign=&quot;top&quot; nowrap&gt;
+                    [&lt;tag id=&quot;txtCity&quot; type=&quot;textbox&quot; width=&quot;300&quot; cssclass=&quot;normal&quot; maxlength=&quot;50&quot; databind=&quot;City&quot; /&gt;]
+                    [&lt;tag id=&quot;valCity&quot; ctrltype=&quot;rfvalidator&quot; errormessage=&quot;La ciudad es requerida&quot; text=&quot;*&quot;
+                        controltovalidate=&quot;txtCity&quot; /&gt;]
+                &lt;/td&gt;
+            &lt;/tr&gt;
+            &lt;td class=&quot;SubHead&quot; nowrap&gt;
+                Otras Se&#241;as :
+            &lt;/td&gt;
+            &lt;td valign=&quot;top&quot; nowrap&gt;
+                [&lt;tag id=&quot;txtAddress1&quot; type=&quot;textbox&quot; width=&quot;300&quot; cssclass=&quot;normal&quot; maxlength=&quot;50&quot;
+                    databind=&quot;Address1&quot; /&gt;] [&lt;tag id=&quot;valAddress1&quot; ctrltype=&quot;rfvalidator&quot; errormessage=&quot;Una descripci&#243;n detallada del lugar de entrega es requerida&quot;
+                        text=&quot;*&quot; controltovalidate=&quot;txtAddress1&quot; /&gt;]
+            &lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td class=&quot;SubHead&quot; nowrap&gt;
+            &lt;/td&gt;
+            &lt;td valign=&quot;top&quot; nowrap&gt;
+                [&lt;tag id=&quot;txtAddress2&quot; type=&quot;textbox&quot; width=&quot;300&quot; cssclass=&quot;normal&quot; maxlength=&quot;50&quot;
+                    databind=&quot;Address2&quot; /&gt;]
+            &lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td class=&quot;SubHead&quot; nowrap&gt;
+                &lt;a href=&quot;http://www.correos.go.cr/codigo_postal/CodPostal.php&quot;&gt;C&#243;digo Postal&lt;/a&gt;
+                :
+            &lt;/td&gt;
+            &lt;td valign=&quot;top&quot; nowrap&gt;
+                [&lt;tag id=&quot;txtPostalCode&quot; type=&quot;textbox&quot; width=&quot;300&quot; cssclass=&quot;normal&quot; maxlength=&quot;50&quot;
+                    databind=&quot;PostalCode&quot; /&gt;] [&lt;tag id=&quot;valPostalCode&quot; ctrltype=&quot;rfvalidator&quot; errormessage=&quot;El c&#243;digo postal es requerido, si no sabe su c&#243;digo postal, hacer clic en el vinculo en la etiqueta de este campo para poder encontrar su c&#243;digo postal o en la siguiente direcci&#243;n electr&#243;nica http://tiny.cc/CodPostalCR&quot;
+                        text=&quot;*&quot; controltovalidate=&quot;txtPostalCode&quot; /&gt;]
+            &lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td class=&quot;SubHead&quot; nowrap&gt;
+                Tel&#233;fono :
+            &lt;/td&gt;
+            &lt;td valign=&quot;top&quot; nowrap&gt;
+                [&lt;tag id=&quot;txtPhone1&quot; type=&quot;textbox&quot; width=&quot;300&quot; cssclass=&quot;normal&quot; maxlength=&quot;50&quot;
+                    databind=&quot;Phone1&quot; /&gt;]
+            &lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td class=&quot;SubHead&quot; nowrap&gt;
+                Celular :
+            &lt;/td&gt;
+            &lt;td valign=&quot;top&quot; nowrap&gt;
+                [&lt;tag id=&quot;txtPhone2&quot; type=&quot;textbox&quot; width=&quot;300&quot; cssclass=&quot;normal&quot; maxlength=&quot;50&quot;
+                    databind=&quot;Phone2&quot; /&gt;]
+            &lt;/td&gt;
+        &lt;/tr&gt;
+    &lt;/table&gt;
+    &lt;br /&gt;
+    Si desconoce su c&#243;digo postal puede averiguarlo haciendo &lt;b&gt; &lt;a href=&quot;http://www.correos.go.cr/codigo_postal/CodPostal.php&quot;&gt;clic aqu&#237;.&lt;/a&gt;&lt;/b&gt; Es un proceso sencillo y va a ayudar a que su paquete llegue a su destino.
+    &lt;br /&gt;]]></checkoutaddress.template><chqpayment.email Lang="None" CtrlType="" GroupRef="root/notifications" HostOnly="False"><![CDATA[&lt;p&gt;
+    Usted ha seleccionado el m&#233;todo de pago por medio de transferencia electr&#243;nica o efectivo.&lt;br /&gt;
+&lt;/p&gt;
+&lt;p&gt;
+    Para poder procesar su orden tiene que seguir los siguientes pasos.
+&lt;/p&gt;
+    La orden ser&#225; validada tan pronto recibamos la confirmaci&#243;n de su pago y le estaremos enviando un correo electr&#243;nico con la confirmaci&#243;n de la validaci&#243;n de pago.
+&lt;/p&gt;
+&lt;p&gt;
+    [Template:payment.terms]
+&lt;/p&gt;
+&lt;p&gt;
+    Muchas gracias.&lt;/p&gt;
+&lt;p&gt;
+&lt;p&gt;
+    [Template:order.detail]
+&lt;/p&gt;]]></chqpayment.email><chqpayment.text Lang="None" CtrlType="" GroupRef="root/payment/checkout" HostOnly="False"><![CDATA[[Template:chqpayment.email]]]></chqpayment.text><courierpost.tracktemplate Lang="None" CtrlType="" GroupRef="root/payment/shipping" HostOnly="False"><![CDATA[&lt;div&gt;
+    &lt;strong&gt;Track &amp;amp; Trace: &lt;/strong&gt;&lt;a title=&quot;Click to trace this delivery&quot; href=&quot;http://(your-courier-companys-tracking-page)/[TAG:TRACKINGCODE]&quot; target=&quot;_blank&quot;&gt;[TAG:TRACKINGCODE]&lt;/a&gt;
+&lt;/div&gt;
+]]></courierpost.tracktemplate><dashboard.text Lang="None" CtrlType="" GroupRef="root/payment/shipping" HostOnly="False"><![CDATA[&lt;table width=&quot;100%&quot;&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td colspan=&quot;3&quot;&gt;[Report:dash_getdate]&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;[Report:dash_ordercount]&lt;/td&gt;
+      &lt;td&gt;[Report:dash_ordertotal]&lt;/td&gt;
+      &lt;td&gt;[Report:dash_productcount]&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td class=&quot;NormalBold&quot; colspan=&quot;3&quot;&gt;Latest Orders 
+      &lt;br /&gt;[Report:dash_LatestOrders]&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+]]></dashboard.text><emptycart.text Lang="None" CtrlType="" GroupRef="root/payment/checkout" HostOnly="False"><![CDATA[&lt;p&gt;Basket is empty.&lt;/p&gt;]]></emptycart.text><extradetail.text Lang="None" CtrlType="" GroupRef="root/payment/checkout" HostOnly="False"><![CDATA[&lt;p&gt;Special Instructions:&lt;/p&gt;]]></extradetail.text><gatewaymsg.text Lang="None" CtrlType="" GroupRef="root/payment/gateways" HostOnly="False"><![CDATA[&lt;p&gt;&lt;strong&gt;Bank Card:&lt;/strong&gt;&lt;br /&gt; Please select your type of payment.&lt;/p&gt;]]></gatewaymsg.text><goodrelations.template Lang="None" CtrlType="" GroupRef="root/catalogue/products" HostOnly="False"><![CDATA[&lt;div xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema#&quot; xmlns:gr=&quot;http://purl.org/goodrelations/v1#&quot; xmlns:foaf=&quot;http://xmlns.com/foaf/0.1/&quot; xmlns:rdfs=&quot;http://www.w3.org/2000/01/rdf-schema#&quot; xmlns:rdf=&quot;http://www.w3.org/1999/02/22-rdf-syntax-ns#&quot;&gt;
+  &lt;div typeof=&quot;gr:Offering&quot; about=&quot;#offering&quot;&gt;
+    &lt;div rev=&quot;gr:offers&quot; resource=&quot;http://[TAG:WEBSITEURL]#company&quot;&gt;&lt;/div&gt;
+    &lt;div property=&quot;rdfs:label&quot; content=&quot;[TAG:PRODUCTNAME]&quot; &gt;&lt;/div&gt;
+    &lt;div property=&quot;rdfs:comment&quot; content=&quot;[TAG:SUMMARY]&quot; &gt;&lt;/div&gt;
+    &lt;div rel=&quot;foaf:depiction&quot; resource=&quot;[TAG:IMAGEURL]&quot;&gt;&lt;/div&gt;
+    &lt;div rel=&quot;gr:hasBusinessFunction&quot; resource=&quot;http://purl.org/goodrelations/v1#Sell&quot;&gt;&lt;/div&gt;
+    &lt;div rel=&quot;foaf:page&quot; resource=&quot;&quot;&gt;&lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;]]></goodrelations.template><goodrelations2.template Lang="None" CtrlType="" GroupRef="root/catalogue/products" HostOnly="False"><![CDATA[&lt;div xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema#&quot; xmlns:gr=&quot;http://purl.org/goodrelations/v1#&quot; xmlns:foaf=&quot;http://xmlns.com/foaf/0.1/&quot; xmlns:rdfs=&quot;http://www.w3.org/2000/01/rdf-schema#&quot; xmlns:rdf=&quot;http://www.w3.org/1999/02/22-rdf-syntax-ns#&quot;&gt;
+  &lt;div typeof=&quot;gr:Offering&quot; about=&quot;#offering&quot;&gt;
+    &lt;div rev=&quot;gr:offers&quot; resource=&quot;http://[TAG:WEBSITEURL]#company&quot;&gt;&lt;/div&gt;
+    &lt;div property=&quot;rdfs:label&quot; content=&quot;[TAG:PRODUCTNAME]&quot; xml:lang=&quot;nl&quot;&gt;&lt;/div&gt;
+    &lt;div property=&quot;rdfs:comment&quot; content=&quot;[TAG:SUMMARY]&quot; xml:lang=&quot;nl&quot;&gt;&lt;/div&gt;
+    &lt;div rel=&quot;foaf:depiction&quot; resource=&quot;[TAG:IMAGEURL]&quot;&gt;&lt;/div&gt;
+    &lt;div rel=&quot;gr:hasBusinessFunction&quot; resource=&quot;http://purl.org/goodrelations/v1#Sell&quot;&gt;&lt;/div&gt;
+    &lt;div rel=&quot;gr:hasPriceSpecification&quot;&gt;
+      &lt;div typeof=&quot;gr:UnitPriceSpecification&quot;&gt;
+        &lt;div property=&quot;gr:hasCurrency&quot; content=&quot;EUR&quot; datatype=&quot;xsd:string&quot;&gt;&lt;/div&gt;
+        &lt;div property=&quot;gr:hasCurrencyValue&quot; content=&quot;[TAG:FROMPRICE]&quot; datatype=&quot;xsd:float&quot;&gt;&lt;/div&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+    &lt;div rel=&quot;gr:acceptedPaymentMethods&quot; resource=&quot;http://purl.org/goodrelations/v1#PayPal&quot;&gt;&lt;/div&gt;
+    &lt;div rel=&quot;gr:acceptedPaymentMethods&quot; resource=&quot;http://purl.org/goodrelations/v1#ByBankTransferInAdvance&quot;&gt;&lt;/div&gt;
+    &lt;div rel=&quot;foaf:page&quot; resource=&quot;&quot;&gt;&lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;]]></goodrelations2.template><jqadmintreeview.code Lang="None" CtrlType="" GroupRef="root/system/backoffice" HostOnly="False"><![CDATA[&lt;script language='javascript' type='text/javascript'&gt; 
+jQuery(document).ready(function(){
+    jQuery('#AdminTreeMenu').treeview({animated:'fast', collapsed: true, persist: 'location'});
+}); 
+&lt;/script&gt;]]></jqadmintreeview.code><jqtabs.code Lang="None" CtrlType="MultiLineTextBox" GroupRef="root/system/backoffice" HostOnly="False"><![CDATA[&lt;script language='javascript' type='text/javascript'&gt;   
+
+jQuery(document).ready(function(){
+    jQuery('#tabs').tabs({ cookie: { expires: 30 } });    
+});
+
+&lt;/script&gt;]]></jqtabs.code><jqtreeview.code Lang="None" CtrlType="" GroupRef="root/catalogue/categories" HostOnly="False"><![CDATA[&lt;script language='javascript' type='text/javascript'&gt; 
+jQuery(document).ready(function(){
+    jQuery('#NBStoreTreeMenu').treeview({animated:'fast', collapsed: true, persist: 'location'});
+}); 
+&lt;/script&gt;]]></jqtreeview.code><jqueryaccordion.code Lang="None" CtrlType="" GroupRef="root/catalogue/categories" HostOnly="False"><![CDATA[&lt;script language='javascript' type='text/javascript'&gt; 
+jQuery(document).ready(function(){
+    jQuery('#NBStoreAccordion').accordion({ active: false, header: '.nbstoremenuhead', autoheight: false, navigation: true, event: 'mouseover' }); 
+}); 
+&lt;/script&gt;
+
+
+
+]]></jqueryaccordion.code><jquerylightbox.code Lang="None" CtrlType="" GroupRef="root/catalogue/images" HostOnly="False"><![CDATA[jQuery(function() { 	jQuery('.jquerylightbox').lightBox(); }); ]]></jquerylightbox.code><jquerylightbox.template Lang="None" CtrlType="" GroupRef="root/catalogue/images" HostOnly="False"><![CDATA[&lt;table height=&quot;302&quot; width=&quot;302&quot; cellspacing=&quot;0&quot; cellpadding=&quot;0&quot; border=&quot;0&quot; bgcolor=&quot;#ffffff&quot;&gt;
+    &lt;tbody&gt;
+        &lt;tr&gt;
+            &lt;td valign=&quot;middle&quot; align=&quot;center&quot; style=&quot;border: 1px solid rgb(216, 208, 187);&quot;&gt;
+                &lt;a href=&quot;[Product:ImageURL]&quot; class=&quot;jquerylightbox&quot; rel=&quot;GRP1&quot; title=&quot;[Product:ImageDesc]&quot;&gt;
+                    &lt;img border=&quot;0&quot; src=&quot;[Product:ImageThumb]&quot; alt=&quot;[Product:ImageDesc]&quot; /&gt;&lt;/a&gt;
+            &lt;/td&gt;
+        &lt;/tr&gt;
+    &lt;/tbody&gt;
+&lt;/table&gt;]]></jquerylightbox.template><jquerylightboxgallery.template Lang="None" CtrlType="" GroupRef="root/catalogue/images" HostOnly="False"><![CDATA[&lt;table height=&quot;122&quot; width=&quot;122&quot; cellspacing=&quot;0&quot; cellpadding=&quot;0&quot; border=&quot;0&quot; bgcolor=&quot;#ffffff&quot;&gt;
+    &lt;tbody&gt;
+        &lt;tr&gt;
+            &lt;td valign=&quot;middle&quot; align=&quot;center&quot; style=&quot;border: 1px solid rgb(216, 208, 187);&quot;&gt;
+                &lt;a href=&quot;[Product:ImageURL]&quot; rel=&quot;GRP1&quot; class=&quot;jquerylightbox&quot; title=&quot;[Product:ImageDesc]&quot;&gt;
+                    &lt;img border=&quot;0&quot; src=&quot;[Product:ImageThumb]&quot; alt=&quot;[Product:ImageDesc]&quot; /&gt;&lt;/a&gt;
+            &lt;/td&gt;
+        &lt;/tr&gt;
+    &lt;/tbody&gt;
+&lt;/table&gt;]]></jquerylightboxgallery.template><logintext.text Lang="None" CtrlType="" GroupRef="root/security" HostOnly="False"><![CDATA[&lt;h2&gt;Please sign-in to complete your order&lt;/h2&gt;
+&lt;table border=&quot;0&quot; width=&quot;100%&quot;&gt;
+  &lt;tr&gt;
+    &lt;td align=&quot;center&quot; width=&quot;50%&quot;&gt;
+      &lt;strong&gt;I already have an account&lt;/strong&gt;&lt;br/&gt;
+      &lt;a href=&quot;javascript:__doPostBack('dnn$dnnLOGIN$cmdLogin','')&quot;&gt;Sign in&lt;/a&gt;
+    &lt;/td&gt;
+    &lt;td align=&quot;center&quot; width=&quot;50%&quot;&gt;
+      &lt;strong&gt;I do not have an account&lt;/strong&gt;&lt;br/&gt;
+      &lt;a href=&quot;javascript:__doPostBack('dnn$dnnUSER$cmdRegister','')&quot;&gt;Register&lt;/a&gt;
+    &lt;/td&gt;
+  &lt;/tr&gt;
+&lt;/table&gt;
+
+]]></logintext.text><minicart.template Lang="None" CtrlType="" GroupRef="root/payment/cart" HostOnly="False"><![CDATA[&lt;table style=&quot;width: 100%&quot;&gt;
+    &lt;tr&gt;
+        &lt;td&gt;
+            Items: &lt;strong&gt;[Cart:Qty]&lt;/strong&gt; Total: &lt;strong&gt;[Cart:OrderTotal]&lt;/strong&gt;
+        &lt;/td&gt;
+        &lt;td&gt;
+            &lt;a href=&quot;[Template:checkout.url]&quot;&gt;
+                &lt;img alt=&quot;Go to Checkout&quot; border=&quot;0&quot; src=&quot;/DesktopModules/NB_Store/img/cart.png&quot; /&gt;&lt;/a&gt;
+        &lt;/td&gt;
+    &lt;/tr&gt;
+&lt;/table&gt;
+]]></minicart.template><minicartempty.template Lang="None" CtrlType="" GroupRef="root/payment/cart" HostOnly="False"><![CDATA[&lt;table style=&quot;width: 100%&quot;&gt;
+    &lt;tr&gt;
+        &lt;td&gt;
+            &lt;strong&gt;Carrito Vacio&lt;/strong&gt;
+        &lt;/td&gt;
+        &lt;td&gt;
+            &lt;img alt=&quot;Basket is empty&quot; border=&quot;0&quot; src=&quot;/DesktopModules/NB_Store/img/cart.png&quot; /&gt;
+        &lt;/td&gt;
+    &lt;/tr&gt;
+&lt;/table&gt;]]></minicartempty.template><minimumcarttotal.text Lang="None" CtrlType="" GroupRef="root/payment/checkout" HostOnly="False"><![CDATA[]]></minimumcarttotal.text><modeltable.template Lang="None" CtrlType="" GroupRef="root/catalogue/products" HostOnly="False"><![CDATA[]]></modeltable.template><modeltablerow.template Lang="None" CtrlType="" GroupRef="root/catalogue/products" HostOnly="False"><![CDATA[]]></modeltablerow.template><nextday.shiptemplate Lang="None" CtrlType="" GroupRef="root/payment/shipping" HostOnly="False"><![CDATA[Fast Delivery [TAG:SHIPPINGCOST]) ]]></nextday.shiptemplate><noimage.template Lang="None" CtrlType="" GroupRef="root/catalogue/images" HostOnly="False"><![CDATA[&lt;table height=&quot;302&quot; width=&quot;302&quot; cellspacing=&quot;0&quot; cellpadding=&quot;0&quot; border=&quot;0&quot; bgcolor=&quot;#ffffff&quot;&gt;
+    &lt;tbody&gt;
+        &lt;tr&gt;
+            &lt;td valign=&quot;middle&quot; align=&quot;center&quot; style=&quot;border: 1px solid rgb(216, 208, 187);&quot;&gt;
+                &lt;img border=&quot;0&quot; src=&quot;[Product:ImageThumb]&quot; alt=&quot;[Product:ImageDesc]&quot; /&gt;
+            &lt;/td&gt;
+        &lt;/tr&gt;
+    &lt;/tbody&gt;
+&lt;/table&gt;
+]]></noimage.template><noimagegallery.template Lang="None" CtrlType="" GroupRef="root/catalogue/images" HostOnly="False"><![CDATA[&lt;table height=&quot;122&quot; width=&quot;122&quot; cellspacing=&quot;0&quot; cellpadding=&quot;0&quot; border=&quot;0&quot; bgcolor=&quot;#ffffff&quot;&gt;
+    &lt;tbody&gt;
+        &lt;tr&gt;
+            &lt;td valign=&quot;middle&quot; align=&quot;center&quot; style=&quot;border: 1px solid rgb(216, 208, 187);&quot;&gt;
+                &lt;img border=&quot;0&quot; src=&quot;[Product:ImageThumb]&quot; alt=&quot;[Product:ImageDesc]&quot; /&gt;
+            &lt;/td&gt;
+        &lt;/tr&gt;
+    &lt;/tbody&gt;
+&lt;/table&gt;]]></noimagegallery.template><nosearchresult.template Lang="None" CtrlType="" GroupRef="root/catalogue/products" HostOnly="False"><![CDATA[&lt;p&gt;No products found&lt;/p&gt;]]></nosearchresult.template><nowishlist.template Lang="None" CtrlType="" GroupRef="root/catalogue/products" HostOnly="False"><![CDATA[&lt;p&gt;No products found in your wishlist&lt;/p&gt;]]></nowishlist.template><order.detail Lang="None" CtrlType="" GroupRef="root/payment/checkout" HostOnly="False"><![CDATA[&lt;p&gt;
+        &lt;table border=&quot;0&quot; cellpadding=&quot;0&quot; cellspacing=&quot;0&quot; width=&quot;100%&quot;&gt;
+            &lt;tr&gt;
+                &lt;td class=&quot;style4&quot;&gt;
+                    &lt;h2&gt;
+                        ORDEN&lt;/h2&gt;
+                &lt;/td&gt;
+                &lt;td valign=&quot;top&quot; class=&quot;style4&quot;&gt;
+                    &lt;strong&gt;&lt;span lang=&quot;en-us&quot;&gt;Numero de Orden&lt;/span&gt;: &lt;/strong&gt;[Order:OrderNumber]
+                    &lt;br /&gt;
+                    &lt;strong&gt;&lt;span lang=&quot;en-us&quot;&gt;Fecha de la Orden&lt;/span&gt;:&lt;/strong&gt; [Order:OrderDate]
+                &lt;/td&gt;
+            &lt;/tr&gt;
+        &lt;/table&gt;
+    &lt;/p&gt;
+    &lt;p&gt;
+        &lt;table border=&quot;0&quot; cellpadding=&quot;0&quot; cellspacing=&quot;0&quot; width=&quot;100%&quot;&gt;
+            &lt;tr&gt;
+                &lt;td valign=&quot;top&quot;&gt;
+                    &lt;strong&gt;&lt;span lang=&quot;en-us&quot;&gt;Facturado a:&lt;/span&gt;&lt;/strong&gt;&lt;br /&gt;
+                    [BAddress:AddressName]
+                    &lt;br /&gt;
+                    [BAddress:Address1]
+                    &lt;br /&gt;
+                    [BAddress:Address2]
+                    &lt;br /&gt;
+                    [BAddress:PostalCode] [BAddress:City]
+                    &lt;br /&gt;
+                    [BAddress:RegionCode]
+                    &lt;br /&gt;
+                    [BAddress:Country]
+                    &lt;br /&gt;
+                    [BAddress:Phone1]
+                    &lt;br /&gt;
+                    [BAddress:Phone2]&lt;br /&gt;
+                    [Order:Email]
+                &lt;/td&gt;
+                &lt;td align=&quot;right&quot; valign=&quot;top&quot;&gt;
+                    &lt;strong&gt;&lt;span lang=&quot;en-us&quot;&gt;Enviar a&lt;/span&gt;:&lt;/strong&gt;
+                    &lt;br /&gt;
+                    [SAddress:AddressName]
+                    &lt;br /&gt;
+                    [SAddress:Address1]
+                    &lt;br /&gt;
+                    [SAddress:Address2]
+                    &lt;br /&gt;
+                    [SAddress:PostalCode] [SAddress:City]
+                    &lt;br /&gt;
+                    [SAddress:RegionCode]
+                    &lt;br /&gt;
+                    [SAddress:Country]
+                    &lt;br /&gt;
+                    [SAddress:Phone1]
+                    &lt;br /&gt;
+                    [SAddress:Phone2]
+                &lt;/td&gt;
+            &lt;/tr&gt;
+        &lt;/table&gt;
+    &lt;/p&gt;
+    &lt;p&gt;
+        &lt;table border=&quot;0&quot; cellpadding=&quot;5&quot; cellspacing=&quot;0&quot; width=&quot;100%&quot;&gt;
+            &lt;tr valign=&quot;top&quot;&gt;
+                &lt;td align=&quot;center&quot; class=&quot;style2&quot;&gt;
+                    Items
+                &lt;/td&gt;
+                &lt;td align=&quot;center&quot; class=&quot;style1&quot;&gt;
+                    &lt;span lang=&quot;en-us&quot; class=&quot;style3&quot;&gt;Precio&lt;/span&gt;&lt;b&gt; &lt;/b&gt;
+                &lt;/td&gt;
+                &lt;td align=&quot;center&quot; class=&quot;style1&quot;&gt;
+                    &lt;span lang=&quot;en-us&quot; class=&quot;style3&quot;&gt;Can&lt;/span&gt;&lt;b&gt; &lt;/b&gt;
+                &lt;/td&gt;
+                &lt;td align=&quot;center&quot; class=&quot;style2&quot;&gt;
+                    Total
+                &lt;/td&gt;
+            &lt;/tr&gt;
+            [Order:DetailRows]&lt;tr&gt;
+                &lt;td align=&quot;right&quot; colspan=&quot;3&quot;&gt;
+                    &lt;span lang=&quot;en-us&quot;&gt;Flete&lt;/span&gt;
+                &lt;/td&gt;
+                &lt;td align=&quot;right&quot;&gt;
+                    [Order:ShippingCost]
+                &lt;/td&gt;
+            &lt;/tr&gt;
+            &lt;tr&gt;
+                &lt;td align=&quot;right&quot; colspan=&quot;3&quot;&gt;
+                    Total
+                &lt;/td&gt;
+                &lt;td align=&quot;right&quot;&gt;
+                    &lt;strong&gt;[Order:Total]&lt;/strong&gt;
+                &lt;/td&gt;
+            &lt;/tr&gt;
+        &lt;/table&gt;
+    &lt;/p&gt;
+    &lt;p&gt;
+        &lt;strong&gt;Instrucciones especiales:&lt;/strong&gt;&lt;br/&gt;
+        [Order:NoteMsg]&lt;/p&gt;
+&lt;/p&gt;]]></order.detail><order.email.template Lang="None" CtrlType="" GroupRef="root/notifications" HostOnly="False"><![CDATA[&lt;p&gt;
+[Template:order.detail]
+&lt;/p&gt;]]></order.email.template><order.text.template Lang="None" CtrlType="" GroupRef="root/notifications" HostOnly="False"><![CDATA[&lt;p&gt;
+[Template:order.detail]
+&lt;/p&gt;]]></order.text.template><orderprint.text Lang="None" CtrlType="" GroupRef="root/notifications" HostOnly="False"><![CDATA[&lt;p&gt;[Template:order.text.template]&lt;/p&gt;]]></orderprint.text><ordershipped.email Lang="None" CtrlType="" GroupRef="root/notifications" HostOnly="False"><![CDATA[&lt;p&gt;
+    &lt;strong&gt;Su orden ha sido enviada.&lt;/strong&gt;
+&lt;/p&gt;
+&lt;p&gt;
+[Template:order.detail]
+&lt;/p&gt;]]></ordershipped.email><ordervalidated.email Lang="None" CtrlType="" GroupRef="root/notifications" HostOnly="False"><![CDATA[&lt;p&gt;
+    &lt;strong&gt;El pago de su orden ha sido validado.&lt;/strong&gt;
+&lt;/p&gt;
+&lt;p&gt;
+[Template:order.detail]
+&lt;/p&gt;]]></ordervalidated.email><orderview.text Lang="None" CtrlType="" GroupRef="root/notifications" HostOnly="False"><![CDATA[&lt;p&gt;[Template:order.text.template]&lt;/p&gt;]]></orderview.text><payment.terms Lang="None" CtrlType="" GroupRef="root/payment/checkout" HostOnly="False"><![CDATA[Hacer un dep&#243;sito por el total de la orden a la siguiente cuenta del BNCR. Incluir en la descripci&#243;n del dep&#243;sito el n&#250;mero de orden:  [Order:ShortOrderNumber]]]></payment.terms><paymentFAIL.text Lang="None" CtrlType="" GroupRef="root/notifications" HostOnly="False"><![CDATA[&lt;p&gt;No fue posible verificar el pago. La orden ha sido cancelada.&lt;/p&gt;]]></paymentFAIL.text><paymentinprocess.text Lang="None" CtrlType="" GroupRef="root/notifications" HostOnly="False"><![CDATA[&lt;p&gt;El pago de la orden contin&#250;a en proceso.&lt;/p&gt;]]></paymentinprocess.text><paymentOK.email Lang="None" CtrlType="" GroupRef="root/notifications" HostOnly="False"><![CDATA[&lt;p&gt;
+Hemos recibido su orden.&lt;br /&gt;
+Muchas gracias
+&lt;/p&gt;
+&lt;p&gt;
+[Template:order.detail]
+&lt;/p&gt;]]></paymentOK.email><paymentOK.text Lang="None" CtrlType="" GroupRef="root/notifications" HostOnly="False"><![CDATA[&lt;p&gt;Muchas gracias por su compra:&lt;/p&gt; &lt;p&gt;[Template:order.text.template]&lt;/p&gt;]]></paymentOK.text><paymentSECURITY.text Lang="None" CtrlType="" GroupRef="root/notifications" HostOnly="False"><![CDATA[&lt;p&gt;Violaci&#243;n de seguridad por favor p&#243;ngase en contacto con el administrador del sistema&lt;/p&gt;]]></paymentSECURITY.text><paymentunverified.email Lang="None" CtrlType="" GroupRef="root/notifications" HostOnly="False"><![CDATA[&lt;p&gt;
+El pago de la orden no pudo ser verificado
+&lt;/p&gt;
+&lt;p&gt;
+[Template:order.detail]
+&lt;/p&gt;
+]]></paymentunverified.email><productCSV.ImportMapping Lang="None" CtrlType="" GroupRef="root/system/data" HostOnly="False"><![CDATA[&lt;P&gt;
+    &lt;NB_Store_ProductsInfo&gt;
+        &lt;ProductID&gt;&lt;/ProductID&gt;
+        &lt;PortalID&gt;[PORTALID]&lt;/PortalID&gt;
+        &lt;TaxCategoryID&gt;-1&lt;/TaxCategoryID&gt;
+        &lt;Featured&gt;false&lt;/Featured&gt;
+        &lt;Archived&gt;[COL:4]&lt;/Archived&gt;
+        &lt;CreatedByUser&gt;1&lt;/CreatedByUser&gt;
+        &lt;CreatedDate&gt;2009-08-02T07:01:05.907&lt;/CreatedDate&gt;
+        &lt;IsDeleted&gt;false&lt;/IsDeleted&gt;
+        &lt;ProductRef&gt;[COL:2]&lt;/ProductRef&gt;
+        &lt;Lang&gt;[LANG]&lt;/Lang&gt;
+        &lt;Summary&gt;[COL:5]&lt;/Summary&gt;
+        &lt;Description&gt;[COL:6]&lt;/Description&gt;
+        &lt;Manufacturer&gt;[COL:23]&lt;/Manufacturer&gt;
+        &lt;ProductName&gt;[COL:3]&lt;/ProductName&gt;
+        &lt;XMLData /&gt;
+        &lt;ModifiedDate&gt;0001-01-01T00:00:00&lt;/ModifiedDate&gt;
+    &lt;/NB_Store_ProductsInfo&gt;
+    &lt;M&gt;
+        &lt;NB_Store_ModelInfo&gt;
+            &lt;ModelID&gt;1&lt;/ModelID&gt;
+            &lt;ProductID&gt;1&lt;/ProductID&gt;
+            &lt;ListOrder&gt;1&lt;/ListOrder&gt;
+            &lt;UnitCost&gt;[COL:8]&lt;/UnitCost&gt;
+            &lt;Barcode /&gt;
+            &lt;ModelRef&gt;[COL:2]&lt;/ModelRef&gt;
+            &lt;Lang&gt;[LANG]&lt;/Lang&gt;
+            &lt;ModelName&gt;[COL:3]&lt;/ModelName&gt;
+            &lt;QtyRemaining&gt;-1&lt;/QtyRemaining&gt;
+            &lt;QtyTrans&gt;1&lt;/QtyTrans&gt;
+            &lt;QtyTransDate&gt;2009-06-14T16:16:38.767&lt;/QtyTransDate&gt;
+            &lt;ProductName&gt;[COL:3]&lt;/ProductName&gt;
+            &lt;PortalID&gt;0&lt;/PortalID&gt;
+            &lt;Weight&gt;[COL:19]&lt;/Weight&gt;
+            &lt;Height&gt;[COL:18]&lt;/Height&gt;
+            &lt;Length&gt;[COL:16]&lt;/Length&gt;
+            &lt;Width&gt;[COL:17]&lt;/Width&gt;
+            &lt;Deleted&gt;false&lt;/Deleted&gt;
+            &lt;QtyStockSet&gt;0&lt;/QtyStockSet&gt;
+            &lt;DealerCost&gt;[COL:7]&lt;/DealerCost&gt;
+            &lt;PurchaseCost&gt;[COL:7]&lt;/PurchaseCost&gt;
+            &lt;XMLData /&gt;
+            &lt;Extra /&gt;
+        &lt;/NB_Store_ModelInfo&gt;
+    &lt;/M&gt;
+    &lt;I&gt;
+        &lt;NB_Store_ProductImageInfo&gt;
+            &lt;ImageID&gt;1&lt;/ImageID&gt;
+            &lt;ProductID&gt;1&lt;/ProductID&gt;
+            &lt;ImagePath&gt;C:\[COL:21]&lt;/ImagePath&gt;
+            &lt;ListOrder&gt;1&lt;/ListOrder&gt;
+            &lt;Hidden&gt;false&lt;/Hidden&gt;
+            &lt;Lang&gt;[LANG]&lt;/Lang&gt;
+            &lt;ImageDesc /&gt;
+            &lt;ImageURL&gt;/Portals/0/[COL:21]&lt;/ImageURL&gt;
+        &lt;/NB_Store_ProductImageInfo&gt;
+    &lt;/I&gt;
+    &lt;D&gt;&lt;/D&gt;
+    &lt;C&gt;
+        &lt;NB_Store_ProductCategoryInfo&gt;
+            &lt;ProductID&gt;1&lt;/ProductID&gt;
+            &lt;CategoryID&gt;1&lt;/CategoryID&gt;
+        &lt;/NB_Store_ProductCategoryInfo&gt;
+    &lt;/C&gt;
+    &lt;options&gt;&lt;/options&gt;
+&lt;/P&gt;
+]]></productCSV.ImportMapping><productdetail.template Lang="None" CtrlType="" GroupRef="root/catalogue/products" HostOnly="False"><![CDATA[&lt;table cellspacing=&quot;0&quot; cellpadding=&quot;0&quot; width=&quot;100%&quot; border=&quot;0&quot;&gt;
+        &lt;tbody&gt;
+            &lt;tr&gt;
+                &lt;td style=&quot;padding-bottom: 10px&quot; colspan=&quot;3&quot;&gt;
+                    &lt;a class=&quot;prodlinks&quot; href=&quot;javascript:history.back()&quot;&gt;Regresar&lt;/a&gt;
+                &lt;/td&gt;
+            &lt;/tr&gt;
+            &lt;tr&gt;
+                &lt;td&gt;
+                    [TAG:IMAGELIGHTBOX]
+                &lt;/td&gt;
+                &lt;td valign=&quot;top&quot;&gt;
+                    &lt;div style=&quot;margin: 0px 0px 12px 12px&quot;&gt;
+                        [TAG:GALLERY2]&lt;/div&gt;
+                    &lt;div style=&quot;margin: 0px 0px 12px 12px&quot;&gt;
+                        [TAG:GALLERY3]&lt;/div&gt;
+                &lt;/td&gt;
+                &lt;td valign=&quot;top&quot; width=&quot;100%&quot;&gt;
+                    &lt;div style=&quot;margin: 0px 0px 12px 12px&quot;&gt;
+                        [TAG:GALLERY4]&lt;/div&gt;
+                    &lt;div style=&quot;margin: 0px 0px 12px 12px&quot;&gt;
+                        [TAG:GALLERY5]&lt;/div&gt;
+                &lt;/td&gt;
+            &lt;/tr&gt;
+            &lt;tr&gt;
+                &lt;td colspan=&quot;3&quot;&gt;
+                    &lt;h4&gt;[TAG:PRODUCTNAME]&lt;/h4&gt;
+                    Precio : [TAG:FROMPRICECURRENCY] [TAG:EDITLINK]
+                &lt;/td&gt;
+            &lt;/tr&gt;
+            &lt;tr&gt;
+                &lt;td style=&quot;padding-right: 10px; padding-left: 10px; padding-bottom: 10px; padding-top: 10px&quot;
+                    align=&quot;center&quot; colspan=&quot;3&quot;&gt;
+                    [TAG:MODELS]&amp;#160;Cantidad: [TAG:QTY][TAG:ADDTOBASKET]
+                &lt;/td&gt;
+            &lt;/tr&gt;
+            &lt;tr&gt;
+                &lt;td&gt;
+                    [TAG:OPTIONNAME1] [TAG:OPTION1]
+                &lt;/td&gt;
+            &lt;/tr&gt;
+            &lt;tr&gt;
+                &lt;td&gt;
+                    Documentos adjuntos: [TAG:DOC1][TAG:DOC2][TAG:DOC3][TAG:DOC4][TAG:DOC5]
+                &lt;/td&gt;
+            &lt;/tr&gt;
+            &lt;tr&gt;
+                &lt;td colspan=&quot;3&quot;&gt;
+                    &lt;br /&gt;
+                    [TAG:DESCRIPTION] 
+                    &lt;br /&gt;
+                &lt;/td&gt;
+            &lt;/tr&gt;
+        &lt;/tbody&gt;
+    &lt;/table&gt;]]></productdetail.template><productdetail2.template Lang="None" CtrlType="" GroupRef="root/catalogue/products" HostOnly="False"><![CDATA[&lt;table&gt;
+    &lt;tbody&gt;
+        &lt;tr&gt;
+            &lt;td&gt;
+                [TAG:IMAGE]
+            &lt;/td&gt;
+            &lt;td&gt;
+                &lt;i&gt;[TAG:SUMMARY]&lt;/i&gt;&lt;br /&gt;
+                [TAG:DESCRIPTION]
+            &lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td&gt;
+            &lt;/td&gt;
+        &lt;/tr&gt;
+    &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;table&gt;
+    &lt;tbody&gt;
+        &lt;tr&gt;
+            &lt;td&gt;
+                [TAG:MODELS] Qty :[TAG:QTY]
+            &lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td&gt;
+                [TAG:OPTIONNAME1] [TAG:OPTION1]
+            &lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td&gt;
+                [TAG:OPTIONNAME2] [TAG:OPTION2]
+            &lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td&gt;
+                [TAG:OPTIONNAME3] [TAG:OPTION3]
+            &lt;/td&gt;
+        &lt;/tr&gt;
+    &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;div align=&quot;center&quot;&gt;
+    [TAG:ADDTOBASKET] &lt;a href=&quot;javascript:history.back()&quot; class=&quot;CommandButton&quot;&gt;Return&lt;/a&gt;[TAG:EDITLINK]&lt;/div&gt;
+]]></productdetail2.template><productlimit.text Lang="None" CtrlType="" GroupRef="root/catalogue/products" HostOnly="False"><![CDATA[&lt;strong&gt;Product Limit has been Reached.&lt;/strong&gt;&lt;br/&gt;
+To add a new product you must first remove an existing one or contact support for assistance.
+
+]]></productlimit.text><productlist.template Lang="None" CtrlType="" GroupRef="root/catalogue/products" HostOnly="False"><![CDATA[&lt;div style=&quot;margin: 5px 20px&quot; align=&quot;center&quot;&gt;
+    &lt;table height=&quot;122&quot; cellspacing=&quot;0&quot; cellpadding=&quot;0&quot; width=&quot;122&quot; bgcolor=&quot;#ffffff&quot;
+        border=&quot;0&quot;&gt;
+        &lt;tbody&gt;
+            &lt;tr&gt;
+                &lt;td style=&quot;border-right: #d8d0bb 1px solid; border-top: #d8d0bb 1px solid; border-left: #d8d0bb 1px solid;
+                    border-bottom: #d8d0bb 1px solid&quot; valign=&quot;middle&quot; align=&quot;center&quot;&gt;
+                    &lt;a title=&quot;[TAG:PRODUCTNAME]&quot; href=&quot;[TAG:LINK]&quot;&gt;[TAG:IMAGE]&lt;/a&gt;
+                &lt;/td&gt;
+            &lt;/tr&gt;
+        &lt;/tbody&gt;
+    &lt;/table&gt;
+    &lt;b&gt;[TAG:PRODUCTNAME]&lt;/b&gt;&lt;br /&gt;
+    [TAG:FROMPRICECURRENCY] [TAG:EDITLINK]&lt;/div&gt;
+]]></productlist.template><productlist2.template Lang="None" CtrlType="" GroupRef="root/catalogue/products" HostOnly="False"><![CDATA[&lt;table width=&quot;100%&quot; height=&quot;100&quot; cellspacing=&quot;0&quot; cellpadding=&quot;0&quot; border=&quot;0&quot;&gt;
+    &lt;tbody&gt;
+        &lt;tr&gt;
+            &lt;td width=&quot;100&quot; height=&quot;100&quot; align=&quot;center&quot;&gt;
+                &lt;a href=&quot;[TAG:LINK]&quot;&gt;[TAG:IMAGE]&lt;/a&gt;
+            &lt;/td&gt;
+            &lt;td width=&quot;100%&quot; valign=&quot;top&quot;&gt;
+                &lt;h1&gt;
+                    [TAG:EDITLINK][TAG:SUMMARY]&lt;/h1&gt;
+                &lt;font color=&quot;#7B7B7B&quot;&gt;A partir de :&lt;/font&gt; &lt;strong&gt;[TAG:FROMPRICECURRENCY] TTC&lt;/strong&gt;
+                &lt;font color=&quot;#7B7B7B&quot;&gt;&lt;em&gt;selon disponibilit&amp;#233;&lt;/em&gt;&lt;/font&gt;
+            &lt;/td&gt;
+            &lt;td valign=&quot;top&quot; align=&quot;center&quot;&gt;
+                &lt;h2&gt;
+                    [TAG:MANUFACTURER]&lt;/h2&gt;
+            &lt;/td&gt;
+            &lt;td valign=&quot;top&quot; align=&quot;center&quot;&gt;
+                &lt;h2&gt;
+                    [TAG:PRODUCTREF]&lt;/h2&gt;
+            &lt;/td&gt;
+        &lt;/tr&gt;
+    &lt;/tbody&gt;
+&lt;/table&gt;
+]]></productlist2.template><productxmldata.template Lang="None" CtrlType="" GroupRef="root/catalogue/products" HostOnly="False"><![CDATA[]]></productxmldata.template><relatedproducts.xsl Lang="None" CtrlType="" GroupRef="root/catalogue/products" HostOnly="False"><![CDATA[&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot;?&gt;
+&lt;xsl:stylesheet version=&quot;1.0&quot; xmlns:xsl=&quot;http://www.w3.org/1999/XSL/Transform&quot;  xmlns:msxsl=&quot;urn:schemas-microsoft-com:xslt&quot; exclude-result-prefixes=&quot;msxsl&quot;&gt;
+    &lt;xsl:output method=&quot;html&quot; indent=&quot;yes&quot;/&gt;
+
+&lt;xsl:template match=&quot;/root&quot;&gt;
+
+&lt;h2&gt;Realted Products&lt;/h2&gt;
+
+&lt;table&gt;
+&lt;tr&gt;
+
+&lt;xsl:for-each select=&quot;related/item&quot;&gt;
+&lt;td&gt;
+
+  &lt;a&gt;
+  &lt;xsl:attribute name=&quot;href&quot;&gt;&lt;xsl:value-of select=&quot;./link&quot; disable-output-escaping=&quot;yes&quot; /&gt;&lt;/xsl:attribute&gt;  
+	  		&lt;img alt=&quot;&quot; style=&quot;border-width:0px;&quot;&gt;
+				&lt;xsl:attribute name=&quot;alt&quot;&gt;				
+				&lt;xsl:value-of select=&quot;./P/NB_Store_ProductsInfo/ProductName&quot; /&gt;				
+				&lt;/xsl:attribute&gt;
+				&lt;xsl:attribute name=&quot;src&quot;&gt;				
+				&lt;xsl:value-of select=&quot;/root/ModulePath&quot; /&gt;makethumbnail.ashx?Image=&lt;xsl:value-of select=&quot;./P/I/NB_Store_ProductImageInfo/ImageID&quot; /&gt;&amp;amp;w=100&amp;amp;tabid=&lt;xsl:value-of select=&quot;/root/TabID&quot; /&gt;				
+				&lt;/xsl:attribute&gt;
+			&lt;/img&gt;
+  &lt;/a&gt;
+  &lt;br/&gt;
+&lt;xsl:value-of select=&quot;./P/NB_Store_ProductsInfo/ProductName&quot; /&gt;: &lt;xsl:value-of select=&quot;./frompricecurrency&quot; /&gt;	
+&lt;/td&gt;
+&lt;/xsl:for-each&gt;
+
+&lt;/tr&gt;
+&lt;/table&gt;
+
+&lt;/xsl:template&gt;
+&lt;/xsl:stylesheet&gt;]]></relatedproducts.xsl><replaceCSV.ImportMapping Lang="None" CtrlType="MultiLineTextBox" GroupRef="root/system/data" HostOnly="False"><![CDATA[&lt;root&gt;
+    &lt;item col=&quot;8&quot; str=&quot;,&quot; rpl=&quot;.&quot; substr=&quot;true&quot;/&gt;
+    &lt;item col=&quot;9&quot; str=&quot;,&quot; rpl=&quot;.&quot; substr=&quot;true&quot;/&gt;
+    &lt;item col=&quot;8&quot; str=&quot; &quot; rpl=&quot;&quot; substr=&quot;true&quot;/&gt;
+    &lt;item col=&quot;9&quot; str=&quot; &quot; rpl=&quot;&quot; substr=&quot;true&quot;/&gt;
+    &lt;item col=&quot;*&quot; str=&quot;&amp;amp;&quot; rpl=&quot;et&quot; substr=&quot;true&quot;/&gt;
+&lt;/root&gt;]]></replaceCSV.ImportMapping><soldoutimg.template Lang="None" CtrlType="" GroupRef="root/catalogue/images" HostOnly="False"><![CDATA[]]></soldoutimg.template><specialshipping.text Lang="None" CtrlType="" GroupRef="root/payment/shipping" HostOnly="False"><![CDATA[&lt;p&gt;
+This order requires special delivery.&lt;br /&gt;
+Please contact us at the email address below: 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;[TAG:STOREEMAIL]&lt;/strong&gt; &lt;br /&gt;
+&lt;/p&gt;
+&lt;p&gt;Thank you.&lt;/p&gt;]]></specialshipping.text><standard.shiptemplate Lang="None" CtrlType="" GroupRef="root/payment/shipping" HostOnly="False"><![CDATA[Standard Delivery [TAG:SHIPPINGCOST] ]]></standard.shiptemplate><stgheader1.template Lang="None" CtrlType="" GroupRef="root/payment/checkout" HostOnly="False"><![CDATA[Stage 1]]></stgheader1.template><stgheader2.template Lang="None" CtrlType="" GroupRef="root/payment/checkout" HostOnly="False"><![CDATA[Stage 2]]></stgheader2.template><stgheader3.template Lang="None" CtrlType="" GroupRef="root/payment/checkout" HostOnly="False"><![CDATA[Stage 3]]></stgheader3.template><stgheader5.template Lang="None" CtrlType="" GroupRef="root/payment/checkout" HostOnly="False"><![CDATA[Stage 5]]></stgheader5.template><ups.tracktemplate Lang="None" CtrlType="" GroupRef="root/payment/shipping" HostOnly="False"><![CDATA[&lt;a href=&quot;http://wwwapps.ups.com/WebTracking/processInputRequest?sort_by=status&amp;tracknums_displayed=1&amp;TypeOfInquiryNumber=T&amp;loc=en_US&amp;InquiryNumber1=[TAG:TRACKINGCODE]&amp;track.x=0&amp;track.y=0&quot; target=&quot;_blank&quot; &gt;Tracking Code&lt;/a&gt;]]></ups.tracktemplate><zeroprice.text Lang="None" CtrlType="" GroupRef="root/payment/pricing" HostOnly="False"><![CDATA[]]></zeroprice.text></settingstext></storecontent></content>
