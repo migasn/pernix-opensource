@@ -43,7 +43,7 @@ public abstract class JPaymentSelect extends javax.swing.JDialog
     
     private PaymentInfoList m_aPaymentInfo;
     private boolean printselected;
-    
+    private boolean reportSelected;
     private boolean accepted;
     
     private AppView app;
@@ -53,6 +53,7 @@ public abstract class JPaymentSelect extends javax.swing.JDialog
     
     private Map<String, JPaymentInterface> payments = new HashMap<String, JPaymentInterface>();
     private String m_sTransactionID;
+    
     
     
     /** Creates new form JPaymentSelect */
@@ -76,6 +77,7 @@ public abstract class JPaymentSelect extends javax.swing.JDialog
         this.app = app;
         dlSystem = (DataLogicSystem) app.getBean("com.openbravo.pos.forms.DataLogicSystem");
         printselected = true;
+        reportSelected = true;
     }
     
     public void setPrintSelected(boolean value) {
@@ -84,6 +86,14 @@ public abstract class JPaymentSelect extends javax.swing.JDialog
     
     public boolean isPrintSelected() {
         return printselected;
+    }
+
+    public void setReportSelected(boolean value) {
+        reportSelected = value;
+    }
+    
+    public boolean isReportSelected(){
+        return reportSelected;
     }
 
     public List<PaymentInfo> getSelectedPayments() {
@@ -151,8 +161,7 @@ public abstract class JPaymentSelect extends javax.swing.JDialog
                     jpayinterface.getComponent());
         }
     }
-    
-    
+
     public interface JPaymentCreator {
         public JPaymentInterface createJPayment();
         public String getKey();
@@ -280,7 +289,7 @@ public abstract class JPaymentSelect extends javax.swing.JDialog
     public void setTransactionID(String tID){
         this.m_sTransactionID = tID;
     }
-    
+
     /** This method is called from within the constructor to
      * initialize the form.
      * WARNING: Do NOT modify this code. The content of this method is
@@ -314,7 +323,7 @@ public abstract class JPaymentSelect extends javax.swing.JDialog
         jPanel4.add(m_jLblTotalEuros1);
 
         m_jTotalEuros.setBackground(java.awt.Color.white);
-        m_jTotalEuros.setFont(new java.awt.Font("Dialog", 1, 14)); // NOI18N
+        m_jTotalEuros.setFont(new java.awt.Font("Dialog", 1, 14));
         m_jTotalEuros.setHorizontalAlignment(javax.swing.SwingConstants.RIGHT);
         m_jTotalEuros.setBorder(javax.swing.BorderFactory.createCompoundBorder(javax.swing.BorderFactory.createLineBorder(javax.swing.UIManager.getDefaults().getColor("Button.darkShadow")), javax.swing.BorderFactory.createEmptyBorder(1, 4, 1, 4)));
         m_jTotalEuros.setOpaque(true);
@@ -328,7 +337,7 @@ public abstract class JPaymentSelect extends javax.swing.JDialog
         jPanel6.add(m_jLblRemainingEuros);
 
         m_jRemaininglEuros.setBackground(java.awt.Color.white);
-        m_jRemaininglEuros.setFont(new java.awt.Font("Dialog", 1, 14)); // NOI18N
+        m_jRemaininglEuros.setFont(new java.awt.Font("Dialog", 1, 14));
         m_jRemaininglEuros.setHorizontalAlignment(javax.swing.SwingConstants.RIGHT);
         m_jRemaininglEuros.setBorder(javax.swing.BorderFactory.createCompoundBorder(javax.swing.BorderFactory.createLineBorder(javax.swing.UIManager.getDefaults().getColor("Button.darkShadow")), javax.swing.BorderFactory.createEmptyBorder(1, 4, 1, 4)));
         m_jRemaininglEuros.setOpaque(true);
