@@ -210,5 +210,7 @@ http://support.microsoft.com/default.aspx?scid=kb;en-us;Q325680
         m_propsconfig.setProperty("paper.standard.mediasizename", "A4");
 
         m_propsconfig.setProperty("machine.uniqueinstance", "false");
+
+        m_propsconfig.setProperty("invoice.letter", "false");
     }
 }
