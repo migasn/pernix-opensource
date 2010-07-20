@@ -55,6 +55,7 @@ import com.openbravo.pos.ticket.TicketInfo;
 import com.openbravo.pos.ticket.TicketLineInfo;
 import com.openbravo.pos.util.JRPrinterAWT300;
 import com.openbravo.pos.util.ReportUtils;
+import java.io.File;
 import java.io.InputStream;
 import java.io.ObjectInputStream;
 import java.util.HashMap;
@@ -971,6 +972,7 @@ public abstract class JPanelTicket extends JPanel implements JPanelView, BeanFac
             // reportparams.put("ARG", params);
             try {
                 reportparams.put("REPORT_RESOURCE_BUNDLE", ResourceBundle.getBundle(resourcefile + ".properties"));
+
             } catch (MissingResourceException e) {
             }
             reportparams.put("TAXESLOGIC", taxeslogic);
@@ -978,6 +980,13 @@ public abstract class JPanelTicket extends JPanel implements JPanelView, BeanFac
             Map reportfields = new HashMap();
             reportfields.put("TICKET", ticket);
             reportfields.put("PLACE", ticketext);
+            String logoUrl = System.getProperty("user.home") + "\\Banner.jpg";
+            java.io.File logoFile = new File(logoUrl);
+            if (!logoFile.exists()) {
+                logoUrl = getClass().getResource("/com/openbravo/reports/Banner.png").getPath().replace("%20"," ");
+            }
+
+            reportfields.put("LOGO_URL", logoUrl);
 
             JasperPrint jp = JasperFillManager.fillReport(jr, reportparams, new JRMapArrayDataSource(new Object[]{reportfields}));
 
