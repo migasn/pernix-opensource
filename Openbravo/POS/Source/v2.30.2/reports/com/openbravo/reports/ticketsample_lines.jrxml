@@ -11,13 +11,13 @@
 	<field name="productName" class="java.lang.String"/>
 	<field name="_THIS" class="com.openbravo.pos.ticket.TicketLineInfo"/>
 	<background>
-		<band height="31"/>
+		<band height="31" />
 	</background>
 	<title>
-		<band/>
+		<band />
 	</title>
 	<pageHeader>
-		<band height="24">
+		<band height="24" >
 			<rectangle>
 				<reportElement key="rectangle-1" x="0" y="0" width="517" height="24"/>
 			</rectangle>
@@ -52,15 +52,15 @@
 		</band>
 	</pageHeader>
 	<columnHeader>
-		<band/>
+		<band />
 	</columnHeader>
 	<detail>
-		<band height="20">
+		<band height="20" >
 			<rectangle>
 				<reportElement key="rectangle-2" x="0" y="0" width="517" height="20"/>
 			</rectangle>
 			<textField isBlankWhenNull="false">
-				<reportElement key="textField-1" stretchType="RelativeToTallestObject" x="12" y="0" width="149" height="18"/>
+				<reportElement key="textField-1" x="12" y="0" width="149" height="18"/>
 				<textElement/>
 				<textFieldExpression class="java.lang.String"><![CDATA[$F{productName}]]></textFieldExpression>
 			</textField>
@@ -82,12 +82,12 @@
 		</band>
 	</detail>
 	<columnFooter>
-		<band/>
+		<band />
 	</columnFooter>
 	<pageFooter>
-		<band height="37"/>
+		<band height="37" />
 	</pageFooter>
 	<summary>
-		<band/>
+		<band />
 	</summary>
 </jasperReport>

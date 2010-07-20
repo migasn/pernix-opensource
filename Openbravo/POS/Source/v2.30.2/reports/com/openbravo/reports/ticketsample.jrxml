@@ -14,14 +14,15 @@
 	<field name="TICKET" class="com.openbravo.pos.ticket.TicketInfo"/>
 	<field name="PLACE" class="java.lang.String"/>
 	<field name="TAXESLOGIC" class="java.lang.Object"/>
+	<field name="LOGO_URL" class="java.lang.String"/>
 	<background>
 		<band/>
 	</background>
 	<title>
 		<band height="85">
-			<image scaleImage="RetainShape">
-				<reportElement key="image-1" x="134" y="0" width="276" height="83"/>
-				<imageExpression class="java.lang.String"><![CDATA["reports/com/openbravo/reports/Kessler.png"]]></imageExpression>
+			<image>
+				<reportElement x="128" y="0" width="277" height="85"/>
+				<imageExpression class="java.lang.String"><![CDATA[$F{LOGO_URL}]]></imageExpression>
 			</image>
 		</band>
 	</title>
@@ -66,6 +67,18 @@
 				<textElement/>
 				<textFieldExpression class="java.lang.String"><![CDATA[$F{TICKET}.printDate()]]></textFieldExpression>
 			</textField>
+			<textField isBlankWhenNull="false">
+				<reportElement key="textField-1" x="128" y="53" width="156" height="20"/>
+				<textElement/>
+				<textFieldExpression class="java.lang.String"><![CDATA[$F{PLACE}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement key="staticText-5" x="19" y="53" width="109" height="21"/>
+				<textElement>
+					<font isBold="true" pdfFontName="Helvetica-Bold"/>
+				</textElement>
+				<text><![CDATA[Mesa]]></text>
+			</staticText>
 			<textField isBlankWhenNull="false">
 				<reportElement key="textField-4" x="324" y="11" width="188" height="19">
 					<printWhenExpression><![CDATA[Boolean.valueOf($F{TICKET}.getCustomer() != null)]]></printWhenExpression>
